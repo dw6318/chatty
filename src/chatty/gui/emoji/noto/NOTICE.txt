@@ -1,0 +1,5 @@
+Google Noto Emoji 2D image assets. Copyright 2013 Google, Inc. All Rights Reserved.
+Source: https://github.com/googlefonts/noto-emoji/tree/06121655d0e82f9cae6e7ba6feed4fa6fdbfc2a4
+License: Apache-2.0 for image resources; see LICENSE.txt and UPSTREAM-NOTICE.txt.
+Flags have separate provenance; see FLAGS-LICENSE.txt and FLAGS-README.md. No font files included.
+Changes: PNGs resized to fit 72x72, preserving aspect ratio and alpha; filenames mapped to Unicode.

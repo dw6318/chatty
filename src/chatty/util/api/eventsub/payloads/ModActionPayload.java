@@ -3,14 +3,17 @@ package chatty.util.api.eventsub.payloads;
 
 import chatty.Helper;
 import chatty.TwitchCommands;
-import chatty.util.BatchAction;
 import chatty.util.DateTime;
 import chatty.util.JSONUtil;
 import chatty.util.StringUtil;
+import chatty.util.api.Emoticons.TagEmote;
+import chatty.util.api.Emoticons.TagEmotes;
 import chatty.util.api.eventsub.Payload;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -25,7 +28,7 @@ public class ModActionPayload extends Payload {
     private static final Logger LOGGER = Logger.getLogger(ModActionPayload.class.getName());
     
     public enum Type {
-        AUTOMOD_FILTERED, AUTOMOD_APPROVED, AUTOMOD_DENIED, OTHER, UNMODDED
+        AUTOMOD_FILTERED, AUTOMOD_APPROVED, AUTOMOD_DENIED, AUTOMOD_EXPIRED, OTHER, UNMODDED
     }
     
     public final String moderation_action;
@@ -58,6 +61,9 @@ public class ModActionPayload extends Payload {
                     break;
                 case "denied_automod_message":
                     type = Type.AUTOMOD_DENIED;
+                    break;
+                case "automod_message_expired":
+                    type = Type.AUTOMOD_EXPIRED;
                     break;
                 default:
                     type = Type.OTHER;
@@ -113,14 +119,14 @@ public class ModActionPayload extends Payload {
     }
     
     public static ModActionPayload decodeAutomodHeld(JSONObject payload) {
-        JSONObject event = (JSONObject) payload.get("event");
-        if (event != null) {
+        JSONObject event = JSONUtil.getOrEmpty(payload, "event");
+        if (!event.isEmpty()) {
             ModAction action = new AutoModMessageUpdate(payload);
             if (action.isValid()) {
                 return new ModActionPayload(
                         "automod_filtered",
                         "",
-                        new AutoModMessageUpdate(payload),
+                        action,
                         JSONUtil.getString(event, "broadcaster_user_login"),
                         JSONUtil.getString(event, "source_broadcaster_user_login"));
             }
@@ -129,13 +135,13 @@ public class ModActionPayload extends Payload {
     }
     
     public static ModActionPayload decodeAutomodUpdate(JSONObject payload) {
-        JSONObject event = (JSONObject) payload.get("event");
-        if (event != null) {
+        JSONObject event = JSONUtil.getOrEmpty(payload, "event");
+        if (!event.isEmpty()) {
             ModAction action = new AutoModMessageUpdate(payload);
             if (action.isValid()) {
                 return new ModActionPayload(
                         action.action,
-                        JSONUtil.getString(event, "moderator_user_login"),
+                        JSONUtil.getString(event, "moderator_user_login", ""),
                         action,
                         JSONUtil.getString(event, "broadcaster_user_login"),
                         JSONUtil.getString(event, "source_broadcaster_user_login"));
@@ -291,91 +297,138 @@ public class ModActionPayload extends Payload {
             return JSONUtil.getString(JSONUtil.getOrEmpty(event, "message"), "text");
         }
 
+        /**
+         * Convert EventSub fragments to the code-point ranges used by the chat
+         * emote renderer. Never guess offsets when optional fragments are bad.
+         * Null permits the renderer's global Twitch name fallback when Twitch
+         * supplies no usable emote metadata.
+         */
+        public TagEmotes getEmotes() {
+            String text = getMessage();
+            Object fragments = JSONUtil.getOrEmpty(event, "message").get("fragments");
+            if (text == null || !(fragments instanceof JSONArray)) {
+                return null;
+            }
+            Map<Integer, TagEmote> emotes = new HashMap<>();
+            int offset = 0;
+            int codePointOffset = 0;
+            for (Object value : (JSONArray) fragments) {
+                if (!(value instanceof JSONObject)) {
+                    return null;
+                }
+                JSONObject fragment = (JSONObject) value;
+                String part = JSONUtil.getString(fragment, "text");
+                if (part == null || !text.startsWith(part, offset)) {
+                    return null;
+                }
+                int length = part.codePointCount(0, part.length());
+                String id = JSONUtil.getString(JSONUtil.getOrEmpty(fragment, "emote"), "id");
+                if (length > 0 && !StringUtil.isNullOrEmpty(id)) {
+                    emotes.put(codePointOffset, new TagEmote(id, codePointOffset + length - 1));
+                }
+                offset += part.length();
+                codePointOffset += length;
+            }
+            if (offset != text.length() || emotes.isEmpty()) {
+                return null;
+            }
+            return new TagEmotes(emotes);
+        }
+
         public String getReason() {
             String reason = JSONUtil.getString(event, "reason");
-            if (reason == null) {
-                return "";
+            if (StringUtil.isNullOrEmpty(reason)) {
+                // Older payloads may provide a category instead of a reason.
+                String category = JSONUtil.getString(event, "category");
+                return StringUtil.isNullOrEmpty(category) ? "AutoMod" : category;
             }
             switch (reason) {
                 case "automod":
                     JSONObject automod = JSONUtil.getOrEmpty(event, "automod");
                     String category = JSONUtil.getString(automod, "category");
-                    int level = JSONUtil.getInteger(automod, "level", 0);
+                    int level = JSONUtil.getInteger(automod, "level", -1);
                     
                     List<String> fragments = new ArrayList<>();
-                    JSONArray boundaries = (JSONArray) automod.get("boundaries");
-                    for (Object boundary : boundaries) {
-                        String fragment = getFragment((JSONObject) boundary);
-                        if (fragment != null) {
-                            fragments.add(fragment);
+                    Object boundaries = automod.get("boundaries");
+                    if (boundaries instanceof JSONArray) {
+                        for (Object boundary : (JSONArray) boundaries) {
+                            if (boundary instanceof JSONObject) {
+                                String fragment = getFragment((JSONObject) boundary);
+                                if (fragment != null) {
+                                    fragments.add(fragment);
+                                }
+                            }
                         }
                     }
-                    return String.format("AutoMod: %s%s/%s",
-                                         category, level, StringUtil.join(fragments,", "));
+                    String details = StringUtil.isNullOrEmpty(category) ? "" : category;
+                    if (!details.isEmpty() && level >= 0) {
+                        details += level;
+                    }
+                    if (!fragments.isEmpty()) {
+                        details += (details.isEmpty() ? "" : "/") + StringUtil.join(fragments, ", ");
+                    }
+                    return details.isEmpty() ? "AutoMod" : "AutoMod: " + details;
                 case "blocked_term":
                     JSONObject blocked_term = JSONUtil.getOrEmpty(event, "blocked_term");
-                    JSONArray terms = (JSONArray) blocked_term.get("terms_found");
+                    Object terms = blocked_term.get("terms_found");
                     String stream = JSONUtil.getString(event, "broadcaster_user_login");
                     List<String> result = new ArrayList<>();
-                    for (Object o : terms) {
-                        JSONObject term = (JSONObject) o;
-                        String fragment = getFragment((JSONObject) term.get("boundary"));
-                        if (fragment != null) {
-                            String term_stream = JSONUtil.getString(term, "owner_broadcaster_user_login");
-                            if (term_stream != null && !term_stream.equals(stream)) {
-                                result.add(String.format("%s (from: %s)",
-                                                         fragment, term_stream));
+                    if (terms instanceof JSONArray) {
+                        for (Object o : (JSONArray) terms) {
+                            if (!(o instanceof JSONObject)) {
+                                continue;
                             }
-                            else {
-                                result.add(String.format("%s",
-                                                         fragment));
+                            JSONObject term = (JSONObject) o;
+                            String fragment = getFragment(JSONUtil.getOrEmpty(term, "boundary"));
+                            if (fragment != null) {
+                                String term_stream = JSONUtil.getString(term, "owner_broadcaster_user_login");
+                                if (term_stream != null && !term_stream.equals(stream)) {
+                                    result.add(String.format("%s (from: %s)",
+                                                             fragment, term_stream));
+                                }
+                                else {
+                                    result.add(fragment);
+                                }
                             }
                         }
                     }
-                    return String.format("BlockedTerm: %s",
-                                         StringUtil.join(result, ","));
+                    return result.isEmpty() ? "BlockedTerm" : "BlockedTerm: " + StringUtil.join(result, ",");
                 case "blocked_link":
                     return "BlockedLink";
             }
+            // Twitch can introduce new reasons (and has sent "unknown"). Keep
+            // that description without discarding an otherwise usable message.
             return reason;
         }
         
         private String getFragment(JSONObject boundary) {
-            int start = JSONUtil.getInteger((JSONObject) boundary, "start_pos", -1);
-            int end = JSONUtil.getInteger((JSONObject) boundary, "end_pos", -1);
-            if (start > -1 && end > -1) {
-                /**
-                 * Error before using codePointSubstring(), although it's
-                 * unclear if that error could even happen due to that (if
-                 * Chatty sees it as more characters than the API), so catching
-                 * error here now since it's more important for the AutoMod
-                 * message to appear at all than the reason being wrong.
-                 *
-                 * [2025-03-31 01:09:23/654 WARNING] Error parsing EventSub
-                 * message: java.lang.StringIndexOutOfBoundsException: begin 9, end 17, length 8
-                 * [java.base/java.lang.String.checkBoundsBeginEnd,
-                 * java.base/java.lang.String.substring,
-                 * chatty.util.api.eventsub.payloads.ModActionPayload$AutoModMessageUpdate.getFrament(ModActionPayload.java:332),
-                 * chatty.util.api.eventsub.payloads.ModActionPayload$AutoModMessageUpdate.getReason(ModActionPayload.java:309),
-                 * chatty.util.api.eventsub.payloads.ModActionPayload$AutoModMessageUpdate.isValid(ModActionPayload.java:339)...]
-                 */
-                try {
-                    return StringUtil.codePointSubstring(getMessage(), start, end + 1);
-                }
-                catch (Exception ex) {
-                    // Would output several times otherwise
-                    BatchAction.queue(event, 100, false, false, () -> {
-                        LOGGER.warning("[EventSub] Error getting AutoMod reason: "+ex+" ["+event+"]");
-                    });
-                    return "error, check debug log";
-                }
+            String message = getMessage();
+            if (boundary == null || message == null) {
+                return null;
             }
-            return null;
+            Object startValue = boundary.get("start_pos");
+            Object endValue = boundary.get("end_pos");
+            if (!(startValue instanceof Number) || !(endValue instanceof Number)) {
+                return null;
+            }
+            Number startNumber = (Number) startValue;
+            Number endNumber = (Number) endValue;
+            long start = startNumber.longValue();
+            long end = endNumber.longValue();
+            int length = message.codePointCount(0, message.length());
+            // Bad optional offsets must not prevent the held message appearing.
+            // Validate before converting to int or making the inclusive end exclusive.
+            if (startNumber.doubleValue() != start || endNumber.doubleValue() != end
+                    || start < 0 || end < start || end >= length) {
+                return null;
+            }
+            return StringUtil.codePointSubstring(message, (int) start, (int) end + 1);
         }
         
         @Override
         public boolean isValid() {
-            return !StringUtil.isNullOrEmpty(getMsgId(), getMessage(), getUsername(), action);
+            return !StringUtil.isNullOrEmpty(getMsgId(), getMessage(), getUsername(), action,
+                    JSONUtil.getString(event, "broadcaster_user_login"));
         }
         
     }

@@ -8,9 +8,12 @@ import chatty.gui.DockedDialogHelper;
 import chatty.gui.DockedDialogManager;
 import chatty.gui.MainGui;
 import chatty.gui.components.menus.AutoModContextMenu;
+import chatty.gui.emoji.EmojiTextPane;
+import chatty.gui.emoji.EmojiUtil;
 import chatty.util.DateTime;
 import chatty.util.MiscUtil;
 import chatty.util.StringUtil;
+import chatty.util.api.IgnoredEmotes;
 import chatty.util.api.TwitchApi;
 import chatty.util.api.TwitchApi.AutoModAction;
 import chatty.util.api.TwitchApi.AutoModActionResult;
@@ -29,6 +32,7 @@ import java.awt.event.ComponentListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -40,7 +44,6 @@ import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 import javax.swing.ListSelectionModel;
 import javax.swing.ScrollPaneConstants;
@@ -320,6 +323,9 @@ public class AutoModDialog extends JDialog {
         if (modData.type == ModActionPayload.Type.AUTOMOD_DENIED) {
             handledExternally(modData, Item.STATUS_DENIED);
         }
+        if (modData.type == ModActionPayload.Type.AUTOMOD_EXPIRED) {
+            handledExternally(modData, Item.STATUS_EXPIRED);
+        }
     }
 
     /**
@@ -332,24 +338,7 @@ public class AutoModDialog extends JDialog {
     public void requestResult(TwitchApi.AutoModAction action, String msgId, TwitchApi.AutoModActionResult result) {
         Item changedItem = findItemByMsgId(msgId);
         if (changedItem != null) {
-            changedItem.setRequestPending(false);
-            if (result == AutoModActionResult.SUCCESS && action == AutoModAction.ALLOW) {
-                changedItem.setStatus(Item.STATUS_APPROVED);
-            }
-            else if (result == AutoModActionResult.SUCCESS && action == AutoModAction.DENY) {
-                changedItem.setStatus(Item.STATUS_DENIED);
-            }
-            else if (changedItem.status <= Item.STATUS_NONE) {
-                if (result == AutoModActionResult.ALREADY_PROCESSED) {
-                    changedItem.setStatus(Item.STATUS_HANDLED);
-                }
-                else if (result == AutoModActionResult.NOT_FOUND) {
-                    changedItem.setStatus(Item.STATUS_NA);
-                }
-                else {
-                    changedItem.setStatus(Item.STATUS_ERROR);
-                }
-            }
+            changedItem.applyRequestResult(action, result);
         }
         repaintFor(changedItem);
     }
@@ -425,8 +414,8 @@ public class AutoModDialog extends JDialog {
         } else {
             item = findItemByUsername(room, targetUsername);
         }
-        if (item != null && !item.hasRequestPending && !item.isHandled()) {
-            item.setStatus(status, handledBy);
+        if (item != null) {
+            item.applyExternalStatus(status, handledBy);
             repaintFor(item);
         }
         
@@ -559,7 +548,7 @@ public class AutoModDialog extends JDialog {
         if (item == null) {
             item = list.getSelectedValue();
         }
-        if (item == null) {
+        if (item == null || !item.canRequestAction()) {
             return;
         }
         setPending(item);
@@ -570,7 +559,7 @@ public class AutoModDialog extends JDialog {
         if (item == null) {
             item = list.getSelectedValue();
         }
-        if (item == null) {
+        if (item == null || !item.canRequestAction()) {
             return;
         }
         setPending(item);
@@ -578,7 +567,7 @@ public class AutoModDialog extends JDialog {
     }
     
     private void setPending(Item item) {
-        item.setRequestPending(true);
+        item.beginRequest();
         repaintFor(item);
     }
     
@@ -667,7 +656,7 @@ public class AutoModDialog extends JDialog {
      */
     private boolean select(int i, boolean onlyUnhandled) {
         Item item = data.get(i);
-        if (!onlyUnhandled || item.status == Item.STATUS_NONE) {
+        if (!onlyUnhandled || item.canRequestAction()) {
             list.setSelectedIndex(i);
             list.ensureIndexIsVisible(i);
             return true;
@@ -683,29 +672,67 @@ public class AutoModDialog extends JDialog {
         public static final int STATUS_NA = 4;
         public static final int STATUS_APPROVED = 5;
         public static final int STATUS_DENIED = 6;
+        public static final int STATUS_EXPIRED = 7;
         
         public final ModActionPayload data;
         public final User targetUser;
         private int status;
         private String handledBy;
         private boolean hasRequestPending;
+        private boolean hasExternalStatus;
         
-        private Item(ModActionPayload data, User targetUser) {
+        Item(ModActionPayload data, User targetUser) {
             this.data = data;
             this.targetUser = targetUser;
         }
         
         public void setStatus(int status, String handledBy) {
             this.status = status;
-            this.handledBy = handledBy;
+            this.handledBy = StringUtil.isNullOrEmpty(handledBy) ? null : handledBy;
         }
         
         public void setStatus(int status) {
             setStatus(status, null);
         }
         
-        public void setRequestPending(boolean isPending) {
-            this.hasRequestPending = isPending;
+        public boolean canRequestAction() {
+            return !hasRequestPending && !isHandled();
+        }
+
+        boolean beginRequest() {
+            if (!canRequestAction()) {
+                return false;
+            }
+            hasRequestPending = true;
+            return true;
+        }
+
+        void applyRequestResult(AutoModAction action, AutoModActionResult result) {
+            // A confirmed server event may have already completed this request.
+            if (!hasRequestPending) {
+                return;
+            }
+            hasRequestPending = false;
+            if (result == AutoModActionResult.SUCCESS) {
+                setStatus(action == AutoModAction.ALLOW ? STATUS_APPROVED : STATUS_DENIED);
+            }
+            else if (result == AutoModActionResult.ALREADY_PROCESSED) {
+                setStatus(STATUS_HANDLED);
+            }
+            else if (result == AutoModActionResult.NOT_FOUND) {
+                setStatus(STATUS_NA);
+            }
+            else {
+                setStatus(STATUS_ERROR);
+            }
+        }
+
+        void applyExternalStatus(int status, String moderator) {
+            if (!hasExternalStatus) {
+                setStatus(status, moderator);
+                hasExternalStatus = true;
+            }
+            hasRequestPending = false;
         }
         
         public boolean hasRequestPending() {
@@ -717,7 +744,8 @@ public class AutoModDialog extends JDialog {
         }
         
         public boolean isHandled() {
-            return status == STATUS_APPROVED || status == STATUS_DENIED || status == STATUS_HANDLED || status == STATUS_NA;
+            return status == STATUS_APPROVED || status == STATUS_DENIED || status == STATUS_HANDLED
+                    || status == STATUS_NA || status == STATUS_EXPIRED;
         }
         
         /**
@@ -749,6 +777,7 @@ public class AutoModDialog extends JDialog {
                 case STATUS_DENIED: return "Denied";
                 case STATUS_ERROR: return "Error";
                 case STATUS_NA: return "N/A";
+                case STATUS_EXPIRED: return "Expired";
             }
             return "";
         }
@@ -758,15 +787,13 @@ public class AutoModDialog extends JDialog {
    /**
      * Custom renderer to use a text area and borders etc.
      */
-    private static class MyCellRenderer extends DefaultListCellRenderer {
+    private class MyCellRenderer extends DefaultListCellRenderer {
         
-        private final JTextArea area;
+        private final EmojiTextPane area;
         
         public MyCellRenderer() {
-            area = new JTextArea();
+            area = new EmojiTextPane();
             area.setBorder(BorderFactory.createEmptyBorder(4, 5, 5, 5));
-            area.setLineWrap(true);
-            area.setWrapStyleWord(true);
         }
         
         @Override
@@ -795,12 +822,19 @@ public class AutoModDialog extends JDialog {
             } else {
                 status = item.status > Item.STATUS_NONE ? "-"+item.getStatusText()+" by "+item.getHandledBy()+"- " : "";
             }
-            String text = String.format("%s[%s] <%s> %s",
+            String prefix = String.format("%s[%s] <%s> ",
                     status,
                     agoText,
-                    updateData.getUsername(),
-                    updateData.getMessage());
-            area.setText(text);
+                    updateData.getUsername());
+            String text = updateData.getMessage();
+            area.setFont(list.getFont());
+            if (client.settings.getLong("emojiZWJ") > 0) {
+                text = EmojiUtil.decodeZWJ(text);
+            }
+            area.setCachedEmojiText(prefix, text, client.settings.getBoolean("emoticonsEnabled")
+                    ? gui.emoticons.getEmoji() : Collections.emptySet(),
+                    emote -> !gui.emoticons.isEmoteIgnored(emote, IgnoredEmotes.CHAT),
+                    gui.emoticons.getEmojiDisplayRevision());
             
             // Adjust size
             int width = list.getWidth();

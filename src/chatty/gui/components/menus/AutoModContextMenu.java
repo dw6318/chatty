@@ -4,6 +4,7 @@ package chatty.gui.components.menus;
 import chatty.gui.DockedDialogHelper;
 import chatty.gui.components.AutoModDialog;
 import java.awt.event.ActionEvent;
+import javax.swing.JMenuItem;
 
 /**
  *
@@ -16,8 +17,12 @@ public class AutoModContextMenu extends ContextMenu {
     
     public AutoModContextMenu(AutoModDialog.Item item, DockedDialogHelper dockedHelper, AutoModContextMenuListener listener) {
         if (item != null) {
-            addItem("approve", "Approve [A]").setMnemonic('A');
-            addItem("reject", "Deny [D]").setMnemonic('D');
+            JMenuItem approve = addItem("approve", "Approve [A]");
+            approve.setMnemonic('A');
+            approve.setEnabled(item.canRequestAction());
+            JMenuItem deny = addItem("reject", "Deny [D]");
+            deny.setMnemonic('D');
+            deny.setEnabled(item.canRequestAction());
             addSeparator();
             addItem("copy", "Copy Message");
             addItem("user", "User Info");

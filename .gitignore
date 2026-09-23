@@ -10,3 +10,10 @@ META-INF/
 .gradle
 .nb-gradle
 build.xml
+
+# Runtime image caches and local build/audit output
+imgcache-*/
+dw6318-builds/
+private-builds/
+diagnostics/
+*.log

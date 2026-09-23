@@ -1,7 +1,6 @@
 
 package chatty.util.api.queue;
 
-import chatty.util.Debugging;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -63,30 +62,23 @@ public class QueuedApi {
                             Thread.sleep(10*1000);
                         }
                         activeRequests.acquire();
-                        //System.out.println("Waiting for entry.. Permits: "+activeRequests.availablePermits());
-                        Entry entry = queue.take();
-                        //System.out.println("Entry taken: "+entry.request+" Permits: "+activeRequests.availablePermits());
-                        entry.request.setResultListener((result, responseCode, errorResult, ratelimitRemaining) -> {
-                            /**
-                             * Executed in an executor thread.
-                             */
-                            // Get some data from the response and forward to external listener
-                            QueuedApi.this.ratelimitRemaining = ratelimitRemaining;
+                        Entry entry;
+                        try {
+                            entry = queue.take();
+                        }
+                        catch (InterruptedException ex) {
                             activeRequests.release();
-                            if (Debugging.isEnabled("requestresponse")) {
-                                if (result != null) {
-                                    LOGGER.info(result);
-                                }
-                                if (errorResult != null) {
-                                    LOGGER.info("E:"+errorResult);
-                                }
-                            }
-                            // This may run a while (e.g. loading images etc.)
-                            entry.listener.result(new ResultListener.Result(result, responseCode, errorResult));
-                            removePending(entry);
-                            //System.out.println("Entry done: "+entry.request+" Permits: "+activeRequests.availablePermits());
-                        });
-                        executor.execute(entry.request);
+                            throw ex;
+                        }
+                        RequestExecution execution = new RequestExecution(entry,
+                                remaining -> QueuedApi.this.ratelimitRemaining = remaining,
+                                activeRequests::release, () -> removePending(entry));
+                        try {
+                            executor.execute(execution);
+                        }
+                        catch (RuntimeException ex) {
+                            execution.rejected(ex);
+                        }
                         
                     } catch (InterruptedException ex) {
                         // To stop the thread (currently not used)

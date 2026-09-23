@@ -1,0 +1,6 @@
+All OpenMoji emoji designed by OpenMoji - the open-source emoji and icon project.
+Copyright HfG Schwaebisch Gmuend, Benedikt Gross, Daniel Utz and the OpenMoji contributors.
+Source: https://github.com/hfg-gmuend/openmoji/releases/tag/17.0.0
+License: CC-BY-SA-4.0; see LICENSE.txt and https://creativecommons.org/licenses/by-sa/4.0/
+Changes: selected Unicode emoji PNGs from the color 72x72 release; image bytes unchanged; filenames normalized.
+These graphics retain CC-BY-SA-4.0; they are not relicensed as GPL.

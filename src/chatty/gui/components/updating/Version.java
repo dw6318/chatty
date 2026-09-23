@@ -153,6 +153,10 @@ public class Version {
      * @return 
      */
     public static int[] versionToIntArray(String version) {
+        // The fork label does not change the underlying release version.
+        if (version.endsWith("-dw6318")) {
+            version = version.substring(0, version.length() - "-dw6318".length());
+        }
         int betaVersion = 0;
         Matcher m = Pattern.compile("([.0-9]+)(?:-?([a-z]+)([0-9]+)?)").matcher(version);
         if (m.matches()) {

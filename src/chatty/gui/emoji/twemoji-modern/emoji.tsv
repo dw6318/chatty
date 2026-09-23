@@ -1,0 +1,1592 @@
+# Unicode 17.0 sequences supplementing the existing Twemoji catalog.
+# Code points	PNG filename	Unicode name	Emoji version
+263A FE0F	263a.png	smiling face	0.6
+1F636 200D 1F32B	1f636-200d-1f32b-fe0f.png	face in clouds	13.1
+1FAE8	1fae8.png	shaking face	15.0
+1F642 200D 2194 FE0F	1f642-200d-2194-fe0f.png	head shaking horizontally	15.1
+1F642 200D 2194	1f642-200d-2194-fe0f.png	head shaking horizontally	15.1
+1F642 200D 2195 FE0F	1f642-200d-2195-fe0f.png	head shaking vertically	15.1
+1F642 200D 2195	1f642-200d-2195-fe0f.png	head shaking vertically	15.1
+1FAE9	1fae9.png	face with bags under eyes	16.0
+2639 FE0F	2639.png	frowning face	0.7
+1FAEA	1faea.png	distorted face	17.0
+2620 FE0F	2620.png	skull and crossbones	1.0
+2763 FE0F	2763.png	heart exclamation	1.0
+2764 200D 1F525	2764-fe0f-200d-1f525.png	heart on fire	13.1
+2764 200D 1FA79	2764-fe0f-200d-1fa79.png	mending heart	13.1
+2764 FE0F	2764.png	red heart	0.6
+1FA77	1fa77.png	pink heart	15.0
+1FA75	1fa75.png	light blue heart	15.0
+1FA76	1fa76.png	grey heart	15.0
+1FAEF	1faef.png	fight cloud	17.0
+1F573 FE0F	1f573.png	hole	0.7
+1F441 FE0F 200D 1F5E8 FE0F	1f441-200d-1f5e8.png	eye in speech bubble	2.0
+1F441 200D 1F5E8 FE0F	1f441-200d-1f5e8.png	eye in speech bubble	2.0
+1F441 FE0F 200D 1F5E8	1f441-200d-1f5e8.png	eye in speech bubble	2.0
+1F5E8 FE0F	1f5e8.png	left speech bubble	2.0
+1F5EF FE0F	1f5ef.png	right anger bubble	0.7
+1F590 FE0F	1f590.png	hand with fingers splayed	0.7
+1FAF7	1faf7.png	leftwards pushing hand	15.0
+1FAF7 1F3FB	1faf7-1f3fb.png	leftwards pushing hand: light skin tone	15.0
+1FAF7 1F3FC	1faf7-1f3fc.png	leftwards pushing hand: medium-light skin tone	15.0
+1FAF7 1F3FD	1faf7-1f3fd.png	leftwards pushing hand: medium skin tone	15.0
+1FAF7 1F3FE	1faf7-1f3fe.png	leftwards pushing hand: medium-dark skin tone	15.0
+1FAF7 1F3FF	1faf7-1f3ff.png	leftwards pushing hand: dark skin tone	15.0
+1FAF8	1faf8.png	rightwards pushing hand	15.0
+1FAF8 1F3FB	1faf8-1f3fb.png	rightwards pushing hand: light skin tone	15.0
+1FAF8 1F3FC	1faf8-1f3fc.png	rightwards pushing hand: medium-light skin tone	15.0
+1FAF8 1F3FD	1faf8-1f3fd.png	rightwards pushing hand: medium skin tone	15.0
+1FAF8 1F3FE	1faf8-1f3fe.png	rightwards pushing hand: medium-dark skin tone	15.0
+1FAF8 1F3FF	1faf8-1f3ff.png	rightwards pushing hand: dark skin tone	15.0
+270C FE0F	270c.png	victory hand	0.6
+261D FE0F	261d.png	index pointing up	0.6
+270D FE0F	270d.png	writing hand	0.7
+1F441 FE0F	1f441.png	eye	0.7
+1F9D4 200D 2642	1f9d4-200d-2642-fe0f.png	man: beard	13.1
+1F9D4 1F3FB 200D 2642	1f9d4-1f3fb-200d-2642-fe0f.png	man: light skin tone, beard	13.1
+1F9D4 1F3FC 200D 2642	1f9d4-1f3fc-200d-2642-fe0f.png	man: medium-light skin tone, beard	13.1
+1F9D4 1F3FD 200D 2642	1f9d4-1f3fd-200d-2642-fe0f.png	man: medium skin tone, beard	13.1
+1F9D4 1F3FE 200D 2642	1f9d4-1f3fe-200d-2642-fe0f.png	man: medium-dark skin tone, beard	13.1
+1F9D4 1F3FF 200D 2642	1f9d4-1f3ff-200d-2642-fe0f.png	man: dark skin tone, beard	13.1
+1F9D4 200D 2640	1f9d4-200d-2640-fe0f.png	woman: beard	13.1
+1F9D4 1F3FB 200D 2640	1f9d4-1f3fb-200d-2640-fe0f.png	woman: light skin tone, beard	13.1
+1F9D4 1F3FC 200D 2640	1f9d4-1f3fc-200d-2640-fe0f.png	woman: medium-light skin tone, beard	13.1
+1F9D4 1F3FD 200D 2640	1f9d4-1f3fd-200d-2640-fe0f.png	woman: medium skin tone, beard	13.1
+1F9D4 1F3FE 200D 2640	1f9d4-1f3fe-200d-2640-fe0f.png	woman: medium-dark skin tone, beard	13.1
+1F9D4 1F3FF 200D 2640	1f9d4-1f3ff-200d-2640-fe0f.png	woman: dark skin tone, beard	13.1
+1F471 200D 2640	1f471-200d-2640-fe0f.png	woman: blond hair	4.0
+1F471 1F3FB 200D 2640	1f471-1f3fb-200d-2640-fe0f.png	woman: light skin tone, blond hair	4.0
+1F471 1F3FC 200D 2640	1f471-1f3fc-200d-2640-fe0f.png	woman: medium-light skin tone, blond hair	4.0
+1F471 1F3FD 200D 2640	1f471-1f3fd-200d-2640-fe0f.png	woman: medium skin tone, blond hair	4.0
+1F471 1F3FE 200D 2640	1f471-1f3fe-200d-2640-fe0f.png	woman: medium-dark skin tone, blond hair	4.0
+1F471 1F3FF 200D 2640	1f471-1f3ff-200d-2640-fe0f.png	woman: dark skin tone, blond hair	4.0
+1F471 200D 2642	1f471-200d-2642-fe0f.png	man: blond hair	4.0
+1F471 1F3FB 200D 2642	1f471-1f3fb-200d-2642-fe0f.png	man: light skin tone, blond hair	4.0
+1F471 1F3FC 200D 2642	1f471-1f3fc-200d-2642-fe0f.png	man: medium-light skin tone, blond hair	4.0
+1F471 1F3FD 200D 2642	1f471-1f3fd-200d-2642-fe0f.png	man: medium skin tone, blond hair	4.0
+1F471 1F3FE 200D 2642	1f471-1f3fe-200d-2642-fe0f.png	man: medium-dark skin tone, blond hair	4.0
+1F471 1F3FF 200D 2642	1f471-1f3ff-200d-2642-fe0f.png	man: dark skin tone, blond hair	4.0
+1F64D 200D 2642	1f64d-200d-2642-fe0f.png	man frowning	4.0
+1F64D 1F3FB 200D 2642	1f64d-1f3fb-200d-2642-fe0f.png	man frowning: light skin tone	4.0
+1F64D 1F3FC 200D 2642	1f64d-1f3fc-200d-2642-fe0f.png	man frowning: medium-light skin tone	4.0
+1F64D 1F3FD 200D 2642	1f64d-1f3fd-200d-2642-fe0f.png	man frowning: medium skin tone	4.0
+1F64D 1F3FE 200D 2642	1f64d-1f3fe-200d-2642-fe0f.png	man frowning: medium-dark skin tone	4.0
+1F64D 1F3FF 200D 2642	1f64d-1f3ff-200d-2642-fe0f.png	man frowning: dark skin tone	4.0
+1F64D 200D 2640	1f64d-200d-2640-fe0f.png	woman frowning	4.0
+1F64D 1F3FB 200D 2640	1f64d-1f3fb-200d-2640-fe0f.png	woman frowning: light skin tone	4.0
+1F64D 1F3FC 200D 2640	1f64d-1f3fc-200d-2640-fe0f.png	woman frowning: medium-light skin tone	4.0
+1F64D 1F3FD 200D 2640	1f64d-1f3fd-200d-2640-fe0f.png	woman frowning: medium skin tone	4.0
+1F64D 1F3FE 200D 2640	1f64d-1f3fe-200d-2640-fe0f.png	woman frowning: medium-dark skin tone	4.0
+1F64D 1F3FF 200D 2640	1f64d-1f3ff-200d-2640-fe0f.png	woman frowning: dark skin tone	4.0
+1F64E 200D 2642	1f64e-200d-2642-fe0f.png	man pouting	4.0
+1F64E 1F3FB 200D 2642	1f64e-1f3fb-200d-2642-fe0f.png	man pouting: light skin tone	4.0
+1F64E 1F3FC 200D 2642	1f64e-1f3fc-200d-2642-fe0f.png	man pouting: medium-light skin tone	4.0
+1F64E 1F3FD 200D 2642	1f64e-1f3fd-200d-2642-fe0f.png	man pouting: medium skin tone	4.0
+1F64E 1F3FE 200D 2642	1f64e-1f3fe-200d-2642-fe0f.png	man pouting: medium-dark skin tone	4.0
+1F64E 1F3FF 200D 2642	1f64e-1f3ff-200d-2642-fe0f.png	man pouting: dark skin tone	4.0
+1F64E 200D 2640	1f64e-200d-2640-fe0f.png	woman pouting	4.0
+1F64E 1F3FB 200D 2640	1f64e-1f3fb-200d-2640-fe0f.png	woman pouting: light skin tone	4.0
+1F64E 1F3FC 200D 2640	1f64e-1f3fc-200d-2640-fe0f.png	woman pouting: medium-light skin tone	4.0
+1F64E 1F3FD 200D 2640	1f64e-1f3fd-200d-2640-fe0f.png	woman pouting: medium skin tone	4.0
+1F64E 1F3FE 200D 2640	1f64e-1f3fe-200d-2640-fe0f.png	woman pouting: medium-dark skin tone	4.0
+1F64E 1F3FF 200D 2640	1f64e-1f3ff-200d-2640-fe0f.png	woman pouting: dark skin tone	4.0
+1F645 200D 2642	1f645-200d-2642-fe0f.png	man gesturing NO	4.0
+1F645 1F3FB 200D 2642	1f645-1f3fb-200d-2642-fe0f.png	man gesturing NO: light skin tone	4.0
+1F645 1F3FC 200D 2642	1f645-1f3fc-200d-2642-fe0f.png	man gesturing NO: medium-light skin tone	4.0
+1F645 1F3FD 200D 2642	1f645-1f3fd-200d-2642-fe0f.png	man gesturing NO: medium skin tone	4.0
+1F645 1F3FE 200D 2642	1f645-1f3fe-200d-2642-fe0f.png	man gesturing NO: medium-dark skin tone	4.0
+1F645 1F3FF 200D 2642	1f645-1f3ff-200d-2642-fe0f.png	man gesturing NO: dark skin tone	4.0
+1F645 200D 2640	1f645-200d-2640-fe0f.png	woman gesturing NO	4.0
+1F645 1F3FB 200D 2640	1f645-1f3fb-200d-2640-fe0f.png	woman gesturing NO: light skin tone	4.0
+1F645 1F3FC 200D 2640	1f645-1f3fc-200d-2640-fe0f.png	woman gesturing NO: medium-light skin tone	4.0
+1F645 1F3FD 200D 2640	1f645-1f3fd-200d-2640-fe0f.png	woman gesturing NO: medium skin tone	4.0
+1F645 1F3FE 200D 2640	1f645-1f3fe-200d-2640-fe0f.png	woman gesturing NO: medium-dark skin tone	4.0
+1F645 1F3FF 200D 2640	1f645-1f3ff-200d-2640-fe0f.png	woman gesturing NO: dark skin tone	4.0
+1F646 200D 2642	1f646-200d-2642-fe0f.png	man gesturing OK	4.0
+1F646 1F3FB 200D 2642	1f646-1f3fb-200d-2642-fe0f.png	man gesturing OK: light skin tone	4.0
+1F646 1F3FC 200D 2642	1f646-1f3fc-200d-2642-fe0f.png	man gesturing OK: medium-light skin tone	4.0
+1F646 1F3FD 200D 2642	1f646-1f3fd-200d-2642-fe0f.png	man gesturing OK: medium skin tone	4.0
+1F646 1F3FE 200D 2642	1f646-1f3fe-200d-2642-fe0f.png	man gesturing OK: medium-dark skin tone	4.0
+1F646 1F3FF 200D 2642	1f646-1f3ff-200d-2642-fe0f.png	man gesturing OK: dark skin tone	4.0
+1F646 200D 2640	1f646-200d-2640-fe0f.png	woman gesturing OK	4.0
+1F646 1F3FB 200D 2640	1f646-1f3fb-200d-2640-fe0f.png	woman gesturing OK: light skin tone	4.0
+1F646 1F3FC 200D 2640	1f646-1f3fc-200d-2640-fe0f.png	woman gesturing OK: medium-light skin tone	4.0
+1F646 1F3FD 200D 2640	1f646-1f3fd-200d-2640-fe0f.png	woman gesturing OK: medium skin tone	4.0
+1F646 1F3FE 200D 2640	1f646-1f3fe-200d-2640-fe0f.png	woman gesturing OK: medium-dark skin tone	4.0
+1F646 1F3FF 200D 2640	1f646-1f3ff-200d-2640-fe0f.png	woman gesturing OK: dark skin tone	4.0
+1F481 200D 2642	1f481-200d-2642-fe0f.png	man tipping hand	4.0
+1F481 1F3FB 200D 2642	1f481-1f3fb-200d-2642-fe0f.png	man tipping hand: light skin tone	4.0
+1F481 1F3FC 200D 2642	1f481-1f3fc-200d-2642-fe0f.png	man tipping hand: medium-light skin tone	4.0
+1F481 1F3FD 200D 2642	1f481-1f3fd-200d-2642-fe0f.png	man tipping hand: medium skin tone	4.0
+1F481 1F3FE 200D 2642	1f481-1f3fe-200d-2642-fe0f.png	man tipping hand: medium-dark skin tone	4.0
+1F481 1F3FF 200D 2642	1f481-1f3ff-200d-2642-fe0f.png	man tipping hand: dark skin tone	4.0
+1F481 200D 2640	1f481-200d-2640-fe0f.png	woman tipping hand	4.0
+1F481 1F3FB 200D 2640	1f481-1f3fb-200d-2640-fe0f.png	woman tipping hand: light skin tone	4.0
+1F481 1F3FC 200D 2640	1f481-1f3fc-200d-2640-fe0f.png	woman tipping hand: medium-light skin tone	4.0
+1F481 1F3FD 200D 2640	1f481-1f3fd-200d-2640-fe0f.png	woman tipping hand: medium skin tone	4.0
+1F481 1F3FE 200D 2640	1f481-1f3fe-200d-2640-fe0f.png	woman tipping hand: medium-dark skin tone	4.0
+1F481 1F3FF 200D 2640	1f481-1f3ff-200d-2640-fe0f.png	woman tipping hand: dark skin tone	4.0
+1F64B 200D 2642	1f64b-200d-2642-fe0f.png	man raising hand	4.0
+1F64B 1F3FB 200D 2642	1f64b-1f3fb-200d-2642-fe0f.png	man raising hand: light skin tone	4.0
+1F64B 1F3FC 200D 2642	1f64b-1f3fc-200d-2642-fe0f.png	man raising hand: medium-light skin tone	4.0
+1F64B 1F3FD 200D 2642	1f64b-1f3fd-200d-2642-fe0f.png	man raising hand: medium skin tone	4.0
+1F64B 1F3FE 200D 2642	1f64b-1f3fe-200d-2642-fe0f.png	man raising hand: medium-dark skin tone	4.0
+1F64B 1F3FF 200D 2642	1f64b-1f3ff-200d-2642-fe0f.png	man raising hand: dark skin tone	4.0
+1F64B 200D 2640	1f64b-200d-2640-fe0f.png	woman raising hand	4.0
+1F64B 1F3FB 200D 2640	1f64b-1f3fb-200d-2640-fe0f.png	woman raising hand: light skin tone	4.0
+1F64B 1F3FC 200D 2640	1f64b-1f3fc-200d-2640-fe0f.png	woman raising hand: medium-light skin tone	4.0
+1F64B 1F3FD 200D 2640	1f64b-1f3fd-200d-2640-fe0f.png	woman raising hand: medium skin tone	4.0
+1F64B 1F3FE 200D 2640	1f64b-1f3fe-200d-2640-fe0f.png	woman raising hand: medium-dark skin tone	4.0
+1F64B 1F3FF 200D 2640	1f64b-1f3ff-200d-2640-fe0f.png	woman raising hand: dark skin tone	4.0
+1F9CF 200D 2642	1f9cf-200d-2642-fe0f.png	deaf man	12.0
+1F9CF 1F3FB 200D 2642	1f9cf-1f3fb-200d-2642-fe0f.png	deaf man: light skin tone	12.0
+1F9CF 1F3FC 200D 2642	1f9cf-1f3fc-200d-2642-fe0f.png	deaf man: medium-light skin tone	12.0
+1F9CF 1F3FD 200D 2642	1f9cf-1f3fd-200d-2642-fe0f.png	deaf man: medium skin tone	12.0
+1F9CF 1F3FE 200D 2642	1f9cf-1f3fe-200d-2642-fe0f.png	deaf man: medium-dark skin tone	12.0
+1F9CF 1F3FF 200D 2642	1f9cf-1f3ff-200d-2642-fe0f.png	deaf man: dark skin tone	12.0
+1F9CF 200D 2640	1f9cf-200d-2640-fe0f.png	deaf woman	12.0
+1F9CF 1F3FB 200D 2640	1f9cf-1f3fb-200d-2640-fe0f.png	deaf woman: light skin tone	12.0
+1F9CF 1F3FC 200D 2640	1f9cf-1f3fc-200d-2640-fe0f.png	deaf woman: medium-light skin tone	12.0
+1F9CF 1F3FD 200D 2640	1f9cf-1f3fd-200d-2640-fe0f.png	deaf woman: medium skin tone	12.0
+1F9CF 1F3FE 200D 2640	1f9cf-1f3fe-200d-2640-fe0f.png	deaf woman: medium-dark skin tone	12.0
+1F9CF 1F3FF 200D 2640	1f9cf-1f3ff-200d-2640-fe0f.png	deaf woman: dark skin tone	12.0
+1F647 200D 2642	1f647-200d-2642-fe0f.png	man bowing	4.0
+1F647 1F3FB 200D 2642	1f647-1f3fb-200d-2642-fe0f.png	man bowing: light skin tone	4.0
+1F647 1F3FC 200D 2642	1f647-1f3fc-200d-2642-fe0f.png	man bowing: medium-light skin tone	4.0
+1F647 1F3FD 200D 2642	1f647-1f3fd-200d-2642-fe0f.png	man bowing: medium skin tone	4.0
+1F647 1F3FE 200D 2642	1f647-1f3fe-200d-2642-fe0f.png	man bowing: medium-dark skin tone	4.0
+1F647 1F3FF 200D 2642	1f647-1f3ff-200d-2642-fe0f.png	man bowing: dark skin tone	4.0
+1F647 200D 2640	1f647-200d-2640-fe0f.png	woman bowing	4.0
+1F647 1F3FB 200D 2640	1f647-1f3fb-200d-2640-fe0f.png	woman bowing: light skin tone	4.0
+1F647 1F3FC 200D 2640	1f647-1f3fc-200d-2640-fe0f.png	woman bowing: medium-light skin tone	4.0
+1F647 1F3FD 200D 2640	1f647-1f3fd-200d-2640-fe0f.png	woman bowing: medium skin tone	4.0
+1F647 1F3FE 200D 2640	1f647-1f3fe-200d-2640-fe0f.png	woman bowing: medium-dark skin tone	4.0
+1F647 1F3FF 200D 2640	1f647-1f3ff-200d-2640-fe0f.png	woman bowing: dark skin tone	4.0
+1F926 200D 2642	1f926-200d-2642-fe0f.png	man facepalming	4.0
+1F926 1F3FB 200D 2642	1f926-1f3fb-200d-2642-fe0f.png	man facepalming: light skin tone	4.0
+1F926 1F3FC 200D 2642	1f926-1f3fc-200d-2642-fe0f.png	man facepalming: medium-light skin tone	4.0
+1F926 1F3FD 200D 2642	1f926-1f3fd-200d-2642-fe0f.png	man facepalming: medium skin tone	4.0
+1F926 1F3FE 200D 2642	1f926-1f3fe-200d-2642-fe0f.png	man facepalming: medium-dark skin tone	4.0
+1F926 1F3FF 200D 2642	1f926-1f3ff-200d-2642-fe0f.png	man facepalming: dark skin tone	4.0
+1F926 200D 2640	1f926-200d-2640-fe0f.png	woman facepalming	4.0
+1F926 1F3FB 200D 2640	1f926-1f3fb-200d-2640-fe0f.png	woman facepalming: light skin tone	4.0
+1F926 1F3FC 200D 2640	1f926-1f3fc-200d-2640-fe0f.png	woman facepalming: medium-light skin tone	4.0
+1F926 1F3FD 200D 2640	1f926-1f3fd-200d-2640-fe0f.png	woman facepalming: medium skin tone	4.0
+1F926 1F3FE 200D 2640	1f926-1f3fe-200d-2640-fe0f.png	woman facepalming: medium-dark skin tone	4.0
+1F926 1F3FF 200D 2640	1f926-1f3ff-200d-2640-fe0f.png	woman facepalming: dark skin tone	4.0
+1F937 200D 2642	1f937-200d-2642-fe0f.png	man shrugging	4.0
+1F937 1F3FB 200D 2642	1f937-1f3fb-200d-2642-fe0f.png	man shrugging: light skin tone	4.0
+1F937 1F3FC 200D 2642	1f937-1f3fc-200d-2642-fe0f.png	man shrugging: medium-light skin tone	4.0
+1F937 1F3FD 200D 2642	1f937-1f3fd-200d-2642-fe0f.png	man shrugging: medium skin tone	4.0
+1F937 1F3FE 200D 2642	1f937-1f3fe-200d-2642-fe0f.png	man shrugging: medium-dark skin tone	4.0
+1F937 1F3FF 200D 2642	1f937-1f3ff-200d-2642-fe0f.png	man shrugging: dark skin tone	4.0
+1F937 200D 2640	1f937-200d-2640-fe0f.png	woman shrugging	4.0
+1F937 1F3FB 200D 2640	1f937-1f3fb-200d-2640-fe0f.png	woman shrugging: light skin tone	4.0
+1F937 1F3FC 200D 2640	1f937-1f3fc-200d-2640-fe0f.png	woman shrugging: medium-light skin tone	4.0
+1F937 1F3FD 200D 2640	1f937-1f3fd-200d-2640-fe0f.png	woman shrugging: medium skin tone	4.0
+1F937 1F3FE 200D 2640	1f937-1f3fe-200d-2640-fe0f.png	woman shrugging: medium-dark skin tone	4.0
+1F937 1F3FF 200D 2640	1f937-1f3ff-200d-2640-fe0f.png	woman shrugging: dark skin tone	4.0
+1F9D1 200D 2695	1f9d1-200d-2695-fe0f.png	health worker	12.1
+1F9D1 1F3FB 200D 2695	1f9d1-1f3fb-200d-2695-fe0f.png	health worker: light skin tone	12.1
+1F9D1 1F3FC 200D 2695	1f9d1-1f3fc-200d-2695-fe0f.png	health worker: medium-light skin tone	12.1
+1F9D1 1F3FD 200D 2695	1f9d1-1f3fd-200d-2695-fe0f.png	health worker: medium skin tone	12.1
+1F9D1 1F3FE 200D 2695	1f9d1-1f3fe-200d-2695-fe0f.png	health worker: medium-dark skin tone	12.1
+1F9D1 1F3FF 200D 2695	1f9d1-1f3ff-200d-2695-fe0f.png	health worker: dark skin tone	12.1
+1F468 200D 2695	1f468-200d-2695-fe0f.png	man health worker	4.0
+1F468 1F3FB 200D 2695	1f468-1f3fb-200d-2695-fe0f.png	man health worker: light skin tone	4.0
+1F468 1F3FC 200D 2695	1f468-1f3fc-200d-2695-fe0f.png	man health worker: medium-light skin tone	4.0
+1F468 1F3FD 200D 2695	1f468-1f3fd-200d-2695-fe0f.png	man health worker: medium skin tone	4.0
+1F468 1F3FE 200D 2695	1f468-1f3fe-200d-2695-fe0f.png	man health worker: medium-dark skin tone	4.0
+1F468 1F3FF 200D 2695	1f468-1f3ff-200d-2695-fe0f.png	man health worker: dark skin tone	4.0
+1F469 200D 2695	1f469-200d-2695-fe0f.png	woman health worker	4.0
+1F469 1F3FB 200D 2695	1f469-1f3fb-200d-2695-fe0f.png	woman health worker: light skin tone	4.0
+1F469 1F3FC 200D 2695	1f469-1f3fc-200d-2695-fe0f.png	woman health worker: medium-light skin tone	4.0
+1F469 1F3FD 200D 2695	1f469-1f3fd-200d-2695-fe0f.png	woman health worker: medium skin tone	4.0
+1F469 1F3FE 200D 2695	1f469-1f3fe-200d-2695-fe0f.png	woman health worker: medium-dark skin tone	4.0
+1F469 1F3FF 200D 2695	1f469-1f3ff-200d-2695-fe0f.png	woman health worker: dark skin tone	4.0
+1F9D1 200D 2696	1f9d1-200d-2696-fe0f.png	judge	12.1
+1F9D1 1F3FB 200D 2696	1f9d1-1f3fb-200d-2696-fe0f.png	judge: light skin tone	12.1
+1F9D1 1F3FC 200D 2696	1f9d1-1f3fc-200d-2696-fe0f.png	judge: medium-light skin tone	12.1
+1F9D1 1F3FD 200D 2696	1f9d1-1f3fd-200d-2696-fe0f.png	judge: medium skin tone	12.1
+1F9D1 1F3FE 200D 2696	1f9d1-1f3fe-200d-2696-fe0f.png	judge: medium-dark skin tone	12.1
+1F9D1 1F3FF 200D 2696	1f9d1-1f3ff-200d-2696-fe0f.png	judge: dark skin tone	12.1
+1F468 200D 2696	1f468-200d-2696-fe0f.png	man judge	4.0
+1F468 1F3FB 200D 2696	1f468-1f3fb-200d-2696-fe0f.png	man judge: light skin tone	4.0
+1F468 1F3FC 200D 2696	1f468-1f3fc-200d-2696-fe0f.png	man judge: medium-light skin tone	4.0
+1F468 1F3FD 200D 2696	1f468-1f3fd-200d-2696-fe0f.png	man judge: medium skin tone	4.0
+1F468 1F3FE 200D 2696	1f468-1f3fe-200d-2696-fe0f.png	man judge: medium-dark skin tone	4.0
+1F468 1F3FF 200D 2696	1f468-1f3ff-200d-2696-fe0f.png	man judge: dark skin tone	4.0
+1F469 200D 2696	1f469-200d-2696-fe0f.png	woman judge	4.0
+1F469 1F3FB 200D 2696	1f469-1f3fb-200d-2696-fe0f.png	woman judge: light skin tone	4.0
+1F469 1F3FC 200D 2696	1f469-1f3fc-200d-2696-fe0f.png	woman judge: medium-light skin tone	4.0
+1F469 1F3FD 200D 2696	1f469-1f3fd-200d-2696-fe0f.png	woman judge: medium skin tone	4.0
+1F469 1F3FE 200D 2696	1f469-1f3fe-200d-2696-fe0f.png	woman judge: medium-dark skin tone	4.0
+1F469 1F3FF 200D 2696	1f469-1f3ff-200d-2696-fe0f.png	woman judge: dark skin tone	4.0
+1F9D1 200D 2708	1f9d1-200d-2708-fe0f.png	pilot	12.1
+1F9D1 1F3FB 200D 2708	1f9d1-1f3fb-200d-2708-fe0f.png	pilot: light skin tone	12.1
+1F9D1 1F3FC 200D 2708	1f9d1-1f3fc-200d-2708-fe0f.png	pilot: medium-light skin tone	12.1
+1F9D1 1F3FD 200D 2708	1f9d1-1f3fd-200d-2708-fe0f.png	pilot: medium skin tone	12.1
+1F9D1 1F3FE 200D 2708	1f9d1-1f3fe-200d-2708-fe0f.png	pilot: medium-dark skin tone	12.1
+1F9D1 1F3FF 200D 2708	1f9d1-1f3ff-200d-2708-fe0f.png	pilot: dark skin tone	12.1
+1F468 200D 2708	1f468-200d-2708-fe0f.png	man pilot	4.0
+1F468 1F3FB 200D 2708	1f468-1f3fb-200d-2708-fe0f.png	man pilot: light skin tone	4.0
+1F468 1F3FC 200D 2708	1f468-1f3fc-200d-2708-fe0f.png	man pilot: medium-light skin tone	4.0
+1F468 1F3FD 200D 2708	1f468-1f3fd-200d-2708-fe0f.png	man pilot: medium skin tone	4.0
+1F468 1F3FE 200D 2708	1f468-1f3fe-200d-2708-fe0f.png	man pilot: medium-dark skin tone	4.0
+1F468 1F3FF 200D 2708	1f468-1f3ff-200d-2708-fe0f.png	man pilot: dark skin tone	4.0
+1F469 200D 2708	1f469-200d-2708-fe0f.png	woman pilot	4.0
+1F469 1F3FB 200D 2708	1f469-1f3fb-200d-2708-fe0f.png	woman pilot: light skin tone	4.0
+1F469 1F3FC 200D 2708	1f469-1f3fc-200d-2708-fe0f.png	woman pilot: medium-light skin tone	4.0
+1F469 1F3FD 200D 2708	1f469-1f3fd-200d-2708-fe0f.png	woman pilot: medium skin tone	4.0
+1F469 1F3FE 200D 2708	1f469-1f3fe-200d-2708-fe0f.png	woman pilot: medium-dark skin tone	4.0
+1F469 1F3FF 200D 2708	1f469-1f3ff-200d-2708-fe0f.png	woman pilot: dark skin tone	4.0
+1F46E 200D 2642	1f46e-200d-2642-fe0f.png	man police officer	4.0
+1F46E 1F3FB 200D 2642	1f46e-1f3fb-200d-2642-fe0f.png	man police officer: light skin tone	4.0
+1F46E 1F3FC 200D 2642	1f46e-1f3fc-200d-2642-fe0f.png	man police officer: medium-light skin tone	4.0
+1F46E 1F3FD 200D 2642	1f46e-1f3fd-200d-2642-fe0f.png	man police officer: medium skin tone	4.0
+1F46E 1F3FE 200D 2642	1f46e-1f3fe-200d-2642-fe0f.png	man police officer: medium-dark skin tone	4.0
+1F46E 1F3FF 200D 2642	1f46e-1f3ff-200d-2642-fe0f.png	man police officer: dark skin tone	4.0
+1F46E 200D 2640	1f46e-200d-2640-fe0f.png	woman police officer	4.0
+1F46E 1F3FB 200D 2640	1f46e-1f3fb-200d-2640-fe0f.png	woman police officer: light skin tone	4.0
+1F46E 1F3FC 200D 2640	1f46e-1f3fc-200d-2640-fe0f.png	woman police officer: medium-light skin tone	4.0
+1F46E 1F3FD 200D 2640	1f46e-1f3fd-200d-2640-fe0f.png	woman police officer: medium skin tone	4.0
+1F46E 1F3FE 200D 2640	1f46e-1f3fe-200d-2640-fe0f.png	woman police officer: medium-dark skin tone	4.0
+1F46E 1F3FF 200D 2640	1f46e-1f3ff-200d-2640-fe0f.png	woman police officer: dark skin tone	4.0
+1F575 FE0F	1f575.png	detective	0.7
+1F575 200D 2642 FE0F	1f575-fe0f-200d-2642-fe0f.png	man detective	4.0
+1F575 FE0F 200D 2642	1f575-fe0f-200d-2642-fe0f.png	man detective	4.0
+1F575 200D 2642	1f575-fe0f-200d-2642-fe0f.png	man detective	4.0
+1F575 1F3FB 200D 2642	1f575-1f3fb-200d-2642-fe0f.png	man detective: light skin tone	4.0
+1F575 1F3FC 200D 2642	1f575-1f3fc-200d-2642-fe0f.png	man detective: medium-light skin tone	4.0
+1F575 1F3FD 200D 2642	1f575-1f3fd-200d-2642-fe0f.png	man detective: medium skin tone	4.0
+1F575 1F3FE 200D 2642	1f575-1f3fe-200d-2642-fe0f.png	man detective: medium-dark skin tone	4.0
+1F575 1F3FF 200D 2642	1f575-1f3ff-200d-2642-fe0f.png	man detective: dark skin tone	4.0
+1F575 200D 2640 FE0F	1f575-fe0f-200d-2640-fe0f.png	woman detective	4.0
+1F575 FE0F 200D 2640	1f575-fe0f-200d-2640-fe0f.png	woman detective	4.0
+1F575 200D 2640	1f575-fe0f-200d-2640-fe0f.png	woman detective	4.0
+1F575 1F3FB 200D 2640	1f575-1f3fb-200d-2640-fe0f.png	woman detective: light skin tone	4.0
+1F575 1F3FC 200D 2640	1f575-1f3fc-200d-2640-fe0f.png	woman detective: medium-light skin tone	4.0
+1F575 1F3FD 200D 2640	1f575-1f3fd-200d-2640-fe0f.png	woman detective: medium skin tone	4.0
+1F575 1F3FE 200D 2640	1f575-1f3fe-200d-2640-fe0f.png	woman detective: medium-dark skin tone	4.0
+1F575 1F3FF 200D 2640	1f575-1f3ff-200d-2640-fe0f.png	woman detective: dark skin tone	4.0
+1F482 200D 2642	1f482-200d-2642-fe0f.png	man guard	4.0
+1F482 1F3FB 200D 2642	1f482-1f3fb-200d-2642-fe0f.png	man guard: light skin tone	4.0
+1F482 1F3FC 200D 2642	1f482-1f3fc-200d-2642-fe0f.png	man guard: medium-light skin tone	4.0
+1F482 1F3FD 200D 2642	1f482-1f3fd-200d-2642-fe0f.png	man guard: medium skin tone	4.0
+1F482 1F3FE 200D 2642	1f482-1f3fe-200d-2642-fe0f.png	man guard: medium-dark skin tone	4.0
+1F482 1F3FF 200D 2642	1f482-1f3ff-200d-2642-fe0f.png	man guard: dark skin tone	4.0
+1F482 200D 2640	1f482-200d-2640-fe0f.png	woman guard	4.0
+1F482 1F3FB 200D 2640	1f482-1f3fb-200d-2640-fe0f.png	woman guard: light skin tone	4.0
+1F482 1F3FC 200D 2640	1f482-1f3fc-200d-2640-fe0f.png	woman guard: medium-light skin tone	4.0
+1F482 1F3FD 200D 2640	1f482-1f3fd-200d-2640-fe0f.png	woman guard: medium skin tone	4.0
+1F482 1F3FE 200D 2640	1f482-1f3fe-200d-2640-fe0f.png	woman guard: medium-dark skin tone	4.0
+1F482 1F3FF 200D 2640	1f482-1f3ff-200d-2640-fe0f.png	woman guard: dark skin tone	4.0
+1F477 200D 2642	1f477-200d-2642-fe0f.png	man construction worker	4.0
+1F477 1F3FB 200D 2642	1f477-1f3fb-200d-2642-fe0f.png	man construction worker: light skin tone	4.0
+1F477 1F3FC 200D 2642	1f477-1f3fc-200d-2642-fe0f.png	man construction worker: medium-light skin tone	4.0
+1F477 1F3FD 200D 2642	1f477-1f3fd-200d-2642-fe0f.png	man construction worker: medium skin tone	4.0
+1F477 1F3FE 200D 2642	1f477-1f3fe-200d-2642-fe0f.png	man construction worker: medium-dark skin tone	4.0
+1F477 1F3FF 200D 2642	1f477-1f3ff-200d-2642-fe0f.png	man construction worker: dark skin tone	4.0
+1F477 200D 2640	1f477-200d-2640-fe0f.png	woman construction worker	4.0
+1F477 1F3FB 200D 2640	1f477-1f3fb-200d-2640-fe0f.png	woman construction worker: light skin tone	4.0
+1F477 1F3FC 200D 2640	1f477-1f3fc-200d-2640-fe0f.png	woman construction worker: medium-light skin tone	4.0
+1F477 1F3FD 200D 2640	1f477-1f3fd-200d-2640-fe0f.png	woman construction worker: medium skin tone	4.0
+1F477 1F3FE 200D 2640	1f477-1f3fe-200d-2640-fe0f.png	woman construction worker: medium-dark skin tone	4.0
+1F477 1F3FF 200D 2640	1f477-1f3ff-200d-2640-fe0f.png	woman construction worker: dark skin tone	4.0
+1F473 200D 2642	1f473-200d-2642-fe0f.png	man wearing turban	4.0
+1F473 1F3FB 200D 2642	1f473-1f3fb-200d-2642-fe0f.png	man wearing turban: light skin tone	4.0
+1F473 1F3FC 200D 2642	1f473-1f3fc-200d-2642-fe0f.png	man wearing turban: medium-light skin tone	4.0
+1F473 1F3FD 200D 2642	1f473-1f3fd-200d-2642-fe0f.png	man wearing turban: medium skin tone	4.0
+1F473 1F3FE 200D 2642	1f473-1f3fe-200d-2642-fe0f.png	man wearing turban: medium-dark skin tone	4.0
+1F473 1F3FF 200D 2642	1f473-1f3ff-200d-2642-fe0f.png	man wearing turban: dark skin tone	4.0
+1F473 200D 2640	1f473-200d-2640-fe0f.png	woman wearing turban	4.0
+1F473 1F3FB 200D 2640	1f473-1f3fb-200d-2640-fe0f.png	woman wearing turban: light skin tone	4.0
+1F473 1F3FC 200D 2640	1f473-1f3fc-200d-2640-fe0f.png	woman wearing turban: medium-light skin tone	4.0
+1F473 1F3FD 200D 2640	1f473-1f3fd-200d-2640-fe0f.png	woman wearing turban: medium skin tone	4.0
+1F473 1F3FE 200D 2640	1f473-1f3fe-200d-2640-fe0f.png	woman wearing turban: medium-dark skin tone	4.0
+1F473 1F3FF 200D 2640	1f473-1f3ff-200d-2640-fe0f.png	woman wearing turban: dark skin tone	4.0
+1F935 200D 2642	1f935-200d-2642-fe0f.png	man in tuxedo	13.0
+1F935 1F3FB 200D 2642	1f935-1f3fb-200d-2642-fe0f.png	man in tuxedo: light skin tone	13.0
+1F935 1F3FC 200D 2642	1f935-1f3fc-200d-2642-fe0f.png	man in tuxedo: medium-light skin tone	13.0
+1F935 1F3FD 200D 2642	1f935-1f3fd-200d-2642-fe0f.png	man in tuxedo: medium skin tone	13.0
+1F935 1F3FE 200D 2642	1f935-1f3fe-200d-2642-fe0f.png	man in tuxedo: medium-dark skin tone	13.0
+1F935 1F3FF 200D 2642	1f935-1f3ff-200d-2642-fe0f.png	man in tuxedo: dark skin tone	13.0
+1F935 200D 2640	1f935-200d-2640-fe0f.png	woman in tuxedo	13.0
+1F935 1F3FB 200D 2640	1f935-1f3fb-200d-2640-fe0f.png	woman in tuxedo: light skin tone	13.0
+1F935 1F3FC 200D 2640	1f935-1f3fc-200d-2640-fe0f.png	woman in tuxedo: medium-light skin tone	13.0
+1F935 1F3FD 200D 2640	1f935-1f3fd-200d-2640-fe0f.png	woman in tuxedo: medium skin tone	13.0
+1F935 1F3FE 200D 2640	1f935-1f3fe-200d-2640-fe0f.png	woman in tuxedo: medium-dark skin tone	13.0
+1F935 1F3FF 200D 2640	1f935-1f3ff-200d-2640-fe0f.png	woman in tuxedo: dark skin tone	13.0
+1F470 200D 2642	1f470-200d-2642-fe0f.png	man with veil	13.0
+1F470 1F3FB 200D 2642	1f470-1f3fb-200d-2642-fe0f.png	man with veil: light skin tone	13.0
+1F470 1F3FC 200D 2642	1f470-1f3fc-200d-2642-fe0f.png	man with veil: medium-light skin tone	13.0
+1F470 1F3FD 200D 2642	1f470-1f3fd-200d-2642-fe0f.png	man with veil: medium skin tone	13.0
+1F470 1F3FE 200D 2642	1f470-1f3fe-200d-2642-fe0f.png	man with veil: medium-dark skin tone	13.0
+1F470 1F3FF 200D 2642	1f470-1f3ff-200d-2642-fe0f.png	man with veil: dark skin tone	13.0
+1F470 200D 2640	1f470-200d-2640-fe0f.png	woman with veil	13.0
+1F470 1F3FB 200D 2640	1f470-1f3fb-200d-2640-fe0f.png	woman with veil: light skin tone	13.0
+1F470 1F3FC 200D 2640	1f470-1f3fc-200d-2640-fe0f.png	woman with veil: medium-light skin tone	13.0
+1F470 1F3FD 200D 2640	1f470-1f3fd-200d-2640-fe0f.png	woman with veil: medium skin tone	13.0
+1F470 1F3FE 200D 2640	1f470-1f3fe-200d-2640-fe0f.png	woman with veil: medium-dark skin tone	13.0
+1F470 1F3FF 200D 2640	1f470-1f3ff-200d-2640-fe0f.png	woman with veil: dark skin tone	13.0
+1F9B8 200D 2642	1f9b8-200d-2642-fe0f.png	man superhero	11.0
+1F9B8 1F3FB 200D 2642	1f9b8-1f3fb-200d-2642-fe0f.png	man superhero: light skin tone	11.0
+1F9B8 1F3FC 200D 2642	1f9b8-1f3fc-200d-2642-fe0f.png	man superhero: medium-light skin tone	11.0
+1F9B8 1F3FD 200D 2642	1f9b8-1f3fd-200d-2642-fe0f.png	man superhero: medium skin tone	11.0
+1F9B8 1F3FE 200D 2642	1f9b8-1f3fe-200d-2642-fe0f.png	man superhero: medium-dark skin tone	11.0
+1F9B8 1F3FF 200D 2642	1f9b8-1f3ff-200d-2642-fe0f.png	man superhero: dark skin tone	11.0
+1F9B8 200D 2640	1f9b8-200d-2640-fe0f.png	woman superhero	11.0
+1F9B8 1F3FB 200D 2640	1f9b8-1f3fb-200d-2640-fe0f.png	woman superhero: light skin tone	11.0
+1F9B8 1F3FC 200D 2640	1f9b8-1f3fc-200d-2640-fe0f.png	woman superhero: medium-light skin tone	11.0
+1F9B8 1F3FD 200D 2640	1f9b8-1f3fd-200d-2640-fe0f.png	woman superhero: medium skin tone	11.0
+1F9B8 1F3FE 200D 2640	1f9b8-1f3fe-200d-2640-fe0f.png	woman superhero: medium-dark skin tone	11.0
+1F9B8 1F3FF 200D 2640	1f9b8-1f3ff-200d-2640-fe0f.png	woman superhero: dark skin tone	11.0
+1F9B9 200D 2642	1f9b9-200d-2642-fe0f.png	man supervillain	11.0
+1F9B9 1F3FB 200D 2642	1f9b9-1f3fb-200d-2642-fe0f.png	man supervillain: light skin tone	11.0
+1F9B9 1F3FC 200D 2642	1f9b9-1f3fc-200d-2642-fe0f.png	man supervillain: medium-light skin tone	11.0
+1F9B9 1F3FD 200D 2642	1f9b9-1f3fd-200d-2642-fe0f.png	man supervillain: medium skin tone	11.0
+1F9B9 1F3FE 200D 2642	1f9b9-1f3fe-200d-2642-fe0f.png	man supervillain: medium-dark skin tone	11.0
+1F9B9 1F3FF 200D 2642	1f9b9-1f3ff-200d-2642-fe0f.png	man supervillain: dark skin tone	11.0
+1F9B9 200D 2640	1f9b9-200d-2640-fe0f.png	woman supervillain	11.0
+1F9B9 1F3FB 200D 2640	1f9b9-1f3fb-200d-2640-fe0f.png	woman supervillain: light skin tone	11.0
+1F9B9 1F3FC 200D 2640	1f9b9-1f3fc-200d-2640-fe0f.png	woman supervillain: medium-light skin tone	11.0
+1F9B9 1F3FD 200D 2640	1f9b9-1f3fd-200d-2640-fe0f.png	woman supervillain: medium skin tone	11.0
+1F9B9 1F3FE 200D 2640	1f9b9-1f3fe-200d-2640-fe0f.png	woman supervillain: medium-dark skin tone	11.0
+1F9B9 1F3FF 200D 2640	1f9b9-1f3ff-200d-2640-fe0f.png	woman supervillain: dark skin tone	11.0
+1F9D9 200D 2642	1f9d9-200d-2642-fe0f.png	man mage	5.0
+1F9D9 1F3FB 200D 2642	1f9d9-1f3fb-200d-2642-fe0f.png	man mage: light skin tone	5.0
+1F9D9 1F3FC 200D 2642	1f9d9-1f3fc-200d-2642-fe0f.png	man mage: medium-light skin tone	5.0
+1F9D9 1F3FD 200D 2642	1f9d9-1f3fd-200d-2642-fe0f.png	man mage: medium skin tone	5.0
+1F9D9 1F3FE 200D 2642	1f9d9-1f3fe-200d-2642-fe0f.png	man mage: medium-dark skin tone	5.0
+1F9D9 1F3FF 200D 2642	1f9d9-1f3ff-200d-2642-fe0f.png	man mage: dark skin tone	5.0
+1F9D9 200D 2640	1f9d9-200d-2640-fe0f.png	woman mage	5.0
+1F9D9 1F3FB 200D 2640	1f9d9-1f3fb-200d-2640-fe0f.png	woman mage: light skin tone	5.0
+1F9D9 1F3FC 200D 2640	1f9d9-1f3fc-200d-2640-fe0f.png	woman mage: medium-light skin tone	5.0
+1F9D9 1F3FD 200D 2640	1f9d9-1f3fd-200d-2640-fe0f.png	woman mage: medium skin tone	5.0
+1F9D9 1F3FE 200D 2640	1f9d9-1f3fe-200d-2640-fe0f.png	woman mage: medium-dark skin tone	5.0
+1F9D9 1F3FF 200D 2640	1f9d9-1f3ff-200d-2640-fe0f.png	woman mage: dark skin tone	5.0
+1F9DA 200D 2642	1f9da-200d-2642-fe0f.png	man fairy	5.0
+1F9DA 1F3FB 200D 2642	1f9da-1f3fb-200d-2642-fe0f.png	man fairy: light skin tone	5.0
+1F9DA 1F3FC 200D 2642	1f9da-1f3fc-200d-2642-fe0f.png	man fairy: medium-light skin tone	5.0
+1F9DA 1F3FD 200D 2642	1f9da-1f3fd-200d-2642-fe0f.png	man fairy: medium skin tone	5.0
+1F9DA 1F3FE 200D 2642	1f9da-1f3fe-200d-2642-fe0f.png	man fairy: medium-dark skin tone	5.0
+1F9DA 1F3FF 200D 2642	1f9da-1f3ff-200d-2642-fe0f.png	man fairy: dark skin tone	5.0
+1F9DA 200D 2640	1f9da-200d-2640-fe0f.png	woman fairy	5.0
+1F9DA 1F3FB 200D 2640	1f9da-1f3fb-200d-2640-fe0f.png	woman fairy: light skin tone	5.0
+1F9DA 1F3FC 200D 2640	1f9da-1f3fc-200d-2640-fe0f.png	woman fairy: medium-light skin tone	5.0
+1F9DA 1F3FD 200D 2640	1f9da-1f3fd-200d-2640-fe0f.png	woman fairy: medium skin tone	5.0
+1F9DA 1F3FE 200D 2640	1f9da-1f3fe-200d-2640-fe0f.png	woman fairy: medium-dark skin tone	5.0
+1F9DA 1F3FF 200D 2640	1f9da-1f3ff-200d-2640-fe0f.png	woman fairy: dark skin tone	5.0
+1F9DB 200D 2642	1f9db-200d-2642-fe0f.png	man vampire	5.0
+1F9DB 1F3FB 200D 2642	1f9db-1f3fb-200d-2642-fe0f.png	man vampire: light skin tone	5.0
+1F9DB 1F3FC 200D 2642	1f9db-1f3fc-200d-2642-fe0f.png	man vampire: medium-light skin tone	5.0
+1F9DB 1F3FD 200D 2642	1f9db-1f3fd-200d-2642-fe0f.png	man vampire: medium skin tone	5.0
+1F9DB 1F3FE 200D 2642	1f9db-1f3fe-200d-2642-fe0f.png	man vampire: medium-dark skin tone	5.0
+1F9DB 1F3FF 200D 2642	1f9db-1f3ff-200d-2642-fe0f.png	man vampire: dark skin tone	5.0
+1F9DB 200D 2640	1f9db-200d-2640-fe0f.png	woman vampire	5.0
+1F9DB 1F3FB 200D 2640	1f9db-1f3fb-200d-2640-fe0f.png	woman vampire: light skin tone	5.0
+1F9DB 1F3FC 200D 2640	1f9db-1f3fc-200d-2640-fe0f.png	woman vampire: medium-light skin tone	5.0
+1F9DB 1F3FD 200D 2640	1f9db-1f3fd-200d-2640-fe0f.png	woman vampire: medium skin tone	5.0
+1F9DB 1F3FE 200D 2640	1f9db-1f3fe-200d-2640-fe0f.png	woman vampire: medium-dark skin tone	5.0
+1F9DB 1F3FF 200D 2640	1f9db-1f3ff-200d-2640-fe0f.png	woman vampire: dark skin tone	5.0
+1F9DC 200D 2642	1f9dc-200d-2642-fe0f.png	merman	5.0
+1F9DC 1F3FB 200D 2642	1f9dc-1f3fb-200d-2642-fe0f.png	merman: light skin tone	5.0
+1F9DC 1F3FC 200D 2642	1f9dc-1f3fc-200d-2642-fe0f.png	merman: medium-light skin tone	5.0
+1F9DC 1F3FD 200D 2642	1f9dc-1f3fd-200d-2642-fe0f.png	merman: medium skin tone	5.0
+1F9DC 1F3FE 200D 2642	1f9dc-1f3fe-200d-2642-fe0f.png	merman: medium-dark skin tone	5.0
+1F9DC 1F3FF 200D 2642	1f9dc-1f3ff-200d-2642-fe0f.png	merman: dark skin tone	5.0
+1F9DC 200D 2640	1f9dc-200d-2640-fe0f.png	mermaid	5.0
+1F9DC 1F3FB 200D 2640	1f9dc-1f3fb-200d-2640-fe0f.png	mermaid: light skin tone	5.0
+1F9DC 1F3FC 200D 2640	1f9dc-1f3fc-200d-2640-fe0f.png	mermaid: medium-light skin tone	5.0
+1F9DC 1F3FD 200D 2640	1f9dc-1f3fd-200d-2640-fe0f.png	mermaid: medium skin tone	5.0
+1F9DC 1F3FE 200D 2640	1f9dc-1f3fe-200d-2640-fe0f.png	mermaid: medium-dark skin tone	5.0
+1F9DC 1F3FF 200D 2640	1f9dc-1f3ff-200d-2640-fe0f.png	mermaid: dark skin tone	5.0
+1F9DD 200D 2642	1f9dd-200d-2642-fe0f.png	man elf	5.0
+1F9DD 1F3FB 200D 2642	1f9dd-1f3fb-200d-2642-fe0f.png	man elf: light skin tone	5.0
+1F9DD 1F3FC 200D 2642	1f9dd-1f3fc-200d-2642-fe0f.png	man elf: medium-light skin tone	5.0
+1F9DD 1F3FD 200D 2642	1f9dd-1f3fd-200d-2642-fe0f.png	man elf: medium skin tone	5.0
+1F9DD 1F3FE 200D 2642	1f9dd-1f3fe-200d-2642-fe0f.png	man elf: medium-dark skin tone	5.0
+1F9DD 1F3FF 200D 2642	1f9dd-1f3ff-200d-2642-fe0f.png	man elf: dark skin tone	5.0
+1F9DD 200D 2640	1f9dd-200d-2640-fe0f.png	woman elf	5.0
+1F9DD 1F3FB 200D 2640	1f9dd-1f3fb-200d-2640-fe0f.png	woman elf: light skin tone	5.0
+1F9DD 1F3FC 200D 2640	1f9dd-1f3fc-200d-2640-fe0f.png	woman elf: medium-light skin tone	5.0
+1F9DD 1F3FD 200D 2640	1f9dd-1f3fd-200d-2640-fe0f.png	woman elf: medium skin tone	5.0
+1F9DD 1F3FE 200D 2640	1f9dd-1f3fe-200d-2640-fe0f.png	woman elf: medium-dark skin tone	5.0
+1F9DD 1F3FF 200D 2640	1f9dd-1f3ff-200d-2640-fe0f.png	woman elf: dark skin tone	5.0
+1F9DE 200D 2642	1f9de-200d-2642-fe0f.png	man genie	5.0
+1F9DE 200D 2640	1f9de-200d-2640-fe0f.png	woman genie	5.0
+1F9DF 200D 2642	1f9df-200d-2642-fe0f.png	man zombie	5.0
+1F9DF 200D 2640	1f9df-200d-2640-fe0f.png	woman zombie	5.0
+1FAC8	1fac8.png	hairy creature	17.0
+1F486 200D 2642	1f486-200d-2642-fe0f.png	man getting massage	4.0
+1F486 1F3FB 200D 2642	1f486-1f3fb-200d-2642-fe0f.png	man getting massage: light skin tone	4.0
+1F486 1F3FC 200D 2642	1f486-1f3fc-200d-2642-fe0f.png	man getting massage: medium-light skin tone	4.0
+1F486 1F3FD 200D 2642	1f486-1f3fd-200d-2642-fe0f.png	man getting massage: medium skin tone	4.0
+1F486 1F3FE 200D 2642	1f486-1f3fe-200d-2642-fe0f.png	man getting massage: medium-dark skin tone	4.0
+1F486 1F3FF 200D 2642	1f486-1f3ff-200d-2642-fe0f.png	man getting massage: dark skin tone	4.0
+1F486 200D 2640	1f486-200d-2640-fe0f.png	woman getting massage	4.0
+1F486 1F3FB 200D 2640	1f486-1f3fb-200d-2640-fe0f.png	woman getting massage: light skin tone	4.0
+1F486 1F3FC 200D 2640	1f486-1f3fc-200d-2640-fe0f.png	woman getting massage: medium-light skin tone	4.0
+1F486 1F3FD 200D 2640	1f486-1f3fd-200d-2640-fe0f.png	woman getting massage: medium skin tone	4.0
+1F486 1F3FE 200D 2640	1f486-1f3fe-200d-2640-fe0f.png	woman getting massage: medium-dark skin tone	4.0
+1F486 1F3FF 200D 2640	1f486-1f3ff-200d-2640-fe0f.png	woman getting massage: dark skin tone	4.0
+1F487 200D 2642	1f487-200d-2642-fe0f.png	man getting haircut	4.0
+1F487 1F3FB 200D 2642	1f487-1f3fb-200d-2642-fe0f.png	man getting haircut: light skin tone	4.0
+1F487 1F3FC 200D 2642	1f487-1f3fc-200d-2642-fe0f.png	man getting haircut: medium-light skin tone	4.0
+1F487 1F3FD 200D 2642	1f487-1f3fd-200d-2642-fe0f.png	man getting haircut: medium skin tone	4.0
+1F487 1F3FE 200D 2642	1f487-1f3fe-200d-2642-fe0f.png	man getting haircut: medium-dark skin tone	4.0
+1F487 1F3FF 200D 2642	1f487-1f3ff-200d-2642-fe0f.png	man getting haircut: dark skin tone	4.0
+1F487 200D 2640	1f487-200d-2640-fe0f.png	woman getting haircut	4.0
+1F487 1F3FB 200D 2640	1f487-1f3fb-200d-2640-fe0f.png	woman getting haircut: light skin tone	4.0
+1F487 1F3FC 200D 2640	1f487-1f3fc-200d-2640-fe0f.png	woman getting haircut: medium-light skin tone	4.0
+1F487 1F3FD 200D 2640	1f487-1f3fd-200d-2640-fe0f.png	woman getting haircut: medium skin tone	4.0
+1F487 1F3FE 200D 2640	1f487-1f3fe-200d-2640-fe0f.png	woman getting haircut: medium-dark skin tone	4.0
+1F487 1F3FF 200D 2640	1f487-1f3ff-200d-2640-fe0f.png	woman getting haircut: dark skin tone	4.0
+1F6B6 200D 2642	1f6b6-200d-2642-fe0f.png	man walking	4.0
+1F6B6 1F3FB 200D 2642	1f6b6-1f3fb-200d-2642-fe0f.png	man walking: light skin tone	4.0
+1F6B6 1F3FC 200D 2642	1f6b6-1f3fc-200d-2642-fe0f.png	man walking: medium-light skin tone	4.0
+1F6B6 1F3FD 200D 2642	1f6b6-1f3fd-200d-2642-fe0f.png	man walking: medium skin tone	4.0
+1F6B6 1F3FE 200D 2642	1f6b6-1f3fe-200d-2642-fe0f.png	man walking: medium-dark skin tone	4.0
+1F6B6 1F3FF 200D 2642	1f6b6-1f3ff-200d-2642-fe0f.png	man walking: dark skin tone	4.0
+1F6B6 200D 2640	1f6b6-200d-2640-fe0f.png	woman walking	4.0
+1F6B6 1F3FB 200D 2640	1f6b6-1f3fb-200d-2640-fe0f.png	woman walking: light skin tone	4.0
+1F6B6 1F3FC 200D 2640	1f6b6-1f3fc-200d-2640-fe0f.png	woman walking: medium-light skin tone	4.0
+1F6B6 1F3FD 200D 2640	1f6b6-1f3fd-200d-2640-fe0f.png	woman walking: medium skin tone	4.0
+1F6B6 1F3FE 200D 2640	1f6b6-1f3fe-200d-2640-fe0f.png	woman walking: medium-dark skin tone	4.0
+1F6B6 1F3FF 200D 2640	1f6b6-1f3ff-200d-2640-fe0f.png	woman walking: dark skin tone	4.0
+1F6B6 200D 27A1 FE0F	1f6b6-200d-27a1-fe0f.png	person walking facing right	15.1
+1F6B6 200D 27A1	1f6b6-200d-27a1-fe0f.png	person walking facing right	15.1
+1F6B6 1F3FB 200D 27A1 FE0F	1f6b6-1f3fb-200d-27a1-fe0f.png	person walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 27A1	1f6b6-1f3fb-200d-27a1-fe0f.png	person walking facing right: light skin tone	15.1
+1F6B6 1F3FC 200D 27A1 FE0F	1f6b6-1f3fc-200d-27a1-fe0f.png	person walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 27A1	1f6b6-1f3fc-200d-27a1-fe0f.png	person walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FD 200D 27A1 FE0F	1f6b6-1f3fd-200d-27a1-fe0f.png	person walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 27A1	1f6b6-1f3fd-200d-27a1-fe0f.png	person walking facing right: medium skin tone	15.1
+1F6B6 1F3FE 200D 27A1 FE0F	1f6b6-1f3fe-200d-27a1-fe0f.png	person walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 27A1	1f6b6-1f3fe-200d-27a1-fe0f.png	person walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FF 200D 27A1 FE0F	1f6b6-1f3ff-200d-27a1-fe0f.png	person walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 27A1	1f6b6-1f3ff-200d-27a1-fe0f.png	person walking facing right: dark skin tone	15.1
+1F6B6 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right	15.1
+1F6B6 200D 2640 200D 27A1 FE0F	1f6b6-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right	15.1
+1F6B6 200D 2640 FE0F 200D 27A1	1f6b6-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right	15.1
+1F6B6 200D 2640 200D 27A1	1f6b6-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right	15.1
+1F6B6 1F3FB 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2640 200D 27A1 FE0F	1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2640 FE0F 200D 27A1	1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2640 200D 27A1	1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: light skin tone	15.1
+1F6B6 1F3FC 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2640 200D 27A1 FE0F	1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2640 FE0F 200D 27A1	1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2640 200D 27A1	1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FD 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2640 200D 27A1 FE0F	1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2640 FE0F 200D 27A1	1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2640 200D 27A1	1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium skin tone	15.1
+1F6B6 1F3FE 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2640 200D 27A1 FE0F	1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2640 FE0F 200D 27A1	1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2640 200D 27A1	1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FF 200D 2640 FE0F 200D 27A1 FE0F	1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2640 200D 27A1 FE0F	1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2640 FE0F 200D 27A1	1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2640 200D 27A1	1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman walking facing right: dark skin tone	15.1
+1F6B6 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right	15.1
+1F6B6 200D 2642 200D 27A1 FE0F	1f6b6-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right	15.1
+1F6B6 200D 2642 FE0F 200D 27A1	1f6b6-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right	15.1
+1F6B6 200D 2642 200D 27A1	1f6b6-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right	15.1
+1F6B6 1F3FB 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2642 200D 27A1 FE0F	1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2642 FE0F 200D 27A1	1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: light skin tone	15.1
+1F6B6 1F3FB 200D 2642 200D 27A1	1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: light skin tone	15.1
+1F6B6 1F3FC 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2642 200D 27A1 FE0F	1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2642 FE0F 200D 27A1	1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FC 200D 2642 200D 27A1	1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-light skin tone	15.1
+1F6B6 1F3FD 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2642 200D 27A1 FE0F	1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2642 FE0F 200D 27A1	1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium skin tone	15.1
+1F6B6 1F3FD 200D 2642 200D 27A1	1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium skin tone	15.1
+1F6B6 1F3FE 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2642 200D 27A1 FE0F	1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2642 FE0F 200D 27A1	1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FE 200D 2642 200D 27A1	1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: medium-dark skin tone	15.1
+1F6B6 1F3FF 200D 2642 FE0F 200D 27A1 FE0F	1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2642 200D 27A1 FE0F	1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2642 FE0F 200D 27A1	1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: dark skin tone	15.1
+1F6B6 1F3FF 200D 2642 200D 27A1	1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man walking facing right: dark skin tone	15.1
+1F9CD 200D 2642	1f9cd-200d-2642-fe0f.png	man standing	12.0
+1F9CD 1F3FB 200D 2642	1f9cd-1f3fb-200d-2642-fe0f.png	man standing: light skin tone	12.0
+1F9CD 1F3FC 200D 2642	1f9cd-1f3fc-200d-2642-fe0f.png	man standing: medium-light skin tone	12.0
+1F9CD 1F3FD 200D 2642	1f9cd-1f3fd-200d-2642-fe0f.png	man standing: medium skin tone	12.0
+1F9CD 1F3FE 200D 2642	1f9cd-1f3fe-200d-2642-fe0f.png	man standing: medium-dark skin tone	12.0
+1F9CD 1F3FF 200D 2642	1f9cd-1f3ff-200d-2642-fe0f.png	man standing: dark skin tone	12.0
+1F9CD 200D 2640	1f9cd-200d-2640-fe0f.png	woman standing	12.0
+1F9CD 1F3FB 200D 2640	1f9cd-1f3fb-200d-2640-fe0f.png	woman standing: light skin tone	12.0
+1F9CD 1F3FC 200D 2640	1f9cd-1f3fc-200d-2640-fe0f.png	woman standing: medium-light skin tone	12.0
+1F9CD 1F3FD 200D 2640	1f9cd-1f3fd-200d-2640-fe0f.png	woman standing: medium skin tone	12.0
+1F9CD 1F3FE 200D 2640	1f9cd-1f3fe-200d-2640-fe0f.png	woman standing: medium-dark skin tone	12.0
+1F9CD 1F3FF 200D 2640	1f9cd-1f3ff-200d-2640-fe0f.png	woman standing: dark skin tone	12.0
+1F9CE 200D 2642	1f9ce-200d-2642-fe0f.png	man kneeling	12.0
+1F9CE 1F3FB 200D 2642	1f9ce-1f3fb-200d-2642-fe0f.png	man kneeling: light skin tone	12.0
+1F9CE 1F3FC 200D 2642	1f9ce-1f3fc-200d-2642-fe0f.png	man kneeling: medium-light skin tone	12.0
+1F9CE 1F3FD 200D 2642	1f9ce-1f3fd-200d-2642-fe0f.png	man kneeling: medium skin tone	12.0
+1F9CE 1F3FE 200D 2642	1f9ce-1f3fe-200d-2642-fe0f.png	man kneeling: medium-dark skin tone	12.0
+1F9CE 1F3FF 200D 2642	1f9ce-1f3ff-200d-2642-fe0f.png	man kneeling: dark skin tone	12.0
+1F9CE 200D 2640	1f9ce-200d-2640-fe0f.png	woman kneeling	12.0
+1F9CE 1F3FB 200D 2640	1f9ce-1f3fb-200d-2640-fe0f.png	woman kneeling: light skin tone	12.0
+1F9CE 1F3FC 200D 2640	1f9ce-1f3fc-200d-2640-fe0f.png	woman kneeling: medium-light skin tone	12.0
+1F9CE 1F3FD 200D 2640	1f9ce-1f3fd-200d-2640-fe0f.png	woman kneeling: medium skin tone	12.0
+1F9CE 1F3FE 200D 2640	1f9ce-1f3fe-200d-2640-fe0f.png	woman kneeling: medium-dark skin tone	12.0
+1F9CE 1F3FF 200D 2640	1f9ce-1f3ff-200d-2640-fe0f.png	woman kneeling: dark skin tone	12.0
+1F9CE 200D 27A1 FE0F	1f9ce-200d-27a1-fe0f.png	person kneeling facing right	15.1
+1F9CE 200D 27A1	1f9ce-200d-27a1-fe0f.png	person kneeling facing right	15.1
+1F9CE 1F3FB 200D 27A1 FE0F	1f9ce-1f3fb-200d-27a1-fe0f.png	person kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 27A1	1f9ce-1f3fb-200d-27a1-fe0f.png	person kneeling facing right: light skin tone	15.1
+1F9CE 1F3FC 200D 27A1 FE0F	1f9ce-1f3fc-200d-27a1-fe0f.png	person kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 27A1	1f9ce-1f3fc-200d-27a1-fe0f.png	person kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FD 200D 27A1 FE0F	1f9ce-1f3fd-200d-27a1-fe0f.png	person kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 27A1	1f9ce-1f3fd-200d-27a1-fe0f.png	person kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FE 200D 27A1 FE0F	1f9ce-1f3fe-200d-27a1-fe0f.png	person kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 27A1	1f9ce-1f3fe-200d-27a1-fe0f.png	person kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FF 200D 27A1 FE0F	1f9ce-1f3ff-200d-27a1-fe0f.png	person kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 27A1	1f9ce-1f3ff-200d-27a1-fe0f.png	person kneeling facing right: dark skin tone	15.1
+1F9CE 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right	15.1
+1F9CE 200D 2640 200D 27A1 FE0F	1f9ce-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right	15.1
+1F9CE 200D 2640 FE0F 200D 27A1	1f9ce-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right	15.1
+1F9CE 200D 2640 200D 27A1	1f9ce-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right	15.1
+1F9CE 1F3FB 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2640 200D 27A1 FE0F	1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2640 FE0F 200D 27A1	1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2640 200D 27A1	1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: light skin tone	15.1
+1F9CE 1F3FC 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2640 200D 27A1 FE0F	1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2640 FE0F 200D 27A1	1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2640 200D 27A1	1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FD 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2640 200D 27A1 FE0F	1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2640 FE0F 200D 27A1	1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2640 200D 27A1	1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FE 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2640 200D 27A1 FE0F	1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2640 FE0F 200D 27A1	1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2640 200D 27A1	1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FF 200D 2640 FE0F 200D 27A1 FE0F	1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2640 200D 27A1 FE0F	1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2640 FE0F 200D 27A1	1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2640 200D 27A1	1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman kneeling facing right: dark skin tone	15.1
+1F9CE 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right	15.1
+1F9CE 200D 2642 200D 27A1 FE0F	1f9ce-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right	15.1
+1F9CE 200D 2642 FE0F 200D 27A1	1f9ce-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right	15.1
+1F9CE 200D 2642 200D 27A1	1f9ce-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right	15.1
+1F9CE 1F3FB 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2642 200D 27A1 FE0F	1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2642 FE0F 200D 27A1	1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: light skin tone	15.1
+1F9CE 1F3FB 200D 2642 200D 27A1	1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: light skin tone	15.1
+1F9CE 1F3FC 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2642 200D 27A1 FE0F	1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2642 FE0F 200D 27A1	1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FC 200D 2642 200D 27A1	1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-light skin tone	15.1
+1F9CE 1F3FD 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2642 200D 27A1 FE0F	1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2642 FE0F 200D 27A1	1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FD 200D 2642 200D 27A1	1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium skin tone	15.1
+1F9CE 1F3FE 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2642 200D 27A1 FE0F	1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2642 FE0F 200D 27A1	1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FE 200D 2642 200D 27A1	1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: medium-dark skin tone	15.1
+1F9CE 1F3FF 200D 2642 FE0F 200D 27A1 FE0F	1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2642 200D 27A1 FE0F	1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2642 FE0F 200D 27A1	1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: dark skin tone	15.1
+1F9CE 1F3FF 200D 2642 200D 27A1	1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man kneeling facing right: dark skin tone	15.1
+1F9D1 200D 1F9AF 200D 27A1 FE0F	1f9d1-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right	15.1
+1F9D1 200D 1F9AF 200D 27A1	1f9d1-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right	15.1
+1F9D1 1F3FB 200D 1F9AF 200D 27A1 FE0F	1f9d1-1f3fb-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: light skin tone	15.1
+1F9D1 1F3FB 200D 1F9AF 200D 27A1	1f9d1-1f3fb-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: light skin tone	15.1
+1F9D1 1F3FC 200D 1F9AF 200D 27A1 FE0F	1f9d1-1f3fc-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium-light skin tone	15.1
+1F9D1 1F3FC 200D 1F9AF 200D 27A1	1f9d1-1f3fc-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium-light skin tone	15.1
+1F9D1 1F3FD 200D 1F9AF 200D 27A1 FE0F	1f9d1-1f3fd-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium skin tone	15.1
+1F9D1 1F3FD 200D 1F9AF 200D 27A1	1f9d1-1f3fd-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium skin tone	15.1
+1F9D1 1F3FE 200D 1F9AF 200D 27A1 FE0F	1f9d1-1f3fe-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium-dark skin tone	15.1
+1F9D1 1F3FE 200D 1F9AF 200D 27A1	1f9d1-1f3fe-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: medium-dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9AF 200D 27A1 FE0F	1f9d1-1f3ff-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9AF 200D 27A1	1f9d1-1f3ff-200d-1f9af-200d-27a1-fe0f.png	person with white cane facing right: dark skin tone	15.1
+1F468 200D 1F9AF 200D 27A1 FE0F	1f468-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right	15.1
+1F468 200D 1F9AF 200D 27A1	1f468-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right	15.1
+1F468 1F3FB 200D 1F9AF 200D 27A1 FE0F	1f468-1f3fb-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: light skin tone	15.1
+1F468 1F3FB 200D 1F9AF 200D 27A1	1f468-1f3fb-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: light skin tone	15.1
+1F468 1F3FC 200D 1F9AF 200D 27A1 FE0F	1f468-1f3fc-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium-light skin tone	15.1
+1F468 1F3FC 200D 1F9AF 200D 27A1	1f468-1f3fc-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium-light skin tone	15.1
+1F468 1F3FD 200D 1F9AF 200D 27A1 FE0F	1f468-1f3fd-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium skin tone	15.1
+1F468 1F3FD 200D 1F9AF 200D 27A1	1f468-1f3fd-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium skin tone	15.1
+1F468 1F3FE 200D 1F9AF 200D 27A1 FE0F	1f468-1f3fe-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium-dark skin tone	15.1
+1F468 1F3FE 200D 1F9AF 200D 27A1	1f468-1f3fe-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: medium-dark skin tone	15.1
+1F468 1F3FF 200D 1F9AF 200D 27A1 FE0F	1f468-1f3ff-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: dark skin tone	15.1
+1F468 1F3FF 200D 1F9AF 200D 27A1	1f468-1f3ff-200d-1f9af-200d-27a1-fe0f.png	man with white cane facing right: dark skin tone	15.1
+1F469 200D 1F9AF 200D 27A1 FE0F	1f469-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right	15.1
+1F469 200D 1F9AF 200D 27A1	1f469-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right	15.1
+1F469 1F3FB 200D 1F9AF 200D 27A1 FE0F	1f469-1f3fb-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: light skin tone	15.1
+1F469 1F3FB 200D 1F9AF 200D 27A1	1f469-1f3fb-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: light skin tone	15.1
+1F469 1F3FC 200D 1F9AF 200D 27A1 FE0F	1f469-1f3fc-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium-light skin tone	15.1
+1F469 1F3FC 200D 1F9AF 200D 27A1	1f469-1f3fc-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium-light skin tone	15.1
+1F469 1F3FD 200D 1F9AF 200D 27A1 FE0F	1f469-1f3fd-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium skin tone	15.1
+1F469 1F3FD 200D 1F9AF 200D 27A1	1f469-1f3fd-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium skin tone	15.1
+1F469 1F3FE 200D 1F9AF 200D 27A1 FE0F	1f469-1f3fe-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium-dark skin tone	15.1
+1F469 1F3FE 200D 1F9AF 200D 27A1	1f469-1f3fe-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: medium-dark skin tone	15.1
+1F469 1F3FF 200D 1F9AF 200D 27A1 FE0F	1f469-1f3ff-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: dark skin tone	15.1
+1F469 1F3FF 200D 1F9AF 200D 27A1	1f469-1f3ff-200d-1f9af-200d-27a1-fe0f.png	woman with white cane facing right: dark skin tone	15.1
+1F9D1 200D 1F9BC 200D 27A1 FE0F	1f9d1-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right	15.1
+1F9D1 200D 1F9BC 200D 27A1	1f9d1-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right	15.1
+1F9D1 1F3FB 200D 1F9BC 200D 27A1 FE0F	1f9d1-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: light skin tone	15.1
+1F9D1 1F3FB 200D 1F9BC 200D 27A1	1f9d1-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: light skin tone	15.1
+1F9D1 1F3FC 200D 1F9BC 200D 27A1 FE0F	1f9d1-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium-light skin tone	15.1
+1F9D1 1F3FC 200D 1F9BC 200D 27A1	1f9d1-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium-light skin tone	15.1
+1F9D1 1F3FD 200D 1F9BC 200D 27A1 FE0F	1f9d1-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium skin tone	15.1
+1F9D1 1F3FD 200D 1F9BC 200D 27A1	1f9d1-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium skin tone	15.1
+1F9D1 1F3FE 200D 1F9BC 200D 27A1 FE0F	1f9d1-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F9D1 1F3FE 200D 1F9BC 200D 27A1	1f9d1-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9BC 200D 27A1 FE0F	1f9d1-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9BC 200D 27A1	1f9d1-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	person in motorized wheelchair facing right: dark skin tone	15.1
+1F468 200D 1F9BC 200D 27A1 FE0F	1f468-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right	15.1
+1F468 200D 1F9BC 200D 27A1	1f468-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right	15.1
+1F468 1F3FB 200D 1F9BC 200D 27A1 FE0F	1f468-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: light skin tone	15.1
+1F468 1F3FB 200D 1F9BC 200D 27A1	1f468-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: light skin tone	15.1
+1F468 1F3FC 200D 1F9BC 200D 27A1 FE0F	1f468-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium-light skin tone	15.1
+1F468 1F3FC 200D 1F9BC 200D 27A1	1f468-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium-light skin tone	15.1
+1F468 1F3FD 200D 1F9BC 200D 27A1 FE0F	1f468-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium skin tone	15.1
+1F468 1F3FD 200D 1F9BC 200D 27A1	1f468-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium skin tone	15.1
+1F468 1F3FE 200D 1F9BC 200D 27A1 FE0F	1f468-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F468 1F3FE 200D 1F9BC 200D 27A1	1f468-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F468 1F3FF 200D 1F9BC 200D 27A1 FE0F	1f468-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: dark skin tone	15.1
+1F468 1F3FF 200D 1F9BC 200D 27A1	1f468-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	man in motorized wheelchair facing right: dark skin tone	15.1
+1F469 200D 1F9BC 200D 27A1 FE0F	1f469-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right	15.1
+1F469 200D 1F9BC 200D 27A1	1f469-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right	15.1
+1F469 1F3FB 200D 1F9BC 200D 27A1 FE0F	1f469-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: light skin tone	15.1
+1F469 1F3FB 200D 1F9BC 200D 27A1	1f469-1f3fb-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: light skin tone	15.1
+1F469 1F3FC 200D 1F9BC 200D 27A1 FE0F	1f469-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium-light skin tone	15.1
+1F469 1F3FC 200D 1F9BC 200D 27A1	1f469-1f3fc-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium-light skin tone	15.1
+1F469 1F3FD 200D 1F9BC 200D 27A1 FE0F	1f469-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium skin tone	15.1
+1F469 1F3FD 200D 1F9BC 200D 27A1	1f469-1f3fd-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium skin tone	15.1
+1F469 1F3FE 200D 1F9BC 200D 27A1 FE0F	1f469-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F469 1F3FE 200D 1F9BC 200D 27A1	1f469-1f3fe-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: medium-dark skin tone	15.1
+1F469 1F3FF 200D 1F9BC 200D 27A1 FE0F	1f469-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: dark skin tone	15.1
+1F469 1F3FF 200D 1F9BC 200D 27A1	1f469-1f3ff-200d-1f9bc-200d-27a1-fe0f.png	woman in motorized wheelchair facing right: dark skin tone	15.1
+1F9D1 200D 1F9BD 200D 27A1 FE0F	1f9d1-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right	15.1
+1F9D1 200D 1F9BD 200D 27A1	1f9d1-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right	15.1
+1F9D1 1F3FB 200D 1F9BD 200D 27A1 FE0F	1f9d1-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: light skin tone	15.1
+1F9D1 1F3FB 200D 1F9BD 200D 27A1	1f9d1-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: light skin tone	15.1
+1F9D1 1F3FC 200D 1F9BD 200D 27A1 FE0F	1f9d1-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium-light skin tone	15.1
+1F9D1 1F3FC 200D 1F9BD 200D 27A1	1f9d1-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium-light skin tone	15.1
+1F9D1 1F3FD 200D 1F9BD 200D 27A1 FE0F	1f9d1-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium skin tone	15.1
+1F9D1 1F3FD 200D 1F9BD 200D 27A1	1f9d1-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium skin tone	15.1
+1F9D1 1F3FE 200D 1F9BD 200D 27A1 FE0F	1f9d1-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium-dark skin tone	15.1
+1F9D1 1F3FE 200D 1F9BD 200D 27A1	1f9d1-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: medium-dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9BD 200D 27A1 FE0F	1f9d1-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: dark skin tone	15.1
+1F9D1 1F3FF 200D 1F9BD 200D 27A1	1f9d1-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	person in manual wheelchair facing right: dark skin tone	15.1
+1F468 200D 1F9BD 200D 27A1 FE0F	1f468-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right	15.1
+1F468 200D 1F9BD 200D 27A1	1f468-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right	15.1
+1F468 1F3FB 200D 1F9BD 200D 27A1 FE0F	1f468-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: light skin tone	15.1
+1F468 1F3FB 200D 1F9BD 200D 27A1	1f468-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: light skin tone	15.1
+1F468 1F3FC 200D 1F9BD 200D 27A1 FE0F	1f468-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium-light skin tone	15.1
+1F468 1F3FC 200D 1F9BD 200D 27A1	1f468-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium-light skin tone	15.1
+1F468 1F3FD 200D 1F9BD 200D 27A1 FE0F	1f468-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium skin tone	15.1
+1F468 1F3FD 200D 1F9BD 200D 27A1	1f468-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium skin tone	15.1
+1F468 1F3FE 200D 1F9BD 200D 27A1 FE0F	1f468-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium-dark skin tone	15.1
+1F468 1F3FE 200D 1F9BD 200D 27A1	1f468-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: medium-dark skin tone	15.1
+1F468 1F3FF 200D 1F9BD 200D 27A1 FE0F	1f468-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: dark skin tone	15.1
+1F468 1F3FF 200D 1F9BD 200D 27A1	1f468-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	man in manual wheelchair facing right: dark skin tone	15.1
+1F469 200D 1F9BD 200D 27A1 FE0F	1f469-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right	15.1
+1F469 200D 1F9BD 200D 27A1	1f469-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right	15.1
+1F469 1F3FB 200D 1F9BD 200D 27A1 FE0F	1f469-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: light skin tone	15.1
+1F469 1F3FB 200D 1F9BD 200D 27A1	1f469-1f3fb-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: light skin tone	15.1
+1F469 1F3FC 200D 1F9BD 200D 27A1 FE0F	1f469-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium-light skin tone	15.1
+1F469 1F3FC 200D 1F9BD 200D 27A1	1f469-1f3fc-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium-light skin tone	15.1
+1F469 1F3FD 200D 1F9BD 200D 27A1 FE0F	1f469-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium skin tone	15.1
+1F469 1F3FD 200D 1F9BD 200D 27A1	1f469-1f3fd-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium skin tone	15.1
+1F469 1F3FE 200D 1F9BD 200D 27A1 FE0F	1f469-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium-dark skin tone	15.1
+1F469 1F3FE 200D 1F9BD 200D 27A1	1f469-1f3fe-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: medium-dark skin tone	15.1
+1F469 1F3FF 200D 1F9BD 200D 27A1 FE0F	1f469-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: dark skin tone	15.1
+1F469 1F3FF 200D 1F9BD 200D 27A1	1f469-1f3ff-200d-1f9bd-200d-27a1-fe0f.png	woman in manual wheelchair facing right: dark skin tone	15.1
+1F3C3 200D 2642	1f3c3-200d-2642-fe0f.png	man running	4.0
+1F3C3 1F3FB 200D 2642	1f3c3-1f3fb-200d-2642-fe0f.png	man running: light skin tone	4.0
+1F3C3 1F3FC 200D 2642	1f3c3-1f3fc-200d-2642-fe0f.png	man running: medium-light skin tone	4.0
+1F3C3 1F3FD 200D 2642	1f3c3-1f3fd-200d-2642-fe0f.png	man running: medium skin tone	4.0
+1F3C3 1F3FE 200D 2642	1f3c3-1f3fe-200d-2642-fe0f.png	man running: medium-dark skin tone	4.0
+1F3C3 1F3FF 200D 2642	1f3c3-1f3ff-200d-2642-fe0f.png	man running: dark skin tone	4.0
+1F3C3 200D 2640	1f3c3-200d-2640-fe0f.png	woman running	4.0
+1F3C3 1F3FB 200D 2640	1f3c3-1f3fb-200d-2640-fe0f.png	woman running: light skin tone	4.0
+1F3C3 1F3FC 200D 2640	1f3c3-1f3fc-200d-2640-fe0f.png	woman running: medium-light skin tone	4.0
+1F3C3 1F3FD 200D 2640	1f3c3-1f3fd-200d-2640-fe0f.png	woman running: medium skin tone	4.0
+1F3C3 1F3FE 200D 2640	1f3c3-1f3fe-200d-2640-fe0f.png	woman running: medium-dark skin tone	4.0
+1F3C3 1F3FF 200D 2640	1f3c3-1f3ff-200d-2640-fe0f.png	woman running: dark skin tone	4.0
+1F3C3 200D 27A1 FE0F	1f3c3-200d-27a1-fe0f.png	person running facing right	15.1
+1F3C3 200D 27A1	1f3c3-200d-27a1-fe0f.png	person running facing right	15.1
+1F3C3 1F3FB 200D 27A1 FE0F	1f3c3-1f3fb-200d-27a1-fe0f.png	person running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 27A1	1f3c3-1f3fb-200d-27a1-fe0f.png	person running facing right: light skin tone	15.1
+1F3C3 1F3FC 200D 27A1 FE0F	1f3c3-1f3fc-200d-27a1-fe0f.png	person running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 27A1	1f3c3-1f3fc-200d-27a1-fe0f.png	person running facing right: medium-light skin tone	15.1
+1F3C3 1F3FD 200D 27A1 FE0F	1f3c3-1f3fd-200d-27a1-fe0f.png	person running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 27A1	1f3c3-1f3fd-200d-27a1-fe0f.png	person running facing right: medium skin tone	15.1
+1F3C3 1F3FE 200D 27A1 FE0F	1f3c3-1f3fe-200d-27a1-fe0f.png	person running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 27A1	1f3c3-1f3fe-200d-27a1-fe0f.png	person running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FF 200D 27A1 FE0F	1f3c3-1f3ff-200d-27a1-fe0f.png	person running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 27A1	1f3c3-1f3ff-200d-27a1-fe0f.png	person running facing right: dark skin tone	15.1
+1F3C3 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right	15.1
+1F3C3 200D 2640 200D 27A1 FE0F	1f3c3-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right	15.1
+1F3C3 200D 2640 FE0F 200D 27A1	1f3c3-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right	15.1
+1F3C3 200D 2640 200D 27A1	1f3c3-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right	15.1
+1F3C3 1F3FB 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2640 200D 27A1 FE0F	1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2640 FE0F 200D 27A1	1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2640 200D 27A1	1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: light skin tone	15.1
+1F3C3 1F3FC 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2640 200D 27A1 FE0F	1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2640 FE0F 200D 27A1	1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2640 200D 27A1	1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-light skin tone	15.1
+1F3C3 1F3FD 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2640 200D 27A1 FE0F	1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2640 FE0F 200D 27A1	1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2640 200D 27A1	1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium skin tone	15.1
+1F3C3 1F3FE 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2640 200D 27A1 FE0F	1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2640 FE0F 200D 27A1	1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2640 200D 27A1	1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FF 200D 2640 FE0F 200D 27A1 FE0F	1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2640 200D 27A1 FE0F	1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2640 FE0F 200D 27A1	1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2640 200D 27A1	1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png	woman running facing right: dark skin tone	15.1
+1F3C3 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right	15.1
+1F3C3 200D 2642 200D 27A1 FE0F	1f3c3-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right	15.1
+1F3C3 200D 2642 FE0F 200D 27A1	1f3c3-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right	15.1
+1F3C3 200D 2642 200D 27A1	1f3c3-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right	15.1
+1F3C3 1F3FB 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2642 200D 27A1 FE0F	1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2642 FE0F 200D 27A1	1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: light skin tone	15.1
+1F3C3 1F3FB 200D 2642 200D 27A1	1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: light skin tone	15.1
+1F3C3 1F3FC 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2642 200D 27A1 FE0F	1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2642 FE0F 200D 27A1	1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-light skin tone	15.1
+1F3C3 1F3FC 200D 2642 200D 27A1	1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-light skin tone	15.1
+1F3C3 1F3FD 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2642 200D 27A1 FE0F	1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2642 FE0F 200D 27A1	1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium skin tone	15.1
+1F3C3 1F3FD 200D 2642 200D 27A1	1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium skin tone	15.1
+1F3C3 1F3FE 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2642 200D 27A1 FE0F	1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2642 FE0F 200D 27A1	1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FE 200D 2642 200D 27A1	1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: medium-dark skin tone	15.1
+1F3C3 1F3FF 200D 2642 FE0F 200D 27A1 FE0F	1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2642 200D 27A1 FE0F	1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2642 FE0F 200D 27A1	1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: dark skin tone	15.1
+1F3C3 1F3FF 200D 2642 200D 27A1	1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png	man running facing right: dark skin tone	15.1
+1F9D1 200D 1FA70	1f9d1-200d-1fa70.png	ballet dancer	17.0
+1F9D1 1F3FB 200D 1FA70	1f9d1-1f3fb-200d-1fa70.png	ballet dancer: light skin tone	17.0
+1F9D1 1F3FC 200D 1FA70	1f9d1-1f3fc-200d-1fa70.png	ballet dancer: medium-light skin tone	17.0
+1F9D1 1F3FD 200D 1FA70	1f9d1-1f3fd-200d-1fa70.png	ballet dancer: medium skin tone	17.0
+1F9D1 1F3FE 200D 1FA70	1f9d1-1f3fe-200d-1fa70.png	ballet dancer: medium-dark skin tone	17.0
+1F9D1 1F3FF 200D 1FA70	1f9d1-1f3ff-200d-1fa70.png	ballet dancer: dark skin tone	17.0
+1F574 FE0F	1f574.png	person in suit levitating	0.7
+1F46F 1F3FB	1f46f-1f3fb.png	people with bunny ears: light skin tone	17.0
+1F46F 1F3FC	1f46f-1f3fc.png	people with bunny ears: medium-light skin tone	17.0
+1F46F 1F3FD	1f46f-1f3fd.png	people with bunny ears: medium skin tone	17.0
+1F46F 1F3FE	1f46f-1f3fe.png	people with bunny ears: medium-dark skin tone	17.0
+1F46F 1F3FF	1f46f-1f3ff.png	people with bunny ears: dark skin tone	17.0
+1F46F 200D 2642	1f46f-200d-2642-fe0f.png	men with bunny ears	4.0
+1F46F 1F3FB 200D 2642 FE0F	1f46f-1f3fb-200d-2642-fe0f.png	men with bunny ears: light skin tone	17.0
+1F46F 1F3FB 200D 2642	1f46f-1f3fb-200d-2642-fe0f.png	men with bunny ears: light skin tone	17.0
+1F46F 1F3FC 200D 2642 FE0F	1f46f-1f3fc-200d-2642-fe0f.png	men with bunny ears: medium-light skin tone	17.0
+1F46F 1F3FC 200D 2642	1f46f-1f3fc-200d-2642-fe0f.png	men with bunny ears: medium-light skin tone	17.0
+1F46F 1F3FD 200D 2642 FE0F	1f46f-1f3fd-200d-2642-fe0f.png	men with bunny ears: medium skin tone	17.0
+1F46F 1F3FD 200D 2642	1f46f-1f3fd-200d-2642-fe0f.png	men with bunny ears: medium skin tone	17.0
+1F46F 1F3FE 200D 2642 FE0F	1f46f-1f3fe-200d-2642-fe0f.png	men with bunny ears: medium-dark skin tone	17.0
+1F46F 1F3FE 200D 2642	1f46f-1f3fe-200d-2642-fe0f.png	men with bunny ears: medium-dark skin tone	17.0
+1F46F 1F3FF 200D 2642 FE0F	1f46f-1f3ff-200d-2642-fe0f.png	men with bunny ears: dark skin tone	17.0
+1F46F 1F3FF 200D 2642	1f46f-1f3ff-200d-2642-fe0f.png	men with bunny ears: dark skin tone	17.0
+1F46F 200D 2640	1f46f-200d-2640-fe0f.png	women with bunny ears	4.0
+1F46F 1F3FB 200D 2640 FE0F	1f46f-1f3fb-200d-2640-fe0f.png	women with bunny ears: light skin tone	17.0
+1F46F 1F3FB 200D 2640	1f46f-1f3fb-200d-2640-fe0f.png	women with bunny ears: light skin tone	17.0
+1F46F 1F3FC 200D 2640 FE0F	1f46f-1f3fc-200d-2640-fe0f.png	women with bunny ears: medium-light skin tone	17.0
+1F46F 1F3FC 200D 2640	1f46f-1f3fc-200d-2640-fe0f.png	women with bunny ears: medium-light skin tone	17.0
+1F46F 1F3FD 200D 2640 FE0F	1f46f-1f3fd-200d-2640-fe0f.png	women with bunny ears: medium skin tone	17.0
+1F46F 1F3FD 200D 2640	1f46f-1f3fd-200d-2640-fe0f.png	women with bunny ears: medium skin tone	17.0
+1F46F 1F3FE 200D 2640 FE0F	1f46f-1f3fe-200d-2640-fe0f.png	women with bunny ears: medium-dark skin tone	17.0
+1F46F 1F3FE 200D 2640	1f46f-1f3fe-200d-2640-fe0f.png	women with bunny ears: medium-dark skin tone	17.0
+1F46F 1F3FF 200D 2640 FE0F	1f46f-1f3ff-200d-2640-fe0f.png	women with bunny ears: dark skin tone	17.0
+1F46F 1F3FF 200D 2640	1f46f-1f3ff-200d-2640-fe0f.png	women with bunny ears: dark skin tone	17.0
+1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FC	1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fc.png	people with bunny ears: light skin tone, medium-light skin tone	17.0
+1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FD	1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fd.png	people with bunny ears: light skin tone, medium skin tone	17.0
+1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FE	1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fe.png	people with bunny ears: light skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FB 200D 1F430 200D 1F9D1 1F3FF	1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3ff.png	people with bunny ears: light skin tone, dark skin tone	17.0
+1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FB	1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fb.png	people with bunny ears: medium-light skin tone, light skin tone	17.0
+1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FD	1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fd.png	people with bunny ears: medium-light skin tone, medium skin tone	17.0
+1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FE	1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fe.png	people with bunny ears: medium-light skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FC 200D 1F430 200D 1F9D1 1F3FF	1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3ff.png	people with bunny ears: medium-light skin tone, dark skin tone	17.0
+1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FB	1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fb.png	people with bunny ears: medium skin tone, light skin tone	17.0
+1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FC	1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fc.png	people with bunny ears: medium skin tone, medium-light skin tone	17.0
+1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FE	1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fe.png	people with bunny ears: medium skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FD 200D 1F430 200D 1F9D1 1F3FF	1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3ff.png	people with bunny ears: medium skin tone, dark skin tone	17.0
+1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FB	1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fb.png	people with bunny ears: medium-dark skin tone, light skin tone	17.0
+1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FC	1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fc.png	people with bunny ears: medium-dark skin tone, medium-light skin tone	17.0
+1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FD	1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fd.png	people with bunny ears: medium-dark skin tone, medium skin tone	17.0
+1F9D1 1F3FE 200D 1F430 200D 1F9D1 1F3FF	1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3ff.png	people with bunny ears: medium-dark skin tone, dark skin tone	17.0
+1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FB	1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fb.png	people with bunny ears: dark skin tone, light skin tone	17.0
+1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FC	1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fc.png	people with bunny ears: dark skin tone, medium-light skin tone	17.0
+1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FD	1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fd.png	people with bunny ears: dark skin tone, medium skin tone	17.0
+1F9D1 1F3FF 200D 1F430 200D 1F9D1 1F3FE	1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fe.png	people with bunny ears: dark skin tone, medium-dark skin tone	17.0
+1F468 1F3FB 200D 1F430 200D 1F468 1F3FC	1f468-1f3fb-200d-1f430-200d-1f468-1f3fc.png	men with bunny ears: light skin tone, medium-light skin tone	17.0
+1F468 1F3FB 200D 1F430 200D 1F468 1F3FD	1f468-1f3fb-200d-1f430-200d-1f468-1f3fd.png	men with bunny ears: light skin tone, medium skin tone	17.0
+1F468 1F3FB 200D 1F430 200D 1F468 1F3FE	1f468-1f3fb-200d-1f430-200d-1f468-1f3fe.png	men with bunny ears: light skin tone, medium-dark skin tone	17.0
+1F468 1F3FB 200D 1F430 200D 1F468 1F3FF	1f468-1f3fb-200d-1f430-200d-1f468-1f3ff.png	men with bunny ears: light skin tone, dark skin tone	17.0
+1F468 1F3FC 200D 1F430 200D 1F468 1F3FB	1f468-1f3fc-200d-1f430-200d-1f468-1f3fb.png	men with bunny ears: medium-light skin tone, light skin tone	17.0
+1F468 1F3FC 200D 1F430 200D 1F468 1F3FD	1f468-1f3fc-200d-1f430-200d-1f468-1f3fd.png	men with bunny ears: medium-light skin tone, medium skin tone	17.0
+1F468 1F3FC 200D 1F430 200D 1F468 1F3FE	1f468-1f3fc-200d-1f430-200d-1f468-1f3fe.png	men with bunny ears: medium-light skin tone, medium-dark skin tone	17.0
+1F468 1F3FC 200D 1F430 200D 1F468 1F3FF	1f468-1f3fc-200d-1f430-200d-1f468-1f3ff.png	men with bunny ears: medium-light skin tone, dark skin tone	17.0
+1F468 1F3FD 200D 1F430 200D 1F468 1F3FB	1f468-1f3fd-200d-1f430-200d-1f468-1f3fb.png	men with bunny ears: medium skin tone, light skin tone	17.0
+1F468 1F3FD 200D 1F430 200D 1F468 1F3FC	1f468-1f3fd-200d-1f430-200d-1f468-1f3fc.png	men with bunny ears: medium skin tone, medium-light skin tone	17.0
+1F468 1F3FD 200D 1F430 200D 1F468 1F3FE	1f468-1f3fd-200d-1f430-200d-1f468-1f3fe.png	men with bunny ears: medium skin tone, medium-dark skin tone	17.0
+1F468 1F3FD 200D 1F430 200D 1F468 1F3FF	1f468-1f3fd-200d-1f430-200d-1f468-1f3ff.png	men with bunny ears: medium skin tone, dark skin tone	17.0
+1F468 1F3FE 200D 1F430 200D 1F468 1F3FB	1f468-1f3fe-200d-1f430-200d-1f468-1f3fb.png	men with bunny ears: medium-dark skin tone, light skin tone	17.0
+1F468 1F3FE 200D 1F430 200D 1F468 1F3FC	1f468-1f3fe-200d-1f430-200d-1f468-1f3fc.png	men with bunny ears: medium-dark skin tone, medium-light skin tone	17.0
+1F468 1F3FE 200D 1F430 200D 1F468 1F3FD	1f468-1f3fe-200d-1f430-200d-1f468-1f3fd.png	men with bunny ears: medium-dark skin tone, medium skin tone	17.0
+1F468 1F3FE 200D 1F430 200D 1F468 1F3FF	1f468-1f3fe-200d-1f430-200d-1f468-1f3ff.png	men with bunny ears: medium-dark skin tone, dark skin tone	17.0
+1F468 1F3FF 200D 1F430 200D 1F468 1F3FB	1f468-1f3ff-200d-1f430-200d-1f468-1f3fb.png	men with bunny ears: dark skin tone, light skin tone	17.0
+1F468 1F3FF 200D 1F430 200D 1F468 1F3FC	1f468-1f3ff-200d-1f430-200d-1f468-1f3fc.png	men with bunny ears: dark skin tone, medium-light skin tone	17.0
+1F468 1F3FF 200D 1F430 200D 1F468 1F3FD	1f468-1f3ff-200d-1f430-200d-1f468-1f3fd.png	men with bunny ears: dark skin tone, medium skin tone	17.0
+1F468 1F3FF 200D 1F430 200D 1F468 1F3FE	1f468-1f3ff-200d-1f430-200d-1f468-1f3fe.png	men with bunny ears: dark skin tone, medium-dark skin tone	17.0
+1F469 1F3FB 200D 1F430 200D 1F469 1F3FC	1f469-1f3fb-200d-1f430-200d-1f469-1f3fc.png	women with bunny ears: light skin tone, medium-light skin tone	17.0
+1F469 1F3FB 200D 1F430 200D 1F469 1F3FD	1f469-1f3fb-200d-1f430-200d-1f469-1f3fd.png	women with bunny ears: light skin tone, medium skin tone	17.0
+1F469 1F3FB 200D 1F430 200D 1F469 1F3FE	1f469-1f3fb-200d-1f430-200d-1f469-1f3fe.png	women with bunny ears: light skin tone, medium-dark skin tone	17.0
+1F469 1F3FB 200D 1F430 200D 1F469 1F3FF	1f469-1f3fb-200d-1f430-200d-1f469-1f3ff.png	women with bunny ears: light skin tone, dark skin tone	17.0
+1F469 1F3FC 200D 1F430 200D 1F469 1F3FB	1f469-1f3fc-200d-1f430-200d-1f469-1f3fb.png	women with bunny ears: medium-light skin tone, light skin tone	17.0
+1F469 1F3FC 200D 1F430 200D 1F469 1F3FD	1f469-1f3fc-200d-1f430-200d-1f469-1f3fd.png	women with bunny ears: medium-light skin tone, medium skin tone	17.0
+1F469 1F3FC 200D 1F430 200D 1F469 1F3FE	1f469-1f3fc-200d-1f430-200d-1f469-1f3fe.png	women with bunny ears: medium-light skin tone, medium-dark skin tone	17.0
+1F469 1F3FC 200D 1F430 200D 1F469 1F3FF	1f469-1f3fc-200d-1f430-200d-1f469-1f3ff.png	women with bunny ears: medium-light skin tone, dark skin tone	17.0
+1F469 1F3FD 200D 1F430 200D 1F469 1F3FB	1f469-1f3fd-200d-1f430-200d-1f469-1f3fb.png	women with bunny ears: medium skin tone, light skin tone	17.0
+1F469 1F3FD 200D 1F430 200D 1F469 1F3FC	1f469-1f3fd-200d-1f430-200d-1f469-1f3fc.png	women with bunny ears: medium skin tone, medium-light skin tone	17.0
+1F469 1F3FD 200D 1F430 200D 1F469 1F3FE	1f469-1f3fd-200d-1f430-200d-1f469-1f3fe.png	women with bunny ears: medium skin tone, medium-dark skin tone	17.0
+1F469 1F3FD 200D 1F430 200D 1F469 1F3FF	1f469-1f3fd-200d-1f430-200d-1f469-1f3ff.png	women with bunny ears: medium skin tone, dark skin tone	17.0
+1F469 1F3FE 200D 1F430 200D 1F469 1F3FB	1f469-1f3fe-200d-1f430-200d-1f469-1f3fb.png	women with bunny ears: medium-dark skin tone, light skin tone	17.0
+1F469 1F3FE 200D 1F430 200D 1F469 1F3FC	1f469-1f3fe-200d-1f430-200d-1f469-1f3fc.png	women with bunny ears: medium-dark skin tone, medium-light skin tone	17.0
+1F469 1F3FE 200D 1F430 200D 1F469 1F3FD	1f469-1f3fe-200d-1f430-200d-1f469-1f3fd.png	women with bunny ears: medium-dark skin tone, medium skin tone	17.0
+1F469 1F3FE 200D 1F430 200D 1F469 1F3FF	1f469-1f3fe-200d-1f430-200d-1f469-1f3ff.png	women with bunny ears: medium-dark skin tone, dark skin tone	17.0
+1F469 1F3FF 200D 1F430 200D 1F469 1F3FB	1f469-1f3ff-200d-1f430-200d-1f469-1f3fb.png	women with bunny ears: dark skin tone, light skin tone	17.0
+1F469 1F3FF 200D 1F430 200D 1F469 1F3FC	1f469-1f3ff-200d-1f430-200d-1f469-1f3fc.png	women with bunny ears: dark skin tone, medium-light skin tone	17.0
+1F469 1F3FF 200D 1F430 200D 1F469 1F3FD	1f469-1f3ff-200d-1f430-200d-1f469-1f3fd.png	women with bunny ears: dark skin tone, medium skin tone	17.0
+1F469 1F3FF 200D 1F430 200D 1F469 1F3FE	1f469-1f3ff-200d-1f430-200d-1f469-1f3fe.png	women with bunny ears: dark skin tone, medium-dark skin tone	17.0
+1F9D6 200D 2642	1f9d6-200d-2642-fe0f.png	man in steamy room	5.0
+1F9D6 1F3FB 200D 2642	1f9d6-1f3fb-200d-2642-fe0f.png	man in steamy room: light skin tone	5.0
+1F9D6 1F3FC 200D 2642	1f9d6-1f3fc-200d-2642-fe0f.png	man in steamy room: medium-light skin tone	5.0
+1F9D6 1F3FD 200D 2642	1f9d6-1f3fd-200d-2642-fe0f.png	man in steamy room: medium skin tone	5.0
+1F9D6 1F3FE 200D 2642	1f9d6-1f3fe-200d-2642-fe0f.png	man in steamy room: medium-dark skin tone	5.0
+1F9D6 1F3FF 200D 2642	1f9d6-1f3ff-200d-2642-fe0f.png	man in steamy room: dark skin tone	5.0
+1F9D6 200D 2640	1f9d6-200d-2640-fe0f.png	woman in steamy room	5.0
+1F9D6 1F3FB 200D 2640	1f9d6-1f3fb-200d-2640-fe0f.png	woman in steamy room: light skin tone	5.0
+1F9D6 1F3FC 200D 2640	1f9d6-1f3fc-200d-2640-fe0f.png	woman in steamy room: medium-light skin tone	5.0
+1F9D6 1F3FD 200D 2640	1f9d6-1f3fd-200d-2640-fe0f.png	woman in steamy room: medium skin tone	5.0
+1F9D6 1F3FE 200D 2640	1f9d6-1f3fe-200d-2640-fe0f.png	woman in steamy room: medium-dark skin tone	5.0
+1F9D6 1F3FF 200D 2640	1f9d6-1f3ff-200d-2640-fe0f.png	woman in steamy room: dark skin tone	5.0
+1F9D7 200D 2642	1f9d7-200d-2642-fe0f.png	man climbing	5.0
+1F9D7 1F3FB 200D 2642	1f9d7-1f3fb-200d-2642-fe0f.png	man climbing: light skin tone	5.0
+1F9D7 1F3FC 200D 2642	1f9d7-1f3fc-200d-2642-fe0f.png	man climbing: medium-light skin tone	5.0
+1F9D7 1F3FD 200D 2642	1f9d7-1f3fd-200d-2642-fe0f.png	man climbing: medium skin tone	5.0
+1F9D7 1F3FE 200D 2642	1f9d7-1f3fe-200d-2642-fe0f.png	man climbing: medium-dark skin tone	5.0
+1F9D7 1F3FF 200D 2642	1f9d7-1f3ff-200d-2642-fe0f.png	man climbing: dark skin tone	5.0
+1F9D7 200D 2640	1f9d7-200d-2640-fe0f.png	woman climbing	5.0
+1F9D7 1F3FB 200D 2640	1f9d7-1f3fb-200d-2640-fe0f.png	woman climbing: light skin tone	5.0
+1F9D7 1F3FC 200D 2640	1f9d7-1f3fc-200d-2640-fe0f.png	woman climbing: medium-light skin tone	5.0
+1F9D7 1F3FD 200D 2640	1f9d7-1f3fd-200d-2640-fe0f.png	woman climbing: medium skin tone	5.0
+1F9D7 1F3FE 200D 2640	1f9d7-1f3fe-200d-2640-fe0f.png	woman climbing: medium-dark skin tone	5.0
+1F9D7 1F3FF 200D 2640	1f9d7-1f3ff-200d-2640-fe0f.png	woman climbing: dark skin tone	5.0
+26F7 FE0F	26f7.png	skier	0.7
+1F3CC FE0F	1f3cc.png	person golfing	0.7
+1F3CC 200D 2642 FE0F	1f3cc-fe0f-200d-2642-fe0f.png	man golfing	4.0
+1F3CC FE0F 200D 2642	1f3cc-fe0f-200d-2642-fe0f.png	man golfing	4.0
+1F3CC 200D 2642	1f3cc-fe0f-200d-2642-fe0f.png	man golfing	4.0
+1F3CC 1F3FB 200D 2642	1f3cc-1f3fb-200d-2642-fe0f.png	man golfing: light skin tone	4.0
+1F3CC 1F3FC 200D 2642	1f3cc-1f3fc-200d-2642-fe0f.png	man golfing: medium-light skin tone	4.0
+1F3CC 1F3FD 200D 2642	1f3cc-1f3fd-200d-2642-fe0f.png	man golfing: medium skin tone	4.0
+1F3CC 1F3FE 200D 2642	1f3cc-1f3fe-200d-2642-fe0f.png	man golfing: medium-dark skin tone	4.0
+1F3CC 1F3FF 200D 2642	1f3cc-1f3ff-200d-2642-fe0f.png	man golfing: dark skin tone	4.0
+1F3CC 200D 2640 FE0F	1f3cc-fe0f-200d-2640-fe0f.png	woman golfing	4.0
+1F3CC FE0F 200D 2640	1f3cc-fe0f-200d-2640-fe0f.png	woman golfing	4.0
+1F3CC 200D 2640	1f3cc-fe0f-200d-2640-fe0f.png	woman golfing	4.0
+1F3CC 1F3FB 200D 2640	1f3cc-1f3fb-200d-2640-fe0f.png	woman golfing: light skin tone	4.0
+1F3CC 1F3FC 200D 2640	1f3cc-1f3fc-200d-2640-fe0f.png	woman golfing: medium-light skin tone	4.0
+1F3CC 1F3FD 200D 2640	1f3cc-1f3fd-200d-2640-fe0f.png	woman golfing: medium skin tone	4.0
+1F3CC 1F3FE 200D 2640	1f3cc-1f3fe-200d-2640-fe0f.png	woman golfing: medium-dark skin tone	4.0
+1F3CC 1F3FF 200D 2640	1f3cc-1f3ff-200d-2640-fe0f.png	woman golfing: dark skin tone	4.0
+1F3C4 200D 2642	1f3c4-200d-2642-fe0f.png	man surfing	4.0
+1F3C4 1F3FB 200D 2642	1f3c4-1f3fb-200d-2642-fe0f.png	man surfing: light skin tone	4.0
+1F3C4 1F3FC 200D 2642	1f3c4-1f3fc-200d-2642-fe0f.png	man surfing: medium-light skin tone	4.0
+1F3C4 1F3FD 200D 2642	1f3c4-1f3fd-200d-2642-fe0f.png	man surfing: medium skin tone	4.0
+1F3C4 1F3FE 200D 2642	1f3c4-1f3fe-200d-2642-fe0f.png	man surfing: medium-dark skin tone	4.0
+1F3C4 1F3FF 200D 2642	1f3c4-1f3ff-200d-2642-fe0f.png	man surfing: dark skin tone	4.0
+1F3C4 200D 2640	1f3c4-200d-2640-fe0f.png	woman surfing	4.0
+1F3C4 1F3FB 200D 2640	1f3c4-1f3fb-200d-2640-fe0f.png	woman surfing: light skin tone	4.0
+1F3C4 1F3FC 200D 2640	1f3c4-1f3fc-200d-2640-fe0f.png	woman surfing: medium-light skin tone	4.0
+1F3C4 1F3FD 200D 2640	1f3c4-1f3fd-200d-2640-fe0f.png	woman surfing: medium skin tone	4.0
+1F3C4 1F3FE 200D 2640	1f3c4-1f3fe-200d-2640-fe0f.png	woman surfing: medium-dark skin tone	4.0
+1F3C4 1F3FF 200D 2640	1f3c4-1f3ff-200d-2640-fe0f.png	woman surfing: dark skin tone	4.0
+1F6A3 200D 2642	1f6a3-200d-2642-fe0f.png	man rowing boat	4.0
+1F6A3 1F3FB 200D 2642	1f6a3-1f3fb-200d-2642-fe0f.png	man rowing boat: light skin tone	4.0
+1F6A3 1F3FC 200D 2642	1f6a3-1f3fc-200d-2642-fe0f.png	man rowing boat: medium-light skin tone	4.0
+1F6A3 1F3FD 200D 2642	1f6a3-1f3fd-200d-2642-fe0f.png	man rowing boat: medium skin tone	4.0
+1F6A3 1F3FE 200D 2642	1f6a3-1f3fe-200d-2642-fe0f.png	man rowing boat: medium-dark skin tone	4.0
+1F6A3 1F3FF 200D 2642	1f6a3-1f3ff-200d-2642-fe0f.png	man rowing boat: dark skin tone	4.0
+1F6A3 200D 2640	1f6a3-200d-2640-fe0f.png	woman rowing boat	4.0
+1F6A3 1F3FB 200D 2640	1f6a3-1f3fb-200d-2640-fe0f.png	woman rowing boat: light skin tone	4.0
+1F6A3 1F3FC 200D 2640	1f6a3-1f3fc-200d-2640-fe0f.png	woman rowing boat: medium-light skin tone	4.0
+1F6A3 1F3FD 200D 2640	1f6a3-1f3fd-200d-2640-fe0f.png	woman rowing boat: medium skin tone	4.0
+1F6A3 1F3FE 200D 2640	1f6a3-1f3fe-200d-2640-fe0f.png	woman rowing boat: medium-dark skin tone	4.0
+1F6A3 1F3FF 200D 2640	1f6a3-1f3ff-200d-2640-fe0f.png	woman rowing boat: dark skin tone	4.0
+1F3CA 200D 2642	1f3ca-200d-2642-fe0f.png	man swimming	4.0
+1F3CA 1F3FB 200D 2642	1f3ca-1f3fb-200d-2642-fe0f.png	man swimming: light skin tone	4.0
+1F3CA 1F3FC 200D 2642	1f3ca-1f3fc-200d-2642-fe0f.png	man swimming: medium-light skin tone	4.0
+1F3CA 1F3FD 200D 2642	1f3ca-1f3fd-200d-2642-fe0f.png	man swimming: medium skin tone	4.0
+1F3CA 1F3FE 200D 2642	1f3ca-1f3fe-200d-2642-fe0f.png	man swimming: medium-dark skin tone	4.0
+1F3CA 1F3FF 200D 2642	1f3ca-1f3ff-200d-2642-fe0f.png	man swimming: dark skin tone	4.0
+1F3CA 200D 2640	1f3ca-200d-2640-fe0f.png	woman swimming	4.0
+1F3CA 1F3FB 200D 2640	1f3ca-1f3fb-200d-2640-fe0f.png	woman swimming: light skin tone	4.0
+1F3CA 1F3FC 200D 2640	1f3ca-1f3fc-200d-2640-fe0f.png	woman swimming: medium-light skin tone	4.0
+1F3CA 1F3FD 200D 2640	1f3ca-1f3fd-200d-2640-fe0f.png	woman swimming: medium skin tone	4.0
+1F3CA 1F3FE 200D 2640	1f3ca-1f3fe-200d-2640-fe0f.png	woman swimming: medium-dark skin tone	4.0
+1F3CA 1F3FF 200D 2640	1f3ca-1f3ff-200d-2640-fe0f.png	woman swimming: dark skin tone	4.0
+26F9 FE0F	26f9.png	person bouncing ball	0.7
+26F9 200D 2642 FE0F	26f9-fe0f-200d-2642-fe0f.png	man bouncing ball	4.0
+26F9 FE0F 200D 2642	26f9-fe0f-200d-2642-fe0f.png	man bouncing ball	4.0
+26F9 200D 2642	26f9-fe0f-200d-2642-fe0f.png	man bouncing ball	4.0
+26F9 1F3FB 200D 2642	26f9-1f3fb-200d-2642-fe0f.png	man bouncing ball: light skin tone	4.0
+26F9 1F3FC 200D 2642	26f9-1f3fc-200d-2642-fe0f.png	man bouncing ball: medium-light skin tone	4.0
+26F9 1F3FD 200D 2642	26f9-1f3fd-200d-2642-fe0f.png	man bouncing ball: medium skin tone	4.0
+26F9 1F3FE 200D 2642	26f9-1f3fe-200d-2642-fe0f.png	man bouncing ball: medium-dark skin tone	4.0
+26F9 1F3FF 200D 2642	26f9-1f3ff-200d-2642-fe0f.png	man bouncing ball: dark skin tone	4.0
+26F9 200D 2640 FE0F	26f9-fe0f-200d-2640-fe0f.png	woman bouncing ball	4.0
+26F9 FE0F 200D 2640	26f9-fe0f-200d-2640-fe0f.png	woman bouncing ball	4.0
+26F9 200D 2640	26f9-fe0f-200d-2640-fe0f.png	woman bouncing ball	4.0
+26F9 1F3FB 200D 2640	26f9-1f3fb-200d-2640-fe0f.png	woman bouncing ball: light skin tone	4.0
+26F9 1F3FC 200D 2640	26f9-1f3fc-200d-2640-fe0f.png	woman bouncing ball: medium-light skin tone	4.0
+26F9 1F3FD 200D 2640	26f9-1f3fd-200d-2640-fe0f.png	woman bouncing ball: medium skin tone	4.0
+26F9 1F3FE 200D 2640	26f9-1f3fe-200d-2640-fe0f.png	woman bouncing ball: medium-dark skin tone	4.0
+26F9 1F3FF 200D 2640	26f9-1f3ff-200d-2640-fe0f.png	woman bouncing ball: dark skin tone	4.0
+1F3CB FE0F	1f3cb.png	person lifting weights	0.7
+1F3CB 200D 2642 FE0F	1f3cb-fe0f-200d-2642-fe0f.png	man lifting weights	4.0
+1F3CB FE0F 200D 2642	1f3cb-fe0f-200d-2642-fe0f.png	man lifting weights	4.0
+1F3CB 200D 2642	1f3cb-fe0f-200d-2642-fe0f.png	man lifting weights	4.0
+1F3CB 1F3FB 200D 2642	1f3cb-1f3fb-200d-2642-fe0f.png	man lifting weights: light skin tone	4.0
+1F3CB 1F3FC 200D 2642	1f3cb-1f3fc-200d-2642-fe0f.png	man lifting weights: medium-light skin tone	4.0
+1F3CB 1F3FD 200D 2642	1f3cb-1f3fd-200d-2642-fe0f.png	man lifting weights: medium skin tone	4.0
+1F3CB 1F3FE 200D 2642	1f3cb-1f3fe-200d-2642-fe0f.png	man lifting weights: medium-dark skin tone	4.0
+1F3CB 1F3FF 200D 2642	1f3cb-1f3ff-200d-2642-fe0f.png	man lifting weights: dark skin tone	4.0
+1F3CB 200D 2640 FE0F	1f3cb-fe0f-200d-2640-fe0f.png	woman lifting weights	4.0
+1F3CB FE0F 200D 2640	1f3cb-fe0f-200d-2640-fe0f.png	woman lifting weights	4.0
+1F3CB 200D 2640	1f3cb-fe0f-200d-2640-fe0f.png	woman lifting weights	4.0
+1F3CB 1F3FB 200D 2640	1f3cb-1f3fb-200d-2640-fe0f.png	woman lifting weights: light skin tone	4.0
+1F3CB 1F3FC 200D 2640	1f3cb-1f3fc-200d-2640-fe0f.png	woman lifting weights: medium-light skin tone	4.0
+1F3CB 1F3FD 200D 2640	1f3cb-1f3fd-200d-2640-fe0f.png	woman lifting weights: medium skin tone	4.0
+1F3CB 1F3FE 200D 2640	1f3cb-1f3fe-200d-2640-fe0f.png	woman lifting weights: medium-dark skin tone	4.0
+1F3CB 1F3FF 200D 2640	1f3cb-1f3ff-200d-2640-fe0f.png	woman lifting weights: dark skin tone	4.0
+1F6B4 200D 2642	1f6b4-200d-2642-fe0f.png	man biking	4.0
+1F6B4 1F3FB 200D 2642	1f6b4-1f3fb-200d-2642-fe0f.png	man biking: light skin tone	4.0
+1F6B4 1F3FC 200D 2642	1f6b4-1f3fc-200d-2642-fe0f.png	man biking: medium-light skin tone	4.0
+1F6B4 1F3FD 200D 2642	1f6b4-1f3fd-200d-2642-fe0f.png	man biking: medium skin tone	4.0
+1F6B4 1F3FE 200D 2642	1f6b4-1f3fe-200d-2642-fe0f.png	man biking: medium-dark skin tone	4.0
+1F6B4 1F3FF 200D 2642	1f6b4-1f3ff-200d-2642-fe0f.png	man biking: dark skin tone	4.0
+1F6B4 200D 2640	1f6b4-200d-2640-fe0f.png	woman biking	4.0
+1F6B4 1F3FB 200D 2640	1f6b4-1f3fb-200d-2640-fe0f.png	woman biking: light skin tone	4.0
+1F6B4 1F3FC 200D 2640	1f6b4-1f3fc-200d-2640-fe0f.png	woman biking: medium-light skin tone	4.0
+1F6B4 1F3FD 200D 2640	1f6b4-1f3fd-200d-2640-fe0f.png	woman biking: medium skin tone	4.0
+1F6B4 1F3FE 200D 2640	1f6b4-1f3fe-200d-2640-fe0f.png	woman biking: medium-dark skin tone	4.0
+1F6B4 1F3FF 200D 2640	1f6b4-1f3ff-200d-2640-fe0f.png	woman biking: dark skin tone	4.0
+1F6B5 200D 2642	1f6b5-200d-2642-fe0f.png	man mountain biking	4.0
+1F6B5 1F3FB 200D 2642	1f6b5-1f3fb-200d-2642-fe0f.png	man mountain biking: light skin tone	4.0
+1F6B5 1F3FC 200D 2642	1f6b5-1f3fc-200d-2642-fe0f.png	man mountain biking: medium-light skin tone	4.0
+1F6B5 1F3FD 200D 2642	1f6b5-1f3fd-200d-2642-fe0f.png	man mountain biking: medium skin tone	4.0
+1F6B5 1F3FE 200D 2642	1f6b5-1f3fe-200d-2642-fe0f.png	man mountain biking: medium-dark skin tone	4.0
+1F6B5 1F3FF 200D 2642	1f6b5-1f3ff-200d-2642-fe0f.png	man mountain biking: dark skin tone	4.0
+1F6B5 200D 2640	1f6b5-200d-2640-fe0f.png	woman mountain biking	4.0
+1F6B5 1F3FB 200D 2640	1f6b5-1f3fb-200d-2640-fe0f.png	woman mountain biking: light skin tone	4.0
+1F6B5 1F3FC 200D 2640	1f6b5-1f3fc-200d-2640-fe0f.png	woman mountain biking: medium-light skin tone	4.0
+1F6B5 1F3FD 200D 2640	1f6b5-1f3fd-200d-2640-fe0f.png	woman mountain biking: medium skin tone	4.0
+1F6B5 1F3FE 200D 2640	1f6b5-1f3fe-200d-2640-fe0f.png	woman mountain biking: medium-dark skin tone	4.0
+1F6B5 1F3FF 200D 2640	1f6b5-1f3ff-200d-2640-fe0f.png	woman mountain biking: dark skin tone	4.0
+1F938 200D 2642	1f938-200d-2642-fe0f.png	man cartwheeling	4.0
+1F938 1F3FB 200D 2642	1f938-1f3fb-200d-2642-fe0f.png	man cartwheeling: light skin tone	4.0
+1F938 1F3FC 200D 2642	1f938-1f3fc-200d-2642-fe0f.png	man cartwheeling: medium-light skin tone	4.0
+1F938 1F3FD 200D 2642	1f938-1f3fd-200d-2642-fe0f.png	man cartwheeling: medium skin tone	4.0
+1F938 1F3FE 200D 2642	1f938-1f3fe-200d-2642-fe0f.png	man cartwheeling: medium-dark skin tone	4.0
+1F938 1F3FF 200D 2642	1f938-1f3ff-200d-2642-fe0f.png	man cartwheeling: dark skin tone	4.0
+1F938 200D 2640	1f938-200d-2640-fe0f.png	woman cartwheeling	4.0
+1F938 1F3FB 200D 2640	1f938-1f3fb-200d-2640-fe0f.png	woman cartwheeling: light skin tone	4.0
+1F938 1F3FC 200D 2640	1f938-1f3fc-200d-2640-fe0f.png	woman cartwheeling: medium-light skin tone	4.0
+1F938 1F3FD 200D 2640	1f938-1f3fd-200d-2640-fe0f.png	woman cartwheeling: medium skin tone	4.0
+1F938 1F3FE 200D 2640	1f938-1f3fe-200d-2640-fe0f.png	woman cartwheeling: medium-dark skin tone	4.0
+1F938 1F3FF 200D 2640	1f938-1f3ff-200d-2640-fe0f.png	woman cartwheeling: dark skin tone	4.0
+1F93C 200D 2642	1f93c-200d-2642-fe0f.png	men wrestling	4.0
+1F93C 1F3FB 200D 2642 FE0F	1f93c-1f3fb-200d-2642-fe0f.png	men wrestling: light skin tone	17.0
+1F93C 1F3FB 200D 2642	1f93c-1f3fb-200d-2642-fe0f.png	men wrestling: light skin tone	17.0
+1F93C 1F3FC 200D 2642 FE0F	1f93c-1f3fc-200d-2642-fe0f.png	men wrestling: medium-light skin tone	17.0
+1F93C 1F3FC 200D 2642	1f93c-1f3fc-200d-2642-fe0f.png	men wrestling: medium-light skin tone	17.0
+1F93C 1F3FD 200D 2642 FE0F	1f93c-1f3fd-200d-2642-fe0f.png	men wrestling: medium skin tone	17.0
+1F93C 1F3FD 200D 2642	1f93c-1f3fd-200d-2642-fe0f.png	men wrestling: medium skin tone	17.0
+1F93C 1F3FE 200D 2642 FE0F	1f93c-1f3fe-200d-2642-fe0f.png	men wrestling: medium-dark skin tone	17.0
+1F93C 1F3FE 200D 2642	1f93c-1f3fe-200d-2642-fe0f.png	men wrestling: medium-dark skin tone	17.0
+1F93C 1F3FF 200D 2642 FE0F	1f93c-1f3ff-200d-2642-fe0f.png	men wrestling: dark skin tone	17.0
+1F93C 1F3FF 200D 2642	1f93c-1f3ff-200d-2642-fe0f.png	men wrestling: dark skin tone	17.0
+1F93C 200D 2640	1f93c-200d-2640-fe0f.png	women wrestling	4.0
+1F93C 1F3FB 200D 2640 FE0F	1f93c-1f3fb-200d-2640-fe0f.png	women wrestling: light skin tone	17.0
+1F93C 1F3FB 200D 2640	1f93c-1f3fb-200d-2640-fe0f.png	women wrestling: light skin tone	17.0
+1F93C 1F3FC 200D 2640 FE0F	1f93c-1f3fc-200d-2640-fe0f.png	women wrestling: medium-light skin tone	17.0
+1F93C 1F3FC 200D 2640	1f93c-1f3fc-200d-2640-fe0f.png	women wrestling: medium-light skin tone	17.0
+1F93C 1F3FD 200D 2640 FE0F	1f93c-1f3fd-200d-2640-fe0f.png	women wrestling: medium skin tone	17.0
+1F93C 1F3FD 200D 2640	1f93c-1f3fd-200d-2640-fe0f.png	women wrestling: medium skin tone	17.0
+1F93C 1F3FE 200D 2640 FE0F	1f93c-1f3fe-200d-2640-fe0f.png	women wrestling: medium-dark skin tone	17.0
+1F93C 1F3FE 200D 2640	1f93c-1f3fe-200d-2640-fe0f.png	women wrestling: medium-dark skin tone	17.0
+1F93C 1F3FF 200D 2640 FE0F	1f93c-1f3ff-200d-2640-fe0f.png	women wrestling: dark skin tone	17.0
+1F93C 1F3FF 200D 2640	1f93c-1f3ff-200d-2640-fe0f.png	women wrestling: dark skin tone	17.0
+1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FC	1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fc.png	people wrestling: light skin tone, medium-light skin tone	17.0
+1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FD	1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fd.png	people wrestling: light skin tone, medium skin tone	17.0
+1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FE	1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fe.png	people wrestling: light skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FB 200D 1FAEF 200D 1F9D1 1F3FF	1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3ff.png	people wrestling: light skin tone, dark skin tone	17.0
+1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FB	1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fb.png	people wrestling: medium-light skin tone, light skin tone	17.0
+1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FD	1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fd.png	people wrestling: medium-light skin tone, medium skin tone	17.0
+1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FE	1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fe.png	people wrestling: medium-light skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FC 200D 1FAEF 200D 1F9D1 1F3FF	1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3ff.png	people wrestling: medium-light skin tone, dark skin tone	17.0
+1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FB	1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fb.png	people wrestling: medium skin tone, light skin tone	17.0
+1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FC	1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fc.png	people wrestling: medium skin tone, medium-light skin tone	17.0
+1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FE	1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fe.png	people wrestling: medium skin tone, medium-dark skin tone	17.0
+1F9D1 1F3FD 200D 1FAEF 200D 1F9D1 1F3FF	1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3ff.png	people wrestling: medium skin tone, dark skin tone	17.0
+1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FB	1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fb.png	people wrestling: medium-dark skin tone, light skin tone	17.0
+1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FC	1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fc.png	people wrestling: medium-dark skin tone, medium-light skin tone	17.0
+1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FD	1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fd.png	people wrestling: medium-dark skin tone, medium skin tone	17.0
+1F9D1 1F3FE 200D 1FAEF 200D 1F9D1 1F3FF	1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3ff.png	people wrestling: medium-dark skin tone, dark skin tone	17.0
+1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FB	1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fb.png	people wrestling: dark skin tone, light skin tone	17.0
+1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FC	1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fc.png	people wrestling: dark skin tone, medium-light skin tone	17.0
+1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FD	1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fd.png	people wrestling: dark skin tone, medium skin tone	17.0
+1F9D1 1F3FF 200D 1FAEF 200D 1F9D1 1F3FE	1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fe.png	people wrestling: dark skin tone, medium-dark skin tone	17.0
+1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FC	1f468-1f3fb-200d-1faef-200d-1f468-1f3fc.png	men wrestling: light skin tone, medium-light skin tone	17.0
+1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FD	1f468-1f3fb-200d-1faef-200d-1f468-1f3fd.png	men wrestling: light skin tone, medium skin tone	17.0
+1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FE	1f468-1f3fb-200d-1faef-200d-1f468-1f3fe.png	men wrestling: light skin tone, medium-dark skin tone	17.0
+1F468 1F3FB 200D 1FAEF 200D 1F468 1F3FF	1f468-1f3fb-200d-1faef-200d-1f468-1f3ff.png	men wrestling: light skin tone, dark skin tone	17.0
+1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FB	1f468-1f3fc-200d-1faef-200d-1f468-1f3fb.png	men wrestling: medium-light skin tone, light skin tone	17.0
+1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FD	1f468-1f3fc-200d-1faef-200d-1f468-1f3fd.png	men wrestling: medium-light skin tone, medium skin tone	17.0
+1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FE	1f468-1f3fc-200d-1faef-200d-1f468-1f3fe.png	men wrestling: medium-light skin tone, medium-dark skin tone	17.0
+1F468 1F3FC 200D 1FAEF 200D 1F468 1F3FF	1f468-1f3fc-200d-1faef-200d-1f468-1f3ff.png	men wrestling: medium-light skin tone, dark skin tone	17.0
+1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FB	1f468-1f3fd-200d-1faef-200d-1f468-1f3fb.png	men wrestling: medium skin tone, light skin tone	17.0
+1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FC	1f468-1f3fd-200d-1faef-200d-1f468-1f3fc.png	men wrestling: medium skin tone, medium-light skin tone	17.0
+1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FE	1f468-1f3fd-200d-1faef-200d-1f468-1f3fe.png	men wrestling: medium skin tone, medium-dark skin tone	17.0
+1F468 1F3FD 200D 1FAEF 200D 1F468 1F3FF	1f468-1f3fd-200d-1faef-200d-1f468-1f3ff.png	men wrestling: medium skin tone, dark skin tone	17.0
+1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FB	1f468-1f3fe-200d-1faef-200d-1f468-1f3fb.png	men wrestling: medium-dark skin tone, light skin tone	17.0
+1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FC	1f468-1f3fe-200d-1faef-200d-1f468-1f3fc.png	men wrestling: medium-dark skin tone, medium-light skin tone	17.0
+1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FD	1f468-1f3fe-200d-1faef-200d-1f468-1f3fd.png	men wrestling: medium-dark skin tone, medium skin tone	17.0
+1F468 1F3FE 200D 1FAEF 200D 1F468 1F3FF	1f468-1f3fe-200d-1faef-200d-1f468-1f3ff.png	men wrestling: medium-dark skin tone, dark skin tone	17.0
+1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FB	1f468-1f3ff-200d-1faef-200d-1f468-1f3fb.png	men wrestling: dark skin tone, light skin tone	17.0
+1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FC	1f468-1f3ff-200d-1faef-200d-1f468-1f3fc.png	men wrestling: dark skin tone, medium-light skin tone	17.0
+1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FD	1f468-1f3ff-200d-1faef-200d-1f468-1f3fd.png	men wrestling: dark skin tone, medium skin tone	17.0
+1F468 1F3FF 200D 1FAEF 200D 1F468 1F3FE	1f468-1f3ff-200d-1faef-200d-1f468-1f3fe.png	men wrestling: dark skin tone, medium-dark skin tone	17.0
+1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FC	1f469-1f3fb-200d-1faef-200d-1f469-1f3fc.png	women wrestling: light skin tone, medium-light skin tone	17.0
+1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FD	1f469-1f3fb-200d-1faef-200d-1f469-1f3fd.png	women wrestling: light skin tone, medium skin tone	17.0
+1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FE	1f469-1f3fb-200d-1faef-200d-1f469-1f3fe.png	women wrestling: light skin tone, medium-dark skin tone	17.0
+1F469 1F3FB 200D 1FAEF 200D 1F469 1F3FF	1f469-1f3fb-200d-1faef-200d-1f469-1f3ff.png	women wrestling: light skin tone, dark skin tone	17.0
+1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FB	1f469-1f3fc-200d-1faef-200d-1f469-1f3fb.png	women wrestling: medium-light skin tone, light skin tone	17.0
+1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FD	1f469-1f3fc-200d-1faef-200d-1f469-1f3fd.png	women wrestling: medium-light skin tone, medium skin tone	17.0
+1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FE	1f469-1f3fc-200d-1faef-200d-1f469-1f3fe.png	women wrestling: medium-light skin tone, medium-dark skin tone	17.0
+1F469 1F3FC 200D 1FAEF 200D 1F469 1F3FF	1f469-1f3fc-200d-1faef-200d-1f469-1f3ff.png	women wrestling: medium-light skin tone, dark skin tone	17.0
+1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FB	1f469-1f3fd-200d-1faef-200d-1f469-1f3fb.png	women wrestling: medium skin tone, light skin tone	17.0
+1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FC	1f469-1f3fd-200d-1faef-200d-1f469-1f3fc.png	women wrestling: medium skin tone, medium-light skin tone	17.0
+1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FE	1f469-1f3fd-200d-1faef-200d-1f469-1f3fe.png	women wrestling: medium skin tone, medium-dark skin tone	17.0
+1F469 1F3FD 200D 1FAEF 200D 1F469 1F3FF	1f469-1f3fd-200d-1faef-200d-1f469-1f3ff.png	women wrestling: medium skin tone, dark skin tone	17.0
+1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FB	1f469-1f3fe-200d-1faef-200d-1f469-1f3fb.png	women wrestling: medium-dark skin tone, light skin tone	17.0
+1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FC	1f469-1f3fe-200d-1faef-200d-1f469-1f3fc.png	women wrestling: medium-dark skin tone, medium-light skin tone	17.0
+1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FD	1f469-1f3fe-200d-1faef-200d-1f469-1f3fd.png	women wrestling: medium-dark skin tone, medium skin tone	17.0
+1F469 1F3FE 200D 1FAEF 200D 1F469 1F3FF	1f469-1f3fe-200d-1faef-200d-1f469-1f3ff.png	women wrestling: medium-dark skin tone, dark skin tone	17.0
+1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FB	1f469-1f3ff-200d-1faef-200d-1f469-1f3fb.png	women wrestling: dark skin tone, light skin tone	17.0
+1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FC	1f469-1f3ff-200d-1faef-200d-1f469-1f3fc.png	women wrestling: dark skin tone, medium-light skin tone	17.0
+1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FD	1f469-1f3ff-200d-1faef-200d-1f469-1f3fd.png	women wrestling: dark skin tone, medium skin tone	17.0
+1F469 1F3FF 200D 1FAEF 200D 1F469 1F3FE	1f469-1f3ff-200d-1faef-200d-1f469-1f3fe.png	women wrestling: dark skin tone, medium-dark skin tone	17.0
+1F93D 200D 2642	1f93d-200d-2642-fe0f.png	man playing water polo	4.0
+1F93D 1F3FB 200D 2642	1f93d-1f3fb-200d-2642-fe0f.png	man playing water polo: light skin tone	4.0
+1F93D 1F3FC 200D 2642	1f93d-1f3fc-200d-2642-fe0f.png	man playing water polo: medium-light skin tone	4.0
+1F93D 1F3FD 200D 2642	1f93d-1f3fd-200d-2642-fe0f.png	man playing water polo: medium skin tone	4.0
+1F93D 1F3FE 200D 2642	1f93d-1f3fe-200d-2642-fe0f.png	man playing water polo: medium-dark skin tone	4.0
+1F93D 1F3FF 200D 2642	1f93d-1f3ff-200d-2642-fe0f.png	man playing water polo: dark skin tone	4.0
+1F93D 200D 2640	1f93d-200d-2640-fe0f.png	woman playing water polo	4.0
+1F93D 1F3FB 200D 2640	1f93d-1f3fb-200d-2640-fe0f.png	woman playing water polo: light skin tone	4.0
+1F93D 1F3FC 200D 2640	1f93d-1f3fc-200d-2640-fe0f.png	woman playing water polo: medium-light skin tone	4.0
+1F93D 1F3FD 200D 2640	1f93d-1f3fd-200d-2640-fe0f.png	woman playing water polo: medium skin tone	4.0
+1F93D 1F3FE 200D 2640	1f93d-1f3fe-200d-2640-fe0f.png	woman playing water polo: medium-dark skin tone	4.0
+1F93D 1F3FF 200D 2640	1f93d-1f3ff-200d-2640-fe0f.png	woman playing water polo: dark skin tone	4.0
+1F93E 200D 2642	1f93e-200d-2642-fe0f.png	man playing handball	4.0
+1F93E 1F3FB 200D 2642	1f93e-1f3fb-200d-2642-fe0f.png	man playing handball: light skin tone	4.0
+1F93E 1F3FC 200D 2642	1f93e-1f3fc-200d-2642-fe0f.png	man playing handball: medium-light skin tone	4.0
+1F93E 1F3FD 200D 2642	1f93e-1f3fd-200d-2642-fe0f.png	man playing handball: medium skin tone	4.0
+1F93E 1F3FE 200D 2642	1f93e-1f3fe-200d-2642-fe0f.png	man playing handball: medium-dark skin tone	4.0
+1F93E 1F3FF 200D 2642	1f93e-1f3ff-200d-2642-fe0f.png	man playing handball: dark skin tone	4.0
+1F93E 200D 2640	1f93e-200d-2640-fe0f.png	woman playing handball	4.0
+1F93E 1F3FB 200D 2640	1f93e-1f3fb-200d-2640-fe0f.png	woman playing handball: light skin tone	4.0
+1F93E 1F3FC 200D 2640	1f93e-1f3fc-200d-2640-fe0f.png	woman playing handball: medium-light skin tone	4.0
+1F93E 1F3FD 200D 2640	1f93e-1f3fd-200d-2640-fe0f.png	woman playing handball: medium skin tone	4.0
+1F93E 1F3FE 200D 2640	1f93e-1f3fe-200d-2640-fe0f.png	woman playing handball: medium-dark skin tone	4.0
+1F93E 1F3FF 200D 2640	1f93e-1f3ff-200d-2640-fe0f.png	woman playing handball: dark skin tone	4.0
+1F939 200D 2642	1f939-200d-2642-fe0f.png	man juggling	4.0
+1F939 1F3FB 200D 2642	1f939-1f3fb-200d-2642-fe0f.png	man juggling: light skin tone	4.0
+1F939 1F3FC 200D 2642	1f939-1f3fc-200d-2642-fe0f.png	man juggling: medium-light skin tone	4.0
+1F939 1F3FD 200D 2642	1f939-1f3fd-200d-2642-fe0f.png	man juggling: medium skin tone	4.0
+1F939 1F3FE 200D 2642	1f939-1f3fe-200d-2642-fe0f.png	man juggling: medium-dark skin tone	4.0
+1F939 1F3FF 200D 2642	1f939-1f3ff-200d-2642-fe0f.png	man juggling: dark skin tone	4.0
+1F939 200D 2640	1f939-200d-2640-fe0f.png	woman juggling	4.0
+1F939 1F3FB 200D 2640	1f939-1f3fb-200d-2640-fe0f.png	woman juggling: light skin tone	4.0
+1F939 1F3FC 200D 2640	1f939-1f3fc-200d-2640-fe0f.png	woman juggling: medium-light skin tone	4.0
+1F939 1F3FD 200D 2640	1f939-1f3fd-200d-2640-fe0f.png	woman juggling: medium skin tone	4.0
+1F939 1F3FE 200D 2640	1f939-1f3fe-200d-2640-fe0f.png	woman juggling: medium-dark skin tone	4.0
+1F939 1F3FF 200D 2640	1f939-1f3ff-200d-2640-fe0f.png	woman juggling: dark skin tone	4.0
+1F9D8 200D 2642	1f9d8-200d-2642-fe0f.png	man in lotus position	5.0
+1F9D8 1F3FB 200D 2642	1f9d8-1f3fb-200d-2642-fe0f.png	man in lotus position: light skin tone	5.0
+1F9D8 1F3FC 200D 2642	1f9d8-1f3fc-200d-2642-fe0f.png	man in lotus position: medium-light skin tone	5.0
+1F9D8 1F3FD 200D 2642	1f9d8-1f3fd-200d-2642-fe0f.png	man in lotus position: medium skin tone	5.0
+1F9D8 1F3FE 200D 2642	1f9d8-1f3fe-200d-2642-fe0f.png	man in lotus position: medium-dark skin tone	5.0
+1F9D8 1F3FF 200D 2642	1f9d8-1f3ff-200d-2642-fe0f.png	man in lotus position: dark skin tone	5.0
+1F9D8 200D 2640	1f9d8-200d-2640-fe0f.png	woman in lotus position	5.0
+1F9D8 1F3FB 200D 2640	1f9d8-1f3fb-200d-2640-fe0f.png	woman in lotus position: light skin tone	5.0
+1F9D8 1F3FC 200D 2640	1f9d8-1f3fc-200d-2640-fe0f.png	woman in lotus position: medium-light skin tone	5.0
+1F9D8 1F3FD 200D 2640	1f9d8-1f3fd-200d-2640-fe0f.png	woman in lotus position: medium skin tone	5.0
+1F9D8 1F3FE 200D 2640	1f9d8-1f3fe-200d-2640-fe0f.png	woman in lotus position: medium-dark skin tone	5.0
+1F9D8 1F3FF 200D 2640	1f9d8-1f3ff-200d-2640-fe0f.png	woman in lotus position: dark skin tone	5.0
+1F9D1 1F3FB 200D 2764 200D 1F48B 200D 1F9D1 1F3FC	1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.png	kiss: person, person, light skin tone, medium-light skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F48B 200D 1F9D1 1F3FD	1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.png	kiss: person, person, light skin tone, medium skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F48B 200D 1F9D1 1F3FE	1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.png	kiss: person, person, light skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F48B 200D 1F9D1 1F3FF	1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.png	kiss: person, person, light skin tone, dark skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F48B 200D 1F9D1 1F3FB	1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.png	kiss: person, person, medium-light skin tone, light skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F48B 200D 1F9D1 1F3FD	1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.png	kiss: person, person, medium-light skin tone, medium skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F48B 200D 1F9D1 1F3FE	1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.png	kiss: person, person, medium-light skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F48B 200D 1F9D1 1F3FF	1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.png	kiss: person, person, medium-light skin tone, dark skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F48B 200D 1F9D1 1F3FB	1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.png	kiss: person, person, medium skin tone, light skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F48B 200D 1F9D1 1F3FC	1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.png	kiss: person, person, medium skin tone, medium-light skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F48B 200D 1F9D1 1F3FE	1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.png	kiss: person, person, medium skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F48B 200D 1F9D1 1F3FF	1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.png	kiss: person, person, medium skin tone, dark skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F48B 200D 1F9D1 1F3FB	1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.png	kiss: person, person, medium-dark skin tone, light skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F48B 200D 1F9D1 1F3FC	1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.png	kiss: person, person, medium-dark skin tone, medium-light skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F48B 200D 1F9D1 1F3FD	1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.png	kiss: person, person, medium-dark skin tone, medium skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F48B 200D 1F9D1 1F3FF	1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.png	kiss: person, person, medium-dark skin tone, dark skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F48B 200D 1F9D1 1F3FB	1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.png	kiss: person, person, dark skin tone, light skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F48B 200D 1F9D1 1F3FC	1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.png	kiss: person, person, dark skin tone, medium-light skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F48B 200D 1F9D1 1F3FD	1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.png	kiss: person, person, dark skin tone, medium skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F48B 200D 1F9D1 1F3FE	1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.png	kiss: person, person, dark skin tone, medium-dark skin tone	13.1
+1F469 200D 2764 200D 1F48B 200D 1F468	1f469-200d-2764-fe0f-200d-1f48b-200d-1f468.png	kiss: woman, man	2.0
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: woman, man, light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: woman, man, light skin tone, medium-light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: woman, man, light skin tone, medium skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: woman, man, light skin tone, medium-dark skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: woman, man, light skin tone, dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: woman, man, medium-light skin tone, light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: woman, man, medium-light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: woman, man, medium-light skin tone, medium skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: woman, man, medium-light skin tone, medium-dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: woman, man, medium-light skin tone, dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: woman, man, medium skin tone, light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: woman, man, medium skin tone, medium-light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: woman, man, medium skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: woman, man, medium skin tone, medium-dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: woman, man, medium skin tone, dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: woman, man, medium-dark skin tone, light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: woman, man, medium-dark skin tone, medium-light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: woman, man, medium-dark skin tone, medium skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: woman, man, medium-dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: woman, man, medium-dark skin tone, dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: woman, man, dark skin tone, light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: woman, man, dark skin tone, medium-light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: woman, man, dark skin tone, medium skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: woman, man, dark skin tone, medium-dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: woman, man, dark skin tone	13.1
+1F468 200D 2764 200D 1F48B 200D 1F468	1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png	kiss: man, man	2.0
+1F468 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: man, man, light skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: man, man, light skin tone, medium-light skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: man, man, light skin tone, medium skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: man, man, light skin tone, medium-dark skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: man, man, light skin tone, dark skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: man, man, medium-light skin tone, light skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: man, man, medium-light skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: man, man, medium-light skin tone, medium skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: man, man, medium-light skin tone, medium-dark skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: man, man, medium-light skin tone, dark skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: man, man, medium skin tone, light skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: man, man, medium skin tone, medium-light skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: man, man, medium skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: man, man, medium skin tone, medium-dark skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: man, man, medium skin tone, dark skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: man, man, medium-dark skin tone, light skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: man, man, medium-dark skin tone, medium-light skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: man, man, medium-dark skin tone, medium skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: man, man, medium-dark skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: man, man, medium-dark skin tone, dark skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FB	1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.png	kiss: man, man, dark skin tone, light skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FC	1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.png	kiss: man, man, dark skin tone, medium-light skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FD	1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.png	kiss: man, man, dark skin tone, medium skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FE	1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.png	kiss: man, man, dark skin tone, medium-dark skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F48B 200D 1F468 1F3FF	1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.png	kiss: man, man, dark skin tone	13.1
+1F469 200D 2764 200D 1F48B 200D 1F469	1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png	kiss: woman, woman	2.0
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F469 1F3FB	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.png	kiss: woman, woman, light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F469 1F3FC	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.png	kiss: woman, woman, light skin tone, medium-light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F469 1F3FD	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.png	kiss: woman, woman, light skin tone, medium skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F469 1F3FE	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.png	kiss: woman, woman, light skin tone, medium-dark skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F48B 200D 1F469 1F3FF	1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.png	kiss: woman, woman, light skin tone, dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F469 1F3FB	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.png	kiss: woman, woman, medium-light skin tone, light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F469 1F3FC	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.png	kiss: woman, woman, medium-light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F469 1F3FD	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.png	kiss: woman, woman, medium-light skin tone, medium skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F469 1F3FE	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.png	kiss: woman, woman, medium-light skin tone, medium-dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F48B 200D 1F469 1F3FF	1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.png	kiss: woman, woman, medium-light skin tone, dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F469 1F3FB	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.png	kiss: woman, woman, medium skin tone, light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F469 1F3FC	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.png	kiss: woman, woman, medium skin tone, medium-light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F469 1F3FD	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.png	kiss: woman, woman, medium skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F469 1F3FE	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.png	kiss: woman, woman, medium skin tone, medium-dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F48B 200D 1F469 1F3FF	1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.png	kiss: woman, woman, medium skin tone, dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F469 1F3FB	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.png	kiss: woman, woman, medium-dark skin tone, light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F469 1F3FC	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.png	kiss: woman, woman, medium-dark skin tone, medium-light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F469 1F3FD	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.png	kiss: woman, woman, medium-dark skin tone, medium skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F469 1F3FE	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.png	kiss: woman, woman, medium-dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F48B 200D 1F469 1F3FF	1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.png	kiss: woman, woman, medium-dark skin tone, dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F469 1F3FB	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.png	kiss: woman, woman, dark skin tone, light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F469 1F3FC	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.png	kiss: woman, woman, dark skin tone, medium-light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F469 1F3FD	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.png	kiss: woman, woman, dark skin tone, medium skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F469 1F3FE	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.png	kiss: woman, woman, dark skin tone, medium-dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F48B 200D 1F469 1F3FF	1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.png	kiss: woman, woman, dark skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F9D1 1F3FC	1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fc.png	couple with heart: person, person, light skin tone, medium-light skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F9D1 1F3FD	1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fd.png	couple with heart: person, person, light skin tone, medium skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F9D1 1F3FE	1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fe.png	couple with heart: person, person, light skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FB 200D 2764 200D 1F9D1 1F3FF	1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3ff.png	couple with heart: person, person, light skin tone, dark skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F9D1 1F3FB	1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fb.png	couple with heart: person, person, medium-light skin tone, light skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F9D1 1F3FD	1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fd.png	couple with heart: person, person, medium-light skin tone, medium skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F9D1 1F3FE	1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fe.png	couple with heart: person, person, medium-light skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FC 200D 2764 200D 1F9D1 1F3FF	1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3ff.png	couple with heart: person, person, medium-light skin tone, dark skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F9D1 1F3FB	1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fb.png	couple with heart: person, person, medium skin tone, light skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F9D1 1F3FC	1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fc.png	couple with heart: person, person, medium skin tone, medium-light skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F9D1 1F3FE	1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fe.png	couple with heart: person, person, medium skin tone, medium-dark skin tone	13.1
+1F9D1 1F3FD 200D 2764 200D 1F9D1 1F3FF	1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3ff.png	couple with heart: person, person, medium skin tone, dark skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F9D1 1F3FB	1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fb.png	couple with heart: person, person, medium-dark skin tone, light skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F9D1 1F3FC	1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fc.png	couple with heart: person, person, medium-dark skin tone, medium-light skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F9D1 1F3FD	1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fd.png	couple with heart: person, person, medium-dark skin tone, medium skin tone	13.1
+1F9D1 1F3FE 200D 2764 200D 1F9D1 1F3FF	1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3ff.png	couple with heart: person, person, medium-dark skin tone, dark skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F9D1 1F3FB	1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fb.png	couple with heart: person, person, dark skin tone, light skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F9D1 1F3FC	1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fc.png	couple with heart: person, person, dark skin tone, medium-light skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F9D1 1F3FD	1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fd.png	couple with heart: person, person, dark skin tone, medium skin tone	13.1
+1F9D1 1F3FF 200D 2764 200D 1F9D1 1F3FE	1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fe.png	couple with heart: person, person, dark skin tone, medium-dark skin tone	13.1
+1F469 200D 2764 200D 1F468	1f469-200d-2764-fe0f-200d-1f468.png	couple with heart: woman, man	2.0
+1F469 1F3FB 200D 2764 200D 1F468 1F3FB	1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: woman, man, light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F468 1F3FC	1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: woman, man, light skin tone, medium-light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F468 1F3FD	1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: woman, man, light skin tone, medium skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F468 1F3FE	1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: woman, man, light skin tone, medium-dark skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F468 1F3FF	1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: woman, man, light skin tone, dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F468 1F3FB	1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: woman, man, medium-light skin tone, light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F468 1F3FC	1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: woman, man, medium-light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F468 1F3FD	1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: woman, man, medium-light skin tone, medium skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F468 1F3FE	1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: woman, man, medium-light skin tone, medium-dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F468 1F3FF	1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: woman, man, medium-light skin tone, dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F468 1F3FB	1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: woman, man, medium skin tone, light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F468 1F3FC	1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: woman, man, medium skin tone, medium-light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F468 1F3FD	1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: woman, man, medium skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F468 1F3FE	1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: woman, man, medium skin tone, medium-dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F468 1F3FF	1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: woman, man, medium skin tone, dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F468 1F3FB	1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: woman, man, medium-dark skin tone, light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F468 1F3FC	1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: woman, man, medium-dark skin tone, medium-light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F468 1F3FD	1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: woman, man, medium-dark skin tone, medium skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F468 1F3FE	1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: woman, man, medium-dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F468 1F3FF	1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: woman, man, medium-dark skin tone, dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F468 1F3FB	1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: woman, man, dark skin tone, light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F468 1F3FC	1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: woman, man, dark skin tone, medium-light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F468 1F3FD	1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: woman, man, dark skin tone, medium skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F468 1F3FE	1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: woman, man, dark skin tone, medium-dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F468 1F3FF	1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: woman, man, dark skin tone	13.1
+1F468 200D 2764 200D 1F468	1f468-200d-2764-fe0f-200d-1f468.png	couple with heart: man, man	2.0
+1F468 1F3FB 200D 2764 200D 1F468 1F3FB	1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: man, man, light skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F468 1F3FC	1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: man, man, light skin tone, medium-light skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F468 1F3FD	1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: man, man, light skin tone, medium skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F468 1F3FE	1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: man, man, light skin tone, medium-dark skin tone	13.1
+1F468 1F3FB 200D 2764 200D 1F468 1F3FF	1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: man, man, light skin tone, dark skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F468 1F3FB	1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: man, man, medium-light skin tone, light skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F468 1F3FC	1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: man, man, medium-light skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F468 1F3FD	1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: man, man, medium-light skin tone, medium skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F468 1F3FE	1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: man, man, medium-light skin tone, medium-dark skin tone	13.1
+1F468 1F3FC 200D 2764 200D 1F468 1F3FF	1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: man, man, medium-light skin tone, dark skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F468 1F3FB	1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: man, man, medium skin tone, light skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F468 1F3FC	1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: man, man, medium skin tone, medium-light skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F468 1F3FD	1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: man, man, medium skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F468 1F3FE	1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: man, man, medium skin tone, medium-dark skin tone	13.1
+1F468 1F3FD 200D 2764 200D 1F468 1F3FF	1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: man, man, medium skin tone, dark skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F468 1F3FB	1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: man, man, medium-dark skin tone, light skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F468 1F3FC	1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: man, man, medium-dark skin tone, medium-light skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F468 1F3FD	1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: man, man, medium-dark skin tone, medium skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F468 1F3FE	1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: man, man, medium-dark skin tone	13.1
+1F468 1F3FE 200D 2764 200D 1F468 1F3FF	1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: man, man, medium-dark skin tone, dark skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F468 1F3FB	1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fb.png	couple with heart: man, man, dark skin tone, light skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F468 1F3FC	1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fc.png	couple with heart: man, man, dark skin tone, medium-light skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F468 1F3FD	1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fd.png	couple with heart: man, man, dark skin tone, medium skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F468 1F3FE	1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fe.png	couple with heart: man, man, dark skin tone, medium-dark skin tone	13.1
+1F468 1F3FF 200D 2764 200D 1F468 1F3FF	1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3ff.png	couple with heart: man, man, dark skin tone	13.1
+1F469 200D 2764 200D 1F469	1f469-200d-2764-fe0f-200d-1f469.png	couple with heart: woman, woman	2.0
+1F469 1F3FB 200D 2764 200D 1F469 1F3FB	1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fb.png	couple with heart: woman, woman, light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F469 1F3FC	1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fc.png	couple with heart: woman, woman, light skin tone, medium-light skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F469 1F3FD	1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fd.png	couple with heart: woman, woman, light skin tone, medium skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F469 1F3FE	1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fe.png	couple with heart: woman, woman, light skin tone, medium-dark skin tone	13.1
+1F469 1F3FB 200D 2764 200D 1F469 1F3FF	1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3ff.png	couple with heart: woman, woman, light skin tone, dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F469 1F3FB	1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fb.png	couple with heart: woman, woman, medium-light skin tone, light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F469 1F3FC	1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fc.png	couple with heart: woman, woman, medium-light skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F469 1F3FD	1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fd.png	couple with heart: woman, woman, medium-light skin tone, medium skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F469 1F3FE	1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fe.png	couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone	13.1
+1F469 1F3FC 200D 2764 200D 1F469 1F3FF	1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3ff.png	couple with heart: woman, woman, medium-light skin tone, dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F469 1F3FB	1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fb.png	couple with heart: woman, woman, medium skin tone, light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F469 1F3FC	1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fc.png	couple with heart: woman, woman, medium skin tone, medium-light skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F469 1F3FD	1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fd.png	couple with heart: woman, woman, medium skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F469 1F3FE	1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fe.png	couple with heart: woman, woman, medium skin tone, medium-dark skin tone	13.1
+1F469 1F3FD 200D 2764 200D 1F469 1F3FF	1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3ff.png	couple with heart: woman, woman, medium skin tone, dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F469 1F3FB	1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fb.png	couple with heart: woman, woman, medium-dark skin tone, light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F469 1F3FC	1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fc.png	couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F469 1F3FD	1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fd.png	couple with heart: woman, woman, medium-dark skin tone, medium skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F469 1F3FE	1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fe.png	couple with heart: woman, woman, medium-dark skin tone	13.1
+1F469 1F3FE 200D 2764 200D 1F469 1F3FF	1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3ff.png	couple with heart: woman, woman, medium-dark skin tone, dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F469 1F3FB	1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fb.png	couple with heart: woman, woman, dark skin tone, light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F469 1F3FC	1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fc.png	couple with heart: woman, woman, dark skin tone, medium-light skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F469 1F3FD	1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fd.png	couple with heart: woman, woman, dark skin tone, medium skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F469 1F3FE	1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fe.png	couple with heart: woman, woman, dark skin tone, medium-dark skin tone	13.1
+1F469 1F3FF 200D 2764 200D 1F469 1F3FF	1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3ff.png	couple with heart: woman, woman, dark skin tone	13.1
+1F5E3 FE0F	1f5e3.png	speaking head	0.7
+1F9D1 200D 1F9D1 200D 1F9D2	1f9d1-200d-1f9d1-200d-1f9d2.png	family: adult, adult, child	15.1
+1F9D1 200D 1F9D1 200D 1F9D2 200D 1F9D2	1f9d1-200d-1f9d1-200d-1f9d2-200d-1f9d2.png	family: adult, adult, child, child	15.1
+1F9D1 200D 1F9D2	1f9d1-200d-1f9d2.png	family: adult, child	15.1
+1F9D1 200D 1F9D2 200D 1F9D2	1f9d1-200d-1f9d2-200d-1f9d2.png	family: adult, child, child	15.1
+1FAC6	1fac6.png	fingerprint	16.0
+1FACE	1face.png	moose	15.0
+1FACF	1facf.png	donkey	15.0
+1F43F FE0F	1f43f.png	chipmunk	0.7
+1F43B 200D 2744	1f43b-200d-2744-fe0f.png	polar bear	13.0
+1F54A FE0F	1f54a.png	dove	0.7
+1FABD	1fabd.png	wing	15.0
+1F426 200D 2B1B	1f426-200d-2b1b.png	black bird	15.0
+1FABF	1fabf.png	goose	15.0
+1F426 200D 1F525	1f426-200d-1f525.png	phoenix	15.1
+1FACD	1facd.png	orca	17.0
+1FABC	1fabc.png	jellyfish	15.0
+1F577 FE0F	1f577.png	spider	0.7
+1F578 FE0F	1f578.png	spider web	0.7
+1F3F5 FE0F	1f3f5.png	rosette	0.7
+1FABB	1fabb.png	hyacinth	15.0
+2618 FE0F	2618.png	shamrock	1.0
+1FABE	1fabe.png	leafless tree	16.0
+1F34B 200D 1F7E9	1f34b-200d-1f7e9.png	lime	15.1
+1F336 FE0F	1f336.png	hot pepper	0.7
+1FADA	1fada.png	ginger root	15.0
+1FADB	1fadb.png	pea pod	15.0
+1F344 200D 1F7EB	1f344-200d-1f7eb.png	brown mushroom	15.1
+1FADC	1fadc.png	root vegetable	16.0
+1F37D FE0F	1f37d.png	fork and knife with plate	0.7
+1F5FA FE0F	1f5fa.png	world map	0.7
+1F3D4 FE0F	1f3d4.png	snow-capped mountain	0.7
+26F0 FE0F	26f0.png	mountain	0.7
+1F6D8	1f6d8.png	landslide	17.0
+1F3D5 FE0F	1f3d5.png	camping	0.7
+1F3D6 FE0F	1f3d6.png	beach with umbrella	0.7
+1F3DC FE0F	1f3dc.png	desert	0.7
+1F3DD FE0F	1f3dd.png	desert island	0.7
+1F3DE FE0F	1f3de.png	national park	0.7
+1F3DF FE0F	1f3df.png	stadium	0.7
+1F3DB FE0F	1f3db.png	classical building	0.7
+1F3D7 FE0F	1f3d7.png	building construction	0.7
+1F3D8 FE0F	1f3d8.png	houses	0.7
+1F3DA FE0F	1f3da.png	derelict house	0.7
+26E9 FE0F	26e9.png	shinto shrine	0.7
+1F3D9 FE0F	1f3d9.png	cityscape	0.7
+2668 FE0F	2668.png	hot springs	0.6
+1F3CE FE0F	1f3ce.png	racing car	0.7
+1F3CD FE0F	1f3cd.png	motorcycle	0.7
+1F6E3 FE0F	1f6e3.png	motorway	0.7
+1F6E4 FE0F	1f6e4.png	railway track	0.7
+1F6E2 FE0F	1f6e2.png	oil drum	0.7
+1F6F3 FE0F	1f6f3.png	passenger ship	0.7
+26F4 FE0F	26f4.png	ferry	0.7
+1F6E5 FE0F	1f6e5.png	motor boat	0.7
+2708 FE0F	2708.png	airplane	0.6
+1F6E9 FE0F	1f6e9.png	small airplane	0.7
+1F6F0 FE0F	1f6f0.png	satellite	0.7
+1F6CE FE0F	1f6ce.png	bellhop bell	0.7
+23F1 FE0F	23f1.png	stopwatch	1.0
+23F2 FE0F	23f2.png	timer clock	1.0
+1F570 FE0F	1f570.png	mantelpiece clock	0.7
+1F321 FE0F	1f321.png	thermometer	0.7
+2600 FE0F	2600.png	sun	0.6
+2601 FE0F	2601.png	cloud	0.6
+26C8 FE0F	26c8.png	cloud with lightning and rain	0.7
+1F324 FE0F	1f324.png	sun behind small cloud	0.7
+1F325 FE0F	1f325.png	sun behind large cloud	0.7
+1F326 FE0F	1f326.png	sun behind rain cloud	0.7
+1F327 FE0F	1f327.png	cloud with rain	0.7
+1F328 FE0F	1f328.png	cloud with snow	0.7
+1F329 FE0F	1f329.png	cloud with lightning	0.7
+1F32A FE0F	1f32a.png	tornado	0.7
+1F32B FE0F	1f32b.png	fog	0.7
+1F32C FE0F	1f32c.png	wind face	0.7
+2602 FE0F	2602.png	umbrella	0.7
+26F1 FE0F	26f1.png	umbrella on ground	0.7
+2744 FE0F	2744.png	snowflake	0.6
+2603 FE0F	2603.png	snowman	0.7
+2604 FE0F	2604.png	comet	1.0
+1F397 FE0F	1f397.png	reminder ribbon	0.7
+1F39F FE0F	1f39f.png	admission tickets	0.7
+1F396 FE0F	1f396.png	military medal	0.7
+26F8 FE0F	26f8.png	ice skate	0.7
+1F579 FE0F	1f579.png	joystick	0.7
+2660 FE0F	2660.png	spade suit	0.6
+2665 FE0F	2665.png	heart suit	0.6
+2666 FE0F	2666.png	diamond suit	0.6
+2663 FE0F	2663.png	club suit	0.6
+265F FE0F	265f.png	chess pawn	11.0
+1F5BC FE0F	1f5bc.png	framed picture	0.7
+1F576 FE0F	1f576.png	sunglasses	0.7
+1FAAD	1faad.png	folding hand fan	15.0
+1F6CD FE0F	1f6cd.png	shopping bags	0.7
+1FAAE	1faae.png	hair pick	15.0
+26D1 FE0F	26d1.png	rescue worker’s helmet	0.7
+1F399 FE0F	1f399.png	studio microphone	0.7
+1F39A FE0F	1f39a.png	level slider	0.7
+1F39B FE0F	1f39b.png	control knobs	0.7
+1FA8A	1fa8a.png	trombone	17.0
+1FA87	1fa87.png	maracas	15.0
+1FA88	1fa88.png	flute	15.0
+1FA89	1fa89.png	harp	16.0
+260E FE0F	260e.png	telephone	0.6
+1F5A5 FE0F	1f5a5.png	desktop computer	0.7
+1F5A8 FE0F	1f5a8.png	printer	0.7
+2328 FE0F	2328.png	keyboard	1.0
+1F5B1 FE0F	1f5b1.png	computer mouse	0.7
+1F5B2 FE0F	1f5b2.png	trackball	0.7
+1F39E FE0F	1f39e.png	film frames	0.7
+1F4FD FE0F	1f4fd.png	film projector	0.7
+1F56F FE0F	1f56f.png	candle	0.7
+1F5DE FE0F	1f5de.png	rolled-up newspaper	0.7
+1F3F7 FE0F	1f3f7.png	label	0.7
+1FA8E	1fa8e.png	treasure chest	17.0
+2709 FE0F	2709.png	envelope	0.6
+1F5F3 FE0F	1f5f3.png	ballot box with ballot	0.7
+270F FE0F	270f.png	pencil	0.6
+2712 FE0F	2712.png	black nib	0.6
+1F58B FE0F	1f58b.png	fountain pen	0.7
+1F58A FE0F	1f58a.png	pen	0.7
+1F58C FE0F	1f58c.png	paintbrush	0.7
+1F58D FE0F	1f58d.png	crayon	0.7
+1F5C2 FE0F	1f5c2.png	card index dividers	0.7
+1F5D2 FE0F	1f5d2.png	spiral notepad	0.7
+1F5D3 FE0F	1f5d3.png	spiral calendar	0.7
+1F587 FE0F	1f587.png	linked paperclips	0.7
+2702 FE0F	2702.png	scissors	0.6
+1F5C3 FE0F	1f5c3.png	card file box	0.7
+1F5C4 FE0F	1f5c4.png	file cabinet	0.7
+1F5D1 FE0F	1f5d1.png	wastebasket	0.7
+1F5DD FE0F	1f5dd.png	old key	0.7
+26CF FE0F	26cf.png	pick	0.7
+2692 FE0F	2692.png	hammer and pick	1.0
+1F6E0 FE0F	1f6e0.png	hammer and wrench	0.7
+1F5E1 FE0F	1f5e1.png	dagger	0.7
+2694 FE0F	2694.png	crossed swords	1.0
+1F6E1 FE0F	1f6e1.png	shield	0.7
+2699 FE0F	2699.png	gear	1.0
+1F5DC FE0F	1f5dc.png	clamp	0.7
+2696 FE0F	2696.png	balance scale	1.0
+26D3 FE0F 200D 1F4A5	26d3-fe0f-200d-1f4a5.png	broken chain	15.1
+26D3 200D 1F4A5	26d3-fe0f-200d-1f4a5.png	broken chain	15.1
+26D3 FE0F	26d3.png	chains	0.7
+1FA8F	1fa8f.png	shovel	16.0
+2697 FE0F	2697.png	alembic	1.0
+1F6CF FE0F	1f6cf.png	bed	0.7
+1F6CB FE0F	1f6cb.png	couch and lamp	0.7
+26B0 FE0F	26b0.png	coffin	1.0
+26B1 FE0F	26b1.png	funeral urn	1.0
+26A0 FE0F	26a0.png	warning	0.6
+2622 FE0F	2622.png	radioactive	1.0
+2623 FE0F	2623.png	biohazard	1.0
+2B06 FE0F	2b06.png	up arrow	0.6
+2197 FE0F	2197.png	up-right arrow	0.6
+27A1 FE0F	27a1.png	right arrow	0.6
+2198 FE0F	2198.png	down-right arrow	0.6
+2B07 FE0F	2b07.png	down arrow	0.6
+2199 FE0F	2199.png	down-left arrow	0.6
+2B05 FE0F	2b05.png	left arrow	0.6
+2196 FE0F	2196.png	up-left arrow	0.6
+2195 FE0F	2195.png	up-down arrow	0.6
+2194 FE0F	2194.png	left-right arrow	0.6
+21A9 FE0F	21a9.png	right arrow curving left	0.6
+21AA FE0F	21aa.png	left arrow curving right	0.6
+2934 FE0F	2934.png	right arrow curving up	0.6
+2935 FE0F	2935.png	right arrow curving down	0.6
+269B FE0F	269b.png	atom symbol	1.0
+1F549 FE0F	1f549.png	om	0.7
+2721 FE0F	2721.png	star of David	0.7
+2638 FE0F	2638.png	wheel of dharma	0.7
+262F FE0F	262f.png	yin yang	0.7
+271D FE0F	271d.png	latin cross	0.7
+2626 FE0F	2626.png	orthodox cross	1.0
+262A FE0F	262a.png	star and crescent	0.7
+262E FE0F	262e.png	peace symbol	1.0
+1FAAF	1faaf.png	khanda	15.0
+25B6 FE0F	25b6.png	play button	0.6
+23ED FE0F	23ed.png	next track button	0.7
+23EF FE0F	23ef.png	play or pause button	1.0
+25C0 FE0F	25c0.png	reverse button	0.6
+23EE FE0F	23ee.png	last track button	0.7
+23F8 FE0F	23f8.png	pause button	0.7
+23F9 FE0F	23f9.png	stop button	0.7
+23FA FE0F	23fa.png	record button	0.7
+23CF FE0F	23cf.png	eject button	1.0
+1F6DC	1f6dc.png	wireless	15.0
+2640 FE0F	2640.png	female sign	4.0
+2642 FE0F	2642.png	male sign	4.0
+26A7 FE0F	26a7.png	transgender symbol	13.0
+2716 FE0F	2716.png	multiply	0.6
+267E FE0F	267e.png	infinity	11.0
+203C FE0F	203c.png	double exclamation mark	0.6
+2049 FE0F	2049.png	exclamation question mark	0.6
+3030 FE0F	3030.png	wavy dash	0.6
+2695 FE0F	2695.png	medical symbol	4.0
+267B FE0F	267b.png	recycling symbol	0.6
+269C FE0F	269c.png	fleur-de-lis	1.0
+2611 FE0F	2611.png	check box with check	0.6
+2714 FE0F	2714.png	check mark	0.6
+303D FE0F	303d.png	part alternation mark	0.6
+2733 FE0F	2733.png	eight-spoked asterisk	0.6
+2734 FE0F	2734.png	eight-pointed star	0.6
+2747 FE0F	2747.png	sparkle	0.6
+00A9 FE0F	a9.png	copyright	0.6
+00A9	a9.png	copyright	0.6
+00AE FE0F	ae.png	registered	0.6
+00AE	ae.png	registered	0.6
+2122 FE0F	2122.png	trade mark	0.6
+2122	2122.png	trade mark	0.6
+1FADF	1fadf.png	splatter	16.0
+0023 FE0F 20E3	23-20e3.png	keycap: #	0.6
+002A FE0F 20E3	2a-20e3.png	keycap: *	2.0
+0030 FE0F 20E3	30-20e3.png	keycap: 0	0.6
+0031 FE0F 20E3	31-20e3.png	keycap: 1	0.6
+0032 FE0F 20E3	32-20e3.png	keycap: 2	0.6
+0033 FE0F 20E3	33-20e3.png	keycap: 3	0.6
+0034 FE0F 20E3	34-20e3.png	keycap: 4	0.6
+0035 FE0F 20E3	35-20e3.png	keycap: 5	0.6
+0036 FE0F 20E3	36-20e3.png	keycap: 6	0.6
+0037 FE0F 20E3	37-20e3.png	keycap: 7	0.6
+0038 FE0F 20E3	38-20e3.png	keycap: 8	0.6
+0039 FE0F 20E3	39-20e3.png	keycap: 9	0.6
+1F170 FE0F	1f170.png	A button (blood type)	0.6
+1F171 FE0F	1f171.png	B button (blood type)	0.6
+2139 FE0F	2139.png	information	0.6
+24C2 FE0F	24c2.png	circled M	0.6
+1F17E FE0F	1f17e.png	O button (blood type)	0.6
+1F17F FE0F	1f17f.png	P button	0.6
+1F202 FE0F	1f202.png	Japanese “service charge” button	0.6
+1F237 FE0F	1f237.png	Japanese “monthly amount” button	0.6
+3297 FE0F	3297.png	Japanese “congratulations” button	0.6
+3299 FE0F	3299.png	Japanese “secret” button	0.6
+25FC FE0F	25fc.png	black medium square	0.6
+25FB FE0F	25fb.png	white medium square	0.6
+25AA FE0F	25aa.png	black small square	0.6
+25AB FE0F	25ab.png	white small square	0.6
+1F3F3 FE0F	1f3f3.png	white flag	0.7
+1F3F3 200D 1F308	1f3f3-fe0f-200d-1f308.png	rainbow flag	4.0
+1F3F3 200D 26A7 FE0F	1f3f3-fe0f-200d-26a7-fe0f.png	transgender flag	13.0
+1F3F3 FE0F 200D 26A7	1f3f3-fe0f-200d-26a7-fe0f.png	transgender flag	13.0
+1F3F3 200D 26A7	1f3f3-fe0f-200d-26a7-fe0f.png	transgender flag	13.0
+1F3F4 200D 2620	1f3f4-200d-2620-fe0f.png	pirate flag	11.0
+1F1E8 1F1F6	1f1e8-1f1f6.png	flag: Sark	16.0

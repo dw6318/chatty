@@ -21,6 +21,8 @@ public class VersionTest {
         testVersionToIntArray("0.8.1b10", new int[]{0,8,1,-1,10});
         testVersionToIntArray("0", new int[]{0});
         testVersionToIntArray("1.2", new int[]{1,2});
+        testVersionToIntArray("0.29-b1-dw6318", new int[]{0,29,-1,1});
+        testVersionToIntArray("0.29-dw6318", new int[]{0,29});
         
         // Invalid versions
         testVersionToIntArray("a", new int[]{0});
@@ -53,6 +55,9 @@ public class VersionTest {
         assertEquals(Version.compareVersions("0.22", "0.10.9"), -1);
         assertEquals(Version.compareVersions("0.9", "0.10.9"), 1);
         assertEquals(Version.compareVersions("0.10.0", "0.10"), 0);
+        assertEquals(Version.compareVersions("0.29-b1-dw6318", "0.29-b1"), 0);
+        assertEquals(Version.compareVersions("0.29-b1-dw6318", "0.29-b2"), 1);
+        assertEquals(Version.compareVersions("0.29-b1-dw6318", "0.29"), 1);
         
         // Invalid versions
         assertEquals(Version.compareVersions("a", "0.1"), 1);

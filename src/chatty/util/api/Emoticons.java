@@ -191,6 +191,11 @@ public class Emoticons {
     private static final Set<Emoticon> EMPTY_SET = Collections.unmodifiableSet(new HashSet<>());
     
     private final IgnoredEmotes ignoredEmotes = new IgnoredEmotes();
+    private final java.util.concurrent.atomic.AtomicLong emojiDisplayRevision = new java.util.concurrent.atomic.AtomicLong();
+
+    public long getEmojiDisplayRevision() {
+        return emojiDisplayRevision.get();
+    }
     
     private final EmoticonFavorites favorites = new EmoticonFavorites();
     
@@ -777,6 +782,7 @@ public class Emoticons {
      */
     public void setIgnoredEmotes(Collection<String> ignoredEmotes) {
         this.ignoredEmotes.setData(ignoredEmotes);
+        emojiDisplayRevision.incrementAndGet();
     }
     
     /**
@@ -788,6 +794,7 @@ public class Emoticons {
      */
     public void setEmoteIgnored(Emoticon emote, int context, Settings settings) {
         ignoredEmotes.add(emote, context);
+        emojiDisplayRevision.incrementAndGet();
         settings.putList("ignoredEmotes", ignoredEmotes.getData());
     }
     
@@ -1305,6 +1312,7 @@ public class Emoticons {
             }
         }
         emojiReplacement = replacements;
+        emojiDisplayRevision.incrementAndGet();
     }
     
     /**

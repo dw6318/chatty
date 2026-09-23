@@ -616,7 +616,8 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
         String startText = "[AutoMod] <"+message.user.getDisplayNick()+"> ";
         printSpecials(message.user, startText, userStyle, message.highlightMatches);
         printSpecialsInfo(message.message, style,
-                Match.shiftMatchList(message.highlightMatches, -startText.length()), message.tags);
+                Match.shiftMatchList(message.highlightMatches, -startText.length()), message.tags,
+                message.user, message.emotes);
         finishLine();
     }
 
@@ -939,12 +940,17 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
                             if (info.data.type == ModActionPayload.Type.AUTOMOD_DENIED) {
                                 action = "denied";
                             }
+                            else if (info.data.type == ModActionPayload.Type.AUTOMOD_EXPIRED) {
+                                action = "expired";
+                            }
                             /**
                              * Usually there should only be one mod approving/
                              * denying a particular message, but just in case
                              * allow for several to be added.
                              */
-                            String infoText = StringUtil.append(existing, ", ", action + "/@" + info.data.created_by);
+                            String actor = StringUtil.isNullOrEmpty(info.data.created_by)
+                                    ? "" : "/@" + info.data.created_by;
+                            String infoText = StringUtil.append(existing, ", ", action + actor);
                             attr.addAttribute(Attribute.AUTOMOD_ACTION, infoText);
                         });
                         return true;
@@ -2682,16 +2688,32 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
     }
 
     /**
-     * For info messages. Only applys links and mentions.
+     * For info messages. Applies links, emoji images and mentions.
      */
     private void printSpecialsInfo(String text, AttributeSet style,
             java.util.List<Match> highlightMatches, MsgTags tags) {
+        printSpecialsInfo(text, style, highlightMatches, tags, null, null);
+    }
+
+    private void printSpecialsInfo(String text, AttributeSet style,
+            java.util.List<Match> highlightMatches, MsgTags tags, User user, TagEmotes emotes) {
         TreeMap<Integer,Integer> ranges = new TreeMap<>();
         HashMap<Integer,MutableAttributeSet> rangesStyle = new HashMap<>();
         
         findSpecialLinks(ranges, rangesStyle, tags, style);
         findLinks(text, ranges, rangesStyle, styles.isEnabled(Setting.LINKS_CUSTOM_COLOR)
                                                  ? style : styles.info());
+
+        if (styles.isEnabled(Setting.EMOTICONS_ENABLED)) {
+            if (user != null) {
+                // AutoMod carries a real chat body. Use its Twitch fragment IDs
+                // and the sender's channel for the normal third-party emotes.
+                findEmoticons(text, user, ranges, rangesStyle, emotes, false);
+            }
+            else if (EmojiUtil.mightContainEmoji(text)) {
+                findEmoticons(main.emoticons.getEmoji(), text, ranges, rangesStyle);
+            }
+        }
         
         if (styles.isEnabled(Setting.MENTIONS_INFO)) {
             findMentions(text, ranges, rangesStyle, style, Setting.MENTIONS_INFO);
@@ -3556,8 +3578,21 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
 
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    if (System.currentTimeMillis() - mouseLastMoved > 700) {
-                        setFixedChat(false);
+                    try {
+                        // A release can be delivered to another application.
+                        // Do not leave Ctrl latched after losing window focus.
+                        Container top = getTopLevelAncestor();
+                        if (top instanceof java.awt.Window && !((java.awt.Window) top).isFocused()) {
+                            pauseKeyPressed = false;
+                        }
+                        if (!pauseKeyPressed && System.currentTimeMillis() - mouseLastMoved > 700) {
+                            setFixedChat(false);
+                        }
+                    }
+                    catch (RuntimeException ex) {
+                        // Swing's coalescing timer can stop delivering events
+                        // if its listener throws. Keep future pauses recoverable.
+                        LOGGER.log(Level.WARNING, "Error updating chat pause state", ex);
                     }
                 }
             });
@@ -3653,7 +3688,8 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
                             boolean manualScrolled = valueChanged
                                             && !maxChanged
                                             && !extentChanged
-                                            && !scrollingDownInProgress;
+                                            && !scrollingDownInProgress
+                                            && (!fixedChat || isManualScrollInput(e));
                             if (manualScrolled) {
                                 // For scroll timeout, when scrolled up without
                                 // changing position for a while
@@ -3678,6 +3714,26 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
 
             KeyboardFocusManager kfm = KeyboardFocusManager.getCurrentKeyboardFocusManager();
             kfm.addKeyEventDispatcher(keyListener);
+        }
+
+        /**
+         * While paused, viewport/layout corrections can look exactly like a
+         * manual scrollbar change. Only user input should end that pause.
+         */
+        private boolean isManualScrollInput(AdjustmentEvent adjustment) {
+            if (adjustment.getValueIsAdjusting()) {
+                return true;
+            }
+            java.awt.AWTEvent event = java.awt.EventQueue.getCurrentEvent();
+            if (event instanceof java.awt.event.MouseWheelEvent || event instanceof KeyEvent) {
+                return true;
+            }
+            if (event instanceof MouseEvent) {
+                int id = event.getID();
+                return id == MouseEvent.MOUSE_PRESSED || id == MouseEvent.MOUSE_DRAGGED
+                        || id == MouseEvent.MOUSE_RELEASED;
+            }
+            return false;
         }
         
         /**
@@ -3758,9 +3814,14 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
             if (fixedChat) {
                 return;
             }
+            boolean wasScrolling = scrollingDownInProgress;
             scrollingDownInProgress = true;
-            scrollDown1();
-            scrollingDownInProgress = false;
+            try {
+                scrollDown1();
+            }
+            finally {
+                scrollingDownInProgress = wasScrolling;
+            }
         }
         
         private void scrollDown1() {
@@ -3794,6 +3855,11 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
             try {
                 Rectangle rect = modelToView(offset);
                 if (rect != null) {
+                    // Search/line selection can scroll programmatically, outside
+                    // an input event. Treat these explicit requests as browsing.
+                    fixedChat = false;
+                    hideFixedChatInfo();
+                    cancelScrollDownRequest();
                     scrollRectToVisible(rect);
                 }
             } catch (BadLocationException ex) {
@@ -3805,22 +3871,22 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
             /**
              * Only works if actually scrolling, so ignore otherwise.
              */
-            if (!scrollpane.getVerticalScrollBar().isVisible()) {
+            if (fixed && (scrollpane == null || !scrollpane.getVerticalScrollBar().isVisible())) {
                 return;
             }
-            // Check if should scroll down
-            if (!fixed && fixedChat) {
-                this.fixedChat = fixed;
-                scrollDown();
-            }
+            boolean resume = !fixed && fixedChat;
+            // Commit state before invoking popup/scrollbar callbacks, which can
+            // re-enter this manager or throw during layout.
+            this.fixedChat = fixed;
             // Hide or show info
             if (fixed) {
                 showFixedChatInfo();
             } else {
                 hideFixedChatInfo();
             }
-            // Update value either way
-            this.fixedChat = fixed;
+            if (resume && scrollpane != null) {
+                scrollDown();
+            }
         }
 
         @Override
@@ -3836,7 +3902,10 @@ public class ChannelTextPane extends JTextPane implements LinkListener, CachedIm
         @Override
         public void mouseMoved(MouseEvent e) {
             mouseLastMoved = System.currentTimeMillis();
-            if (isPauseEnabled() && isScrollPositionNearEnd()) {
+            // Recover from a Ctrl release missed while another window had focus.
+            pauseKeyPressed = e.isControlDown();
+            if (scrollpane != null && isPauseEnabled()
+                    && (fixedChat || scrollDownRequest || isScrollPositionNearEnd())) {
                 setFixedChat(true);
             }
         }

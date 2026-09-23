@@ -30,7 +30,8 @@ public class Entry implements Comparable<Entry> {
     @Override
     public int compareTo(Entry o) {
         if (priority == o.priority) {
-            return -Long.compare(entryNum, o.entryNum);
+            // Preserve arrival order within a priority, even while new work arrives.
+            return Long.compare(entryNum, o.entryNum);
         }
         return Integer.compare(priority, o.priority);
     }

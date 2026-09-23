@@ -215,10 +215,19 @@ public class EmoteSettings extends SettingsPanel {
         //--------------------------
         
         Map<String, String> emojiSetDef = new LinkedHashMap<>();
-        emojiSetDef.put("twemoji", "Twemoji (Twitter)");
+        emojiSetDef.put("twemoji", "Twemoji (Unicode 17)");
+        emojiSetDef.put("fluent", "Microsoft Fluent (3D)");
+        emojiSetDef.put("noto", "Google Noto");
+        emojiSetDef.put("openmoji", "OpenMoji");
         emojiSetDef.put("e1", "Emoji One [outdated]");
         emojiSetDef.put("none", Language.getString("settings.emoji.option.none"));
-        ComboStringSetting emojiSet = new ComboStringSetting(emojiSetDef);
+        ComboStringSetting emojiSet = new ComboStringSetting(emojiSetDef) {
+            @Override
+            public void setSettingValue(String value) {
+                // Show the actual fallback for preferences from the private build.
+                super.setSettingValue("apple".equals(value) ? "twemoji" : value);
+            }
+        };
         
         d.addStringSetting("emoji", emojiSet);
         

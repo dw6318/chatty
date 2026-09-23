@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 /**
@@ -25,6 +26,8 @@ public class LogWriter implements Runnable {
 
     private static final int STATS_INTERVAL = 25000;
     private static final int STATS_TIME_INTERVAL = 15 * 60 * 1000;
+    private static final int FLUSH_BATCH_SIZE = 64;
+    private static final long FLUSH_INTERVAL_NANOS = TimeUnit.MILLISECONDS.toNanos(250);
 
     private final Map<String, LogFile> files = new HashMap<>();
     private final Set<String> errors = new HashSet<>();
@@ -53,31 +56,65 @@ public class LogWriter implements Runnable {
     @Override
     public void run() {
         boolean run = true;
+        boolean interrupted = false;
+        int bufferedItems = 0;
+        long flushAt = 0;
         try {
             while (run) {
-                //System.out.println("Waiting for a new item..");
-                LogItem item = queue.take();
+                LogItem item = bufferedItems == 0 ? queue.take()
+                        : queue.poll(Math.max(0, flushAt - System.nanoTime()), TimeUnit.NANOSECONDS);
+                if (item == null) {
+                    flushFiles();
+                    bufferedItems = 0;
+                    continue;
+                }
+                if (bufferedItems == 0) {
+                    flushAt = System.nanoTime() + FLUSH_INTERVAL_NANOS;
+                }
+                bufferedItems++;
                 stats(queue.size());
                 if (item.channel == null) {
                     if (item.message == null) {
                         outputStats();
                         run = false;
-                        closeAllFiles();
                     } else {
-                        // Can't close any files here because it would
-                        // remove an item during iteration
-                        for (String channel : files.keySet()) {
+                        for (String channel : new HashSet<>(files.keySet())) {
                             handleMessage(channel, item.message);
                         }
                     }
                 } else {
                     handleMessage(item.channel, item.message);
                 }
+                if (run && (bufferedItems >= FLUSH_BATCH_SIZE || System.nanoTime() >= flushAt)) {
+                    flushFiles();
+                    bufferedItems = 0;
+                }
             }
         } catch (InterruptedException ex) {
             System.out.println("Interrupted");
-            closeAllFiles();
-            Thread.currentThread().interrupt();
+            interrupted = true;
+        }
+        finally {
+            // BufferedWriter.close flushes pending data, including on shutdown.
+            try {
+                closeAllFiles();
+            }
+            finally {
+                // Restore only after flushing; an interrupted FileChannel write
+                // can close the channel before buffered lines reach the file.
+                if (interrupted) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        }
+    }
+
+    private void flushFiles() {
+        // fileError removes entries, so iterate over a snapshot.
+        for (String channel : new HashSet<>(files.keySet())) {
+            if (!files.get(channel).flush()) {
+                fileError(channel);
+            }
         }
     }
 

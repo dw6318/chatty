@@ -95,7 +95,8 @@ public class ModLogInfo extends InfoMessage {
     
     public static boolean isAutoModAction(ModActionPayload data) {
         return data.type == ModActionPayload.Type.AUTOMOD_APPROVED
-                || data.type == ModActionPayload.Type.AUTOMOD_DENIED;
+                || data.type == ModActionPayload.Type.AUTOMOD_DENIED
+                || data.type == ModActionPayload.Type.AUTOMOD_EXPIRED;
     }
     
     public static String makeDeleteCommand(ModActionPayload data) {

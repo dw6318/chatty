@@ -38,6 +38,7 @@ public class LogFile {
      * Write buffer for the LogFile instance.
      */
     private BufferedWriter writer;
+    private boolean dirty;
 
     /**
      * Rather or not we have a valid file. (eg. is writable)
@@ -105,7 +106,8 @@ public class LogFile {
      * Attempt to write a new line to the LogFile.
      *
      * @param line The message to be written to the file.
-     * @return Returns true if the message is successfully logged.
+     * @return Returns true if the message was buffered successfully. The writer
+     * flushes batches periodically and on close.
      */
     public boolean write(String line) {
         if (!valid) {
@@ -116,10 +118,30 @@ public class LogFile {
         try {
             writer.write(line);
             writer.newLine();
-            writer.flush();
+            dirty = true;
             return true;
         } catch (IOException ex) {
             LOGGER.warning("Log: Error writing to " + file + " (" + ex.getLocalizedMessage() + ")");
+            close();
+            return false;
+        }
+    }
+
+    /** Flush buffered lines, skipping files that have not changed. */
+    public boolean flush() {
+        if (!valid) {
+            return false;
+        }
+        if (!dirty) {
+            return true;
+        }
+        try {
+            writer.flush();
+            dirty = false;
+            return true;
+        }
+        catch (IOException ex) {
+            LOGGER.warning("Log: Error flushing " + file + " (" + ex.getLocalizedMessage() + ")");
             close();
             return false;
         }

@@ -302,6 +302,7 @@ public class PastMessages extends JTextArea {
                 switch (ma.status) {
                     case AUTOMOD_APPROVED: b.append(":APPROVED"); break;
                     case AUTOMOD_DENIED: b.append(":DENIED"); break;
+                    case AUTOMOD_EXPIRED: b.append(":EXPIRED"); break;
                 }
                 endHighlight(b.length(), AUTO_MOD);
                 if (!StringUtil.isNullOrEmpty(ma.reason)) {

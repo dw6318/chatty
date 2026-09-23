@@ -4389,9 +4389,12 @@ public class MainGui extends JFrame implements Runnable {
                         // Automod
                         String username = update.getUsername();
                         String message = update.getMessage();
+                        if (client.settings.getLong("emojiZWJ") > 0) {
+                            message = EmojiUtil.decodeZWJ(message);
+                        }
                         if (client.settings.getBoolean("showAutoMod")) {
                             User user = client.getUser(channel, username);
-                            printInfo(chan, new AutoModMessage(user, message, update.getMsgId()));
+                            printInfo(chan, new AutoModMessage(user, message, update.getMsgId(), update.getEmotes()));
                         }
                         notificationManager.autoModMessage(channel, username, message);
                     }

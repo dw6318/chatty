@@ -3,8 +3,18 @@ package chatty.gui.emoji;
 
 import chatty.util.StringUtil;
 import chatty.util.api.Emoticon;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.Collection;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
@@ -41,7 +51,9 @@ public class EmojiUtil {
      * @return 
      */
     public static boolean mightContainEmoji(String text) {
-        return EMOJI_PATTERN.matcher(text).find();
+        return EMOJI_PATTERN.matcher(text).find()
+                || text.codePoints().anyMatch(cp -> cp == 0xA9 || cp == 0xAE || cp == 0x2122
+                        || (cp >= 0x1F000 && cp <= 0x1FAFF));
     }
     
     public static final String ZWJ = "\u200d";
@@ -65,6 +77,9 @@ public class EmojiUtil {
     public enum EmojiSet {
         
         TWEMOJI("twemoji", "Twemoji (Twitter)", "twemoji/72x72/"),
+        NOTO("noto", "Google Noto", "noto/72x72/"),
+        FLUENT("fluent", "Microsoft Fluent", "fluent/72x72/"),
+        OPENMOJI("openmoji", "OpenMoji", "openmoji/72x72/"),
         E1("e1", "Emoji One", "e1/png_64/");
         
         String id;
@@ -93,7 +108,17 @@ public class EmojiUtil {
      */
     public static void add(EmojiSet set, Collection<Emoticon> emotes, String code,
             String filename, String name, String alias, String category, String unicodeVersion) {
-        String url = EmojiUtil.class.getResource(set.internalPath+filename).toString();
+        addImage(set, emotes, code, set.internalPath+filename, name, alias, category, unicodeVersion);
+    }
+
+    private static void addImage(EmojiSet set, Collection<Emoticon> emotes, String code,
+            String resourcePath, String name, String alias, String category, String unicodeVersion) {
+        URL resource = EmojiUtil.class.getResource(resourcePath);
+        if (resource == null) {
+            LOGGER.warning("Missing emoji image: " + resourcePath);
+            return;
+        }
+        String url = resource.toString();
         //System.out.println(url);
         Emoticon.Builder b = new Emoticon.Builder(Emoticon.Type.EMOJI, code);
         b.addUrl(1, url);
@@ -126,19 +151,129 @@ public class EmojiUtil {
      */
     public static Set<Emoticon> makeEmoticons(String sourceId) {
         Set<Emoticon> result = new HashSet<>();
+        // Migrate preferences from the earlier private artwork option. No Apple
+        // artwork or downloader is included in the distributable build.
+        String selectedId = "apple".equals(sourceId) ? EmojiSet.TWEMOJI.id : sourceId;
+        EmojiSet selected = null;
+        for (EmojiSet set : EmojiSet.values()) {
+            if (set.id.equals(selectedId)) {
+                selected = set;
+                break;
+            }
+        }
         
         /**
          * Check which set should be added, or empty if none matches.
          */
-        if (sourceId.equals(EmojiSet.E1.id)) {
+        if (selected == EmojiSet.E1) {
             e1(EmojiSet.E1, result);
-        } else if (sourceId.equals(EmojiSet.TWEMOJI.id)) {
+        } else if (selected != null) {
             twemoji(EmojiSet.TWEMOJI, result);
+            addModernTwemoji(result);
+            if (selected != EmojiSet.TWEMOJI) {
+                applyArtwork(EmojiSet.NOTO, result);
+                if (selected != EmojiSet.NOTO) {
+                    applyArtwork(selected, result);
+                }
+            }
         }
         
         LOGGER.info("Created "+result.size()+" emoji from source "+sourceId);
         
         return result;
+    }
+
+    /** Supplement the legacy catalog, retaining its artwork and shortcode aliases. */
+    private static void addModernTwemoji(Set<Emoticon> result) {
+        InputStream input = EmojiUtil.class.getResourceAsStream("twemoji-modern/emoji.tsv");
+        if (input == null) {
+            LOGGER.warning("Missing Unicode 17 emoji catalog");
+            return;
+        }
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(input, StandardCharsets.UTF_8))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("#") || line.isEmpty()) {
+                    continue;
+                }
+                String[] fields = line.split("\t", -1);
+                if (fields.length != 4) {
+                    LOGGER.warning("Invalid supplemental emoji catalog entry");
+                    continue;
+                }
+                StringBuilder code = new StringBuilder();
+                for (String point : fields[0].split(" ")) {
+                    code.appendCodePoint(Integer.parseInt(point, 16));
+                }
+                addImage(EmojiSet.TWEMOJI, result, code.toString(),
+                        "twemoji-modern/72x72/" + fields[1], null, null,
+                        fields[2], fields[3]);
+            }
+        }
+        catch (IOException | IllegalArgumentException ex) {
+            LOGGER.warning("Unable to load supplemental emoji catalog: " + ex);
+        }
+    }
+
+    /** Replace available artwork while retaining Unicode 17 fallback and shortcode metadata. */
+    private static void applyArtwork(EmojiSet set, Set<Emoticon> result) {
+        InputStream input = EmojiUtil.class.getResourceAsStream(set.id + "/emoji.tsv");
+        if (input == null) {
+            LOGGER.warning("Missing " + set.name + " emoji catalog; retaining fallback artwork");
+            return;
+        }
+        Map<String, String> images = new HashMap<>();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(input, StandardCharsets.UTF_8))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("#") || line.isEmpty()) {
+                    continue;
+                }
+                String[] fields = line.split("\t", -1);
+                if (fields.length != 2) {
+                    LOGGER.warning("Invalid " + set.name + " emoji catalog entry");
+                    continue;
+                }
+                StringBuilder code = new StringBuilder();
+                for (String point : fields[0].split(" ")) {
+                    code.appendCodePoint(Integer.parseInt(point, 16));
+                }
+                images.put(code.toString(), fields[1]);
+            }
+        }
+        catch (IOException | IllegalArgumentException ex) {
+            LOGGER.warning("Unable to load " + set.name + " emoji catalog; retaining fallback: " + ex);
+            return;
+        }
+        Collection<Emoticon> replacements = new ArrayList<>();
+        Iterator<Emoticon> iterator = result.iterator();
+        while (iterator.hasNext()) {
+            Emoticon original = iterator.next();
+            // All qualified and unqualified variants share the same artwork.
+            String filename = images.get(original.code.replace("\uFE0F", ""));
+            if (filename == null) {
+                continue;
+            }
+            URL resource = EmojiUtil.class.getResource(set.internalPath + filename);
+            if (resource == null) {
+                LOGGER.warning("Missing " + set.name + " emoji image: " + filename);
+                continue;
+            }
+            Emoticon.Builder builder = new Emoticon.Builder(Emoticon.Type.EMOJI, original.code)
+                    .addUrl(1, resource.toString())
+                    .setCreator(set.name)
+                    .setSize(24, 24)
+                    .setStringId(original.stringId)
+                    .setStringIdAlias(original.stringIdAlias);
+            for (String info : original.getInfos()) {
+                builder.addInfo(info);
+            }
+            replacements.add(builder.build());
+            iterator.remove();
+        }
+        result.addAll(replacements);
+        LOGGER.info("Using " + set.name + " artwork for " + replacements.size() + " emoji sequences; "
+                + (result.size() - replacements.size()) + " use fallback artwork");
     }
     
     

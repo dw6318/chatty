@@ -65,7 +65,15 @@ dependencies {
 // The wrapper is a small batch/bash script that can be used to run Gradle on machines where it hasn't been directly
 // installed. It allows you to specify the project's Gradle version for everyone that has checked out the project.
 wrapper {
-    gradleVersion = '6.5.1'
+    gradleVersion = '8.2.1'
+}
+
+// Keep legal notices with the application even when only the JAR is shared.
+processResources {
+    from(files('LICENSE', 'APACHE_LICENSE', 'LGPL', 'README.md',
+         'THIRD_PARTY_NOTICES.md')) {
+        into 'META-INF/chatty'
+    }
 }
 
 jar {
@@ -98,6 +106,7 @@ task allPlatformsZip(type: Zip, group: 'build') {
     dependsOn shadowJar
 
     from tasks.shadowJar.archivePath
+    from('README.md', 'THIRD_PARTY_NOTICES.md', 'APACHE_LICENSE', 'LGPL')
     from ('assets') {
         exclude 'lib'
         exclude 'linux'
@@ -330,4 +339,3 @@ task createChecksums(type: Checksum) {
     outputDir = new File(releasesDir, "v"+version)
     algorithm = Checksum.Algorithm.SHA256
 }
-

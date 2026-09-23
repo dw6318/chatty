@@ -1,0 +1,9 @@
+Twemoji graphics copyright Twitter, Inc. and other contributors.
+Additional graphics from jdecked/twemoji v17.0.3, licensed CC-BY 4.0.
+https://github.com/jdecked/twemoji/tree/v17.0.3
+Sequence/name data copyright Unicode, Inc., under the Unicode License v3.
+https://unicode.org/Public/17.0.0/emoji/emoji-test.txt
+Existing Chatty emoji assets have been retained without replacement.
+Supplemental PNG artwork is copied without modification. The Unicode-derived
+catalog is a selected/reformatted TSV mapping; its data retains the Unicode licence.
+CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/
