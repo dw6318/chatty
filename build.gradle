@@ -110,6 +110,7 @@ task allPlatformsZip(type: Zip, group: 'build') {
     from ('assets') {
         exclude 'lib'
         exclude 'linux'
+        exclude 'LICENSE'
     }
 
     destinationDirectory = releasesDir
