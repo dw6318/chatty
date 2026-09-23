@@ -102,9 +102,8 @@ public class Webserver implements Runnable {
     public void run() {
         debug("Trying to start webserver at port "+port);
         try {
-            // Since 127.0.0.1 is registered with Twitch, hardcode that instead
-            // of using InetAddress.getLoopbackAddress() which may also return
-            // "::1".
+            // Bind only to IPv4 loopback. Browsers can reach the registered
+            // localhost callback here without exposing the server externally.
             serverSocket = new ServerSocket(port, 0, InetAddress.getByName("127.0.0.1"));
         } catch (IOException ex) {
             debug("Could not listen to port "+port+" ("+ex.getLocalizedMessage()+")");

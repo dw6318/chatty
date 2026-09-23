@@ -40,17 +40,17 @@ public class Chatty {
      * The Chatty website as it can be opened in the menu.
      */
     public static final String WEBSITE =
-            "https://chatty.github.io";
+            "https://github.com/dw6318/chatty/releases";
     
     /**
      * The Twitch client id of this program.
      */
-    public static final String CLIENT_ID = "spyiu9jqdnfjtwv6l1xjk5zgt8qb91l";
+    public static final String CLIENT_ID = "1huuc2kcapaus0049zxabba1uiwrwx";
     
     /**
      * The redirect URI for getting a token.
      */
-    public static final String REDIRECT_URI = "http://127.0.0.1:61324/token/";
+    public static final String REDIRECT_URI = "http://localhost:61324/token/";
     
     /**
      * Version number of this version of Chatty, consisting of numbers separated
@@ -63,7 +63,7 @@ public class Chatty {
      * Enable Version Checker (if you compile and distribute this yourself, you
      * may want to disable this)
      */
-    public static final boolean VERSION_CHECK_ENABLED = true;
+    public static final boolean VERSION_CHECK_ENABLED = false;
     
     /**
      * The regular URL of the textfile where the most recent version is stored.

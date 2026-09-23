@@ -106,7 +106,7 @@ task allPlatformsZip(type: Zip, group: 'build') {
     dependsOn shadowJar
 
     from tasks.shadowJar.archivePath
-    from('README.md', 'THIRD_PARTY_NOTICES.md', 'APACHE_LICENSE', 'LGPL')
+    from('README.md', 'THIRD_PARTY_NOTICES.md', 'LICENSE', 'APACHE_LICENSE', 'LGPL')
     from ('assets') {
         exclude 'lib'
         exclude 'linux'
